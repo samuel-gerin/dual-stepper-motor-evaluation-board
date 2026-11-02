@@ -10533,10 +10533,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 109.22 233.934 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 106.68 232.9179 0)
 			(hide yes)
@@ -10716,10 +10712,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C14663"
-		  (at 151.13 52.324 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "100n 50V"
 			(at 149.86 57.15 0)
@@ -10903,10 +10895,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C72480"
-		  (at 313.69 54.61 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "100µ 50V"
 			(at 310.896 57.15 0)
 			(show_name no)
@@ -11010,10 +10998,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C99228"
-		  (at 289.56 68.58 90)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "2.2µ 25V"
 			(at 289.56 71.12 90)
 			(show_name no)
@@ -11114,10 +11098,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" "C14663"
-		  (at 72.898 200.406 90)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "100n 50V"
 			(at 72.898 202.946 90)
@@ -11343,10 +11323,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 109.22 236.474 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 107.95 235.4579 0)
 			(hide yes)
@@ -11447,10 +11423,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C14663"
-		  (at 139.446 52.578 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "100n 50V"
 			(at 138.176 57.15 0)
@@ -11710,10 +11682,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 243.078 228.854 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 237.49 227.8379 0)
 			(hide yes)
@@ -11894,10 +11862,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 48.26 221.996 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 53.34 225.2979 0)
 			(hide yes)
@@ -11999,10 +11963,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C21122"
-		  (at 290.83 90.1699 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "22n 50V"
 			(at 290.83 92.7099 0)
@@ -12342,10 +12302,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 311.15 128.778 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 311.15 130.048 0)
 			(hide yes)
@@ -12526,10 +12482,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 243.078 241.554 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 243.84 240.5379 0)
 			(hide yes)
@@ -12708,10 +12660,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C238123"
-		  (at 310.134 111.76 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "TestPoint"
 			(at 306.07 110.49 0)
@@ -13050,10 +12998,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 109.22 241.554 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 110.49 240.5379 0)
 			(hide yes)
@@ -13154,10 +13098,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C238123"
-		  (at 243.078 236.474 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "TestPoint"
 			(at 241.3 235.4579 0)
@@ -13418,10 +13358,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 243.078 239.014 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 242.57 237.9979 0)
 			(hide yes)
@@ -13523,10 +13459,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 181.61 214.122 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 186.69 217.6779 0)
 			(hide yes)
@@ -13627,10 +13559,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C238123"
-		  (at 162.306 109.22 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "TestPoint"
 			(at 153.67 107.95 0)
@@ -13889,10 +13817,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 48.514 242.316 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 53.34 245.6179 0)
 			(hide yes)
@@ -13993,10 +13917,6 @@
 				)
 				(justify right)
 			)
-		)
-		(property "LCSC" "C962978"
-		  (at 274.574 255.524 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "TPD6E05U06RVZR"
 			(at 278.638 275.844 0)
@@ -14218,10 +14138,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 310.134 114.3 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 309.88 113.03 0)
 			(hide yes)
@@ -14402,10 +14318,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 181.864 242.316 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 186.69 245.6179 0)
 			(hide yes)
@@ -14506,10 +14418,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C14663"
-		  (at 128.016 52.324 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "100n 50V"
 			(at 126.238 57.15 0)
@@ -14815,10 +14723,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C25804"
-		  (at 244.348 106.934 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "10k"
 			(at 244.348 109.728 0)
 			(show_name no)
@@ -15000,10 +14904,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 108.966 231.394 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 105.41 230.3779 0)
 			(hide yes)
@@ -15183,10 +15083,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 181.61 221.996 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 186.69 225.2979 0)
 			(hide yes)
@@ -15287,10 +15183,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C238123"
-		  (at 162.306 114.3 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "TestPoint"
 			(at 161.29 113.03 0)
@@ -15471,10 +15363,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C2071868"
-		  (at 77.724 213.36 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "AM26LV32EIDRG4"
 			(at 86.106 262.382 0)
 			(show_name no)
@@ -15621,10 +15509,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C2071868"
-		  (at 210.566 213.36 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "AM26LV32EIDRG4"
 			(at 218.694 262.89 0)
 			(show_name no)
@@ -15769,10 +15653,6 @@
 				)
 				(justify right)
 			)
-		)
-		(property "LCSC" "C14663"
-		  (at 258.064 53.34 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "100n 50V"
 			(at 258.064 55.88 0)
@@ -15955,10 +15835,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C23228"
-		  (at 253.492 136.144 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "680"
 			(at 243.078 136.398 0)
 			(show_name no)
@@ -16060,10 +15936,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C14663"
-		  (at 289.052 54.61 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "100n 50V"
 			(at 286.766 57.404 0)
@@ -16246,10 +16118,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C25804"
-		  (at 95.758 109.474 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "10k"
 			(at 95.758 112.268 0)
@@ -16511,10 +16379,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 162.56 128.778 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 162.56 130.048 0)
 			(hide yes)
@@ -16692,10 +16556,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C72480"
-		  (at 163.83 52.07 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "100µ 50V"
 			(at 162.306 57.15 0)
@@ -16879,10 +16739,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C14663"
-		  (at 277.622 54.61 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "100n 50V"
 			(at 275.082 57.404 0)
 			(show_name no)
@@ -16986,10 +16842,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 48.26 214.122 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 53.34 217.6779 0)
 			(hide yes)
@@ -17089,10 +16941,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" "C146381"
-		  (at 141.986 135.636 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "220m 2010"
 			(at 137.922 138.684 0)
@@ -17194,10 +17042,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" "C146381"
-		  (at 306.07 138.43 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "220m 2010"
 			(at 309.626 141.732 0)
@@ -17490,10 +17334,6 @@
 				(justify right)
 			)
 		)
-		(property "LCSC" "C14663"
-		  (at 110.236 52.578 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "100n 50V"
 			(at 112.522 57.658 0)
 			(show_name no)
@@ -17597,10 +17437,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C2150710"
-		  (at 279.146 65.786 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "TMC2209-LA"
 			(at 273.304 136.144 0)
@@ -17785,10 +17621,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C146381"
-		  (at 157.226 135.89 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "220m 2010"
 			(at 161.036 138.43 0)
 			(show_name no)
@@ -17891,10 +17723,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 162.306 106.934 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 149.86 105.41 0)
 			(hide yes)
@@ -17996,10 +17824,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C2150710"
-		  (at 130.81 66.04 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "TMC2209-LA"
 			(at 124.714 136.144 0)
@@ -18185,10 +18009,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 109.22 239.014 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 109.22 237.9979 0)
 			(hide yes)
@@ -18289,10 +18109,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C238123"
-		  (at 162.56 125.984 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "TestPoint"
 			(at 162.56 124.46 0)
@@ -18395,10 +18211,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C19077541"
-		  (at 175.26 53.3399 90)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "SMAJ24A"
 			(at 175.26 55.8799 90)
@@ -18503,10 +18315,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 108.966 228.854 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 104.14 227.8379 0)
 			(hide yes)
@@ -18608,10 +18416,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C21122"
-		  (at 142.24 90.1699 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "22n 50V"
 			(at 142.24 92.7099 0)
@@ -18716,10 +18520,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 243.078 233.934 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 240.03 232.9179 0)
 			(hide yes)
@@ -18820,10 +18620,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C238123"
-		  (at 162.306 111.76 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "TestPoint"
 			(at 157.48 110.49 0)
@@ -19273,10 +19069,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238123"
-		  (at 310.134 109.22 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 302.26 107.95 0)
 			(hide yes)
@@ -19378,10 +19170,6 @@
 				)
 				(justify right)
 			)
-		)
-		(property "LCSC" "C2286"
-		  (at 102.87 145.0974 90)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "R_LED"
 			(at 102.87 147.6374 90)
@@ -19496,10 +19284,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C238123"
-		  (at 311.15 125.984 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "TestPoint"
 			(at 311.15 124.46 0)
@@ -19680,10 +19464,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C99228"
-		  (at 140.97 68.58 90)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "2.2µ 25V"
 			(at 140.97 71.12 90)
 			(show_name no)
@@ -19785,10 +19565,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C238123"
-		  (at 310.134 106.934 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "TestPoint"
 			(at 298.45 105.41 0)
@@ -19968,10 +19744,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
-		  (at 206.248 200.152 90)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "100n 50V"
 			(at 206.248 202.692 90)
 			(show_name no)
@@ -20074,10 +19846,6 @@
 				)
 				(justify right)
 			)
-		)
-		(property "LCSC" "C2286"
-		  (at 252.73 145.0974 90)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "R_LED"
 			(at 252.73 147.6374 90)
@@ -20271,10 +20039,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C23228"
-		  (at 103.632 136.144 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "680"
 			(at 90.17 136.398 0)
 			(show_name no)
@@ -20377,10 +20141,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C19077541"
-		  (at 323.85 53.3399 90)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "SMAJ24A"
 			(at 323.85 55.8799 90)
@@ -20563,10 +20323,6 @@
 				)
 				(justify right)
 			)
-		)
-		(property "LCSC" "C962978"
-		  (at 139.954 255.524 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "TPD6E05U06RVZR"
 			(at 144.018 275.844 0)
@@ -20867,10 +20623,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C146381"
-		  (at 291.084 138.938 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "220m 2010"
 			(at 287.782 141.986 0)
 			(show_name no)
@@ -20972,10 +20724,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C14663"
-		  (at 300.99 54.61 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "100n 50V"
 			(at 298.704 57.404 0)
@@ -21237,10 +20985,6 @@
 				)
 				(justify left)
 			)
-		)
-		(property "LCSC" "C238123"
-		  (at 243.078 231.394 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "TestPoint"
 			(at 238.76 230.3779 0)
