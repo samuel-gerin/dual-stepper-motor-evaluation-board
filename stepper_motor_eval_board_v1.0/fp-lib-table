@@ -1,5 +1,5 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "Inductor_custom") (type "KiCad") (uri "/home/sgerin/imec/y2/designs/stepper_motor_eval_board_v1.0/libs/ASPI-0630HI-3R3M-T15") (options "") (descr ""))
-	(lib (name "JLCPCB") (type "KiCad") (uri "/home/sgerin/imec/y2/designs/stepper_motor_eval_board_v1.0/libs/easyeda.pretty") (options "") (descr ""))
+	(lib (name "Inductor_custom") (type "KiCad") (uri "${KIPRJMOD}/../libs/ASPI-0630HI-3R3M-T15") (options "") (descr ""))
+	(lib (name "JLCPCB") (type "KiCad") (uri "${KIPRJMOD}/../libs/easyeda.pretty") (options "") (descr ""))
 )

@@ -493,9 +493,9 @@
 		)
 		(uuid "ee3ec48f-efd4-481e-8f45-2056c7168f3b")
 	)
-	(text "If not mentioned otherwise:"
+	(text ""
 		(exclude_from_sim no)
-		(at 177.8 128.778 0)
+		(at 176.53 141.224 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -531,7 +531,7 @@
 	)
 	(text "During PCB design phase:\n- HSE oscilator\n- simulaties\n\nFinal design:\n- should split IO in seperate sheet"
 		(exclude_from_sim no)
-		(at 178.562 82.042 0)
+		(at 201.168 87.122 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -542,7 +542,7 @@
 	)
 	(text "To-Do:"
 		(exclude_from_sim no)
-		(at 187.706 63.246 0)
+		(at 210.312 68.326 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -604,9 +604,9 @@
 		)
 		(uuid "aad86c2a-ad78-4662-85eb-d1ade19bd5c6")
 	)
-	(text "R: tolerance=1%, rated power=1W, package=0603 \nC: dielectric (not polarized)=X7R, package=0603\nL:"
+	(text "If not mentioned otherwise\nR: tolerance=1%, rated power=1W, package=0603 \nC: dielectric (not polarized)=X7R, package=0603"
 		(exclude_from_sim no)
-		(at 177.8 138.938 0)
+		(at 176.276 147.574 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -627,9 +627,9 @@
 		)
 		(uuid "c12265d3-fea0-435e-b116-4e4ddb764139")
 	)
-	(text "Standard passive compnent values"
+	(text "Standard passive component values"
 		(exclude_from_sim no)
-		(at 227.33 121.92 0)
+		(at 228.346 137.16 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -668,7 +668,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 68.58) (xy 97.79 68.58)
+			(xy 76.2 67.31) (xy 86.36 67.31)
 		)
 		(stroke
 			(width 0)
@@ -678,7 +678,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 83.82) (xy 95.25 105.41)
+			(xy 83.82 82.55) (xy 83.82 104.14)
 		)
 		(stroke
 			(width 0)
@@ -688,7 +688,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 55.88) (xy 109.22 78.74)
+			(xy 97.79 54.61) (xy 97.79 77.47)
 		)
 		(stroke
 			(width 0)
@@ -698,7 +698,7 @@
 	)
 	(bus
 		(pts
-			(xy 88.9 111.76) (xy 119.38 111.76)
+			(xy 77.47 110.49) (xy 107.95 110.49)
 		)
 		(stroke
 			(width 0)
@@ -708,7 +708,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 55.88) (xy 97.79 68.58)
+			(xy 86.36 54.61) (xy 86.36 67.31)
 		)
 		(stroke
 			(width 0)
@@ -718,7 +718,7 @@
 	)
 	(bus
 		(pts
-			(xy 88.9 118.11) (xy 119.38 118.11)
+			(xy 77.47 116.84) (xy 107.95 116.84)
 		)
 		(stroke
 			(width 0)
@@ -728,7 +728,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 63.5) (xy 87.63 63.5)
+			(xy 80.01 62.23) (xy 76.2 62.23)
 		)
 		(stroke
 			(width 0)
@@ -738,7 +738,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 55.88) (xy 104.14 73.66)
+			(xy 92.71 54.61) (xy 92.71 72.39)
 		)
 		(stroke
 			(width 0)
@@ -748,7 +748,7 @@
 	)
 	(bus
 		(pts
-			(xy 88.9 109.22) (xy 119.38 109.22)
+			(xy 77.47 107.95) (xy 107.95 107.95)
 		)
 		(stroke
 			(width 0)
@@ -758,7 +758,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 83.82) (xy 95.25 83.82)
+			(xy 76.2 82.55) (xy 83.82 82.55)
 		)
 		(stroke
 			(width 0)
@@ -768,7 +768,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 78.74) (xy 109.22 78.74)
+			(xy 76.2 77.47) (xy 97.79 77.47)
 		)
 		(stroke
 			(width 0)
@@ -778,7 +778,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 121.92) (xy 119.38 121.92)
+			(xy 77.47 120.65) (xy 107.95 120.65)
 		)
 		(stroke
 			(width 0)
@@ -788,7 +788,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 55.88) (xy 91.44 63.5)
+			(xy 80.01 54.61) (xy 80.01 62.23)
 		)
 		(stroke
 			(width 0)
@@ -798,7 +798,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 73.66) (xy 104.14 73.66)
+			(xy 76.2 72.39) (xy 92.71 72.39)
 		)
 		(stroke
 			(width 0)
@@ -808,7 +808,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 105.41) (xy 95.25 105.41)
+			(xy 77.47 104.14) (xy 83.82 104.14)
 		)
 		(stroke
 			(width 0)
@@ -818,7 +818,7 @@
 	)
 	(bus
 		(pts
-			(xy 88.9 115.57) (xy 119.38 115.57)
+			(xy 77.47 114.3) (xy 107.95 114.3)
 		)
 		(stroke
 			(width 0)
@@ -828,7 +828,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 124.46) (xy 119.38 124.46)
+			(xy 77.47 123.19) (xy 107.95 123.19)
 		)
 		(stroke
 			(width 0)
@@ -838,7 +838,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 97.79 55.88 0)
+		(at 86.36 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -849,7 +849,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e1abe19-50e7-4b8e-b1f4-548d71cf4e6c")
 		(property "Reference" "#PWR02"
-			(at 97.79 59.69 0)
+			(at 86.36 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -860,7 +860,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 97.79 50.8 0)
+			(at 86.36 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -870,7 +870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 55.88 0)
+			(at 86.36 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -881,7 +881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 55.88 0)
+			(at 86.36 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -892,7 +892,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 97.79 55.88 0)
+			(at 86.36 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -916,7 +916,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 109.22 55.88 0)
+		(at 97.79 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -926,7 +926,7 @@
 		(dnp no)
 		(uuid "4d1dba80-85cd-45dd-b5bf-8e424a78a8a1")
 		(property "Reference" "#PWR04"
-			(at 109.22 59.69 0)
+			(at 97.79 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -937,7 +937,7 @@
 			)
 		)
 		(property "Value" "+3.3V_MCU"
-			(at 114.046 50.8 0)
+			(at 102.616 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -947,7 +947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 55.88 0)
+			(at 97.79 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -958,7 +958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 55.88 0)
+			(at 97.79 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -969,7 +969,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 109.22 55.88 0)
+			(at 97.79 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -993,7 +993,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 104.14 55.88 0)
+		(at 92.71 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1004,7 +1004,7 @@
 		(fields_autoplaced yes)
 		(uuid "65efaa4c-0245-4629-94c1-dd8c8bc9f05c")
 		(property "Reference" "#PWR03"
-			(at 104.14 59.69 0)
+			(at 92.71 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1015,7 +1015,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 104.14 50.8 0)
+			(at 92.71 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1025,7 +1025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 55.88 0)
+			(at 92.71 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1036,7 +1036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 55.88 0)
+			(at 92.71 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1047,7 +1047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 104.14 55.88 0)
+			(at 92.71 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1071,7 +1071,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 91.44 55.88 0)
+		(at 80.01 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1082,7 +1082,7 @@
 		(fields_autoplaced yes)
 		(uuid "e63ab7fc-e604-4cbf-9dfb-cd51b6ac4cf1")
 		(property "Reference" "#PWR01"
-			(at 91.44 59.69 0)
+			(at 80.01 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1093,7 +1093,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 91.44 50.8 0)
+			(at 80.01 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1103,7 +1103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 55.88 0)
+			(at 80.01 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1114,7 +1114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 55.88 0)
+			(at 80.01 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1125,7 +1125,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 91.44 55.88 0)
+			(at 80.01 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1148,7 +1148,7 @@
 		)
 	)
 	(sheet
-		(at 50.8 59.69)
+		(at 39.37 58.42)
 		(size 36.83 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1164,7 +1164,7 @@
 		)
 		(uuid "20842745-18af-498f-8180-95a0a8b6794d")
 		(property "Sheetname" "Power - distribution"
-			(at 50.8 58.9784 0)
+			(at 39.37 57.7084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1175,7 +1175,7 @@
 			)
 		)
 		(property "Sheetfile" "power_distribution.kicad_sch"
-			(at 50.8 88.2146 0)
+			(at 39.37 86.9446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1186,7 +1186,7 @@
 			)
 		)
 		(pin "+3.3V" output
-			(at 87.63 73.66 0)
+			(at 76.2 72.39 0)
 			(uuid "8480a3d5-593b-4c93-b757-fa91c604dbba")
 			(effects
 				(font
@@ -1196,7 +1196,7 @@
 			)
 		)
 		(pin "+5V" output
-			(at 87.63 68.58 0)
+			(at 76.2 67.31 0)
 			(uuid "f13e967c-db0a-4c7e-a978-b8a0520e67e3")
 			(effects
 				(font
@@ -1206,7 +1206,7 @@
 			)
 		)
 		(pin "+24V" output
-			(at 87.63 63.5 0)
+			(at 76.2 62.23 0)
 			(uuid "d8840c84-b19f-40d3-bf8e-94e7309d8eb8")
 			(effects
 				(font
@@ -1216,7 +1216,7 @@
 			)
 		)
 		(pin "+3.3V_MCU" output
-			(at 87.63 78.74 0)
+			(at 76.2 77.47 0)
 			(uuid "23b91a82-b698-453f-be35-8ce1153667e5")
 			(effects
 				(font
@@ -1226,7 +1226,7 @@
 			)
 		)
 		(pin "PWR_MODE" output
-			(at 87.63 83.82 0)
+			(at 76.2 82.55 0)
 			(uuid "ed711125-0c87-4c35-ae82-ae9d8a59c133")
 			(effects
 				(font
@@ -1244,7 +1244,7 @@
 		)
 	)
 	(sheet
-		(at 119.38 60.325)
+		(at 107.95 59.055)
 		(size 36.83 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1260,7 +1260,7 @@
 		)
 		(uuid "3fe0edb6-7b8f-44f4-89a4-9c2269b2cb51")
 		(property "Sheetname" "Misc"
-			(at 119.38 59.6134 0)
+			(at 107.95 58.3434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1271,7 +1271,7 @@
 			)
 		)
 		(property "Sheetfile" "misc.kicad_sch"
-			(at 119.38 88.8496 0)
+			(at 107.95 87.5796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1290,7 +1290,7 @@
 		)
 	)
 	(sheet
-		(at 50.8 101.6)
+		(at 39.37 100.33)
 		(size 38.1 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1306,7 +1306,7 @@
 		)
 		(uuid "5566eb57-101d-464f-8854-b5b6b95c0649")
 		(property "Sheetname" "MCU - IO"
-			(at 50.8 100.8884 0)
+			(at 39.37 99.6184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1317,7 +1317,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 50.8 130.1246 0)
+			(at 39.37 128.8546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1328,7 +1328,7 @@
 			)
 		)
 		(pin "{ENC1}" input
-			(at 88.9 109.22 0)
+			(at 77.47 107.95 0)
 			(uuid "6a18a99f-464f-40ed-81e4-0af7bfa7df34")
 			(effects
 				(font
@@ -1338,7 +1338,7 @@
 			)
 		)
 		(pin "{ENC2}" input
-			(at 88.9 111.76 0)
+			(at 77.47 110.49 0)
 			(uuid "20014d32-6667-461b-b10d-80c6c359eb21")
 			(effects
 				(font
@@ -1348,7 +1348,7 @@
 			)
 		)
 		(pin "{TMC1}" output
-			(at 88.9 115.57 0)
+			(at 77.47 114.3 0)
 			(uuid "c789c594-057e-4c33-89e9-8febce4f4ebd")
 			(effects
 				(font
@@ -1358,7 +1358,7 @@
 			)
 		)
 		(pin "{TMC2}" output
-			(at 88.9 118.11 0)
+			(at 77.47 116.84 0)
 			(uuid "27a2e883-6c49-42a4-b8a2-bb62f032abef")
 			(effects
 				(font
@@ -1368,7 +1368,7 @@
 			)
 		)
 		(pin "PWR_MODE" input
-			(at 88.9 105.41 0)
+			(at 77.47 104.14 0)
 			(uuid "fed03c11-2ac6-452c-98fc-b4f75efe3042")
 			(effects
 				(font
@@ -1378,7 +1378,7 @@
 			)
 		)
 		(pin "TMC1_PDN_UART" bidirectional
-			(at 88.9 121.92 0)
+			(at 77.47 120.65 0)
 			(uuid "dc682bd6-a066-408d-b492-94ea8d5d2d89")
 			(effects
 				(font
@@ -1388,7 +1388,7 @@
 			)
 		)
 		(pin "TMC2_PDN_UART" bidirectional
-			(at 88.9 124.46 0)
+			(at 77.47 123.19 0)
 			(uuid "07708910-898f-4c6e-bc4a-911855e04642")
 			(effects
 				(font
@@ -1406,7 +1406,7 @@
 		)
 	)
 	(sheet
-		(at 119.38 101.6)
+		(at 107.95 100.33)
 		(size 36.83 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1422,7 +1422,7 @@
 		)
 		(uuid "eb8c68d2-160e-4cf6-94b1-8204133e14a6")
 		(property "Sheetname" "Driver - encoder"
-			(at 119.38 100.8884 0)
+			(at 107.95 99.6184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1433,7 +1433,7 @@
 			)
 		)
 		(property "Sheetfile" "driver_encoder.kicad_sch"
-			(at 119.38 130.1246 0)
+			(at 107.95 128.8546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1444,7 +1444,7 @@
 			)
 		)
 		(pin "{ENC1}" output
-			(at 119.38 109.22 180)
+			(at 107.95 107.95 180)
 			(uuid "aa98a21d-4c98-4c4e-8029-f01857c24065")
 			(effects
 				(font
@@ -1454,7 +1454,7 @@
 			)
 		)
 		(pin "{ENC2}" output
-			(at 119.38 111.76 180)
+			(at 107.95 110.49 180)
 			(uuid "765c8849-5a40-43c6-bac2-545af8330195")
 			(effects
 				(font
@@ -1464,7 +1464,7 @@
 			)
 		)
 		(pin "{TMC1}" input
-			(at 119.38 115.57 180)
+			(at 107.95 114.3 180)
 			(uuid "78432f1d-7db9-4d94-830d-8c3d5b082636")
 			(effects
 				(font
@@ -1474,7 +1474,7 @@
 			)
 		)
 		(pin "{TMC2}" input
-			(at 119.38 118.11 180)
+			(at 107.95 116.84 180)
 			(uuid "f718287d-dac2-496b-b6f6-2ab81980f7ee")
 			(effects
 				(font
@@ -1484,7 +1484,7 @@
 			)
 		)
 		(pin "TMC1_PDN_UART" bidirectional
-			(at 119.38 121.92 180)
+			(at 107.95 120.65 180)
 			(uuid "38fbbdbf-d873-4e09-b8c9-9d23e16a27a9")
 			(effects
 				(font
@@ -1494,7 +1494,7 @@
 			)
 		)
 		(pin "TMC2_PDN_UART" bidirectional
-			(at 119.38 124.46 180)
+			(at 107.95 123.19 180)
 			(uuid "f1280d88-d802-4882-827e-6dbfddc80750")
 			(effects
 				(font
