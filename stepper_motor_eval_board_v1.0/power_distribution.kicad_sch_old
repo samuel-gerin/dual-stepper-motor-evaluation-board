@@ -12996,10 +12996,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C381117"
-		  (at 29.21 68.58 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "Barrel_Jack_Switch"
 			(at 29.21 71.12 0)
 			(show_name no)

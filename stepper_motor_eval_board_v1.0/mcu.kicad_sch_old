@@ -13389,10 +13389,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C381044"
-		  (at 220.98 138.4299 90)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "SW_Push"
 			(at 220.98 140.9699 90)
 			(show_name no)
@@ -17218,10 +17214,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C381044"
-		  (at 60.96 120.65 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "SW_Push"
 			(at 60.96 123.19 0)
 			(show_name no)
@@ -17400,10 +17392,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" "C21190"
-		  (at 168.91 106.934 90)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "1k"
 			(at 169.164 100.076 90)
@@ -17709,10 +17697,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" "C21190"
-		  (at 168.91 89.154 90)
-		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "1k"
 			(at 169.164 82.296 90)
