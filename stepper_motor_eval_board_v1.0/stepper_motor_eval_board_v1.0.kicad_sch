@@ -529,9 +529,9 @@
 		)
 		(uuid "490e31d0-0017-46eb-a9db-256deef9b129")
 	)
-	(text "- BOM: passive components correct values\n- BOM: ICs correct packages and pin outs\n- BOM: LEDS, crystal, fuses\n- BOM: connectors\n- Cleanup\n\nDuring PCB design phase:\n- HSE oscilator\n- simulaties\n\nFinal design:\n- should split IO in seperate sheet"
+	(text "During PCB design phase:\n- HSE oscilator\n- simulaties\n\nFinal design:\n- should split IO in seperate sheet"
 		(exclude_from_sim no)
-		(at 179.324 82.042 0)
+		(at 178.562 82.042 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -542,7 +542,7 @@
 	)
 	(text "To-Do:"
 		(exclude_from_sim no)
-		(at 189.23 52.832 0)
+		(at 187.706 63.246 0)
 		(effects
 			(font
 				(size 3.81 3.81)
