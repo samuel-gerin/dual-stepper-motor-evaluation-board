@@ -1,0 +1,1520 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2d9ac515-e0a2-47ec-b0dd-574649acdf3f")
+	(paper "A4")
+	(title_block
+		(title "Stepper Motor Evaluation Board")
+		(date "2026-10-23")
+		(rev "1.0")
+	)
+	(lib_symbols
+		(symbol "power:+24V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 81.026 165.989)
+		(end 108.585 185.674)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 255 255 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "309e300a-81f4-4a23-9487-9ab130965a33")
+	)
+	(rectangle
+		(start 48.641 165.989)
+		(end 76.2 185.674)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 255 153 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "60d24e51-7c15-4949-9f10-653ef0921a55")
+	)
+	(rectangle
+		(start 145.161 165.989)
+		(end 172.72 185.674)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "87053d1b-876c-49c0-9f6b-9e3e38629f73")
+	)
+	(rectangle
+		(start 16.256 165.989)
+		(end 43.815 185.674)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a9be8796-fbad-44c5-800e-60df04a85693")
+	)
+	(rectangle
+		(start 113.411 165.989)
+		(end 140.97 185.674)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ee3ec48f-efd4-481e-8f45-2056c7168f3b")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 176.53 141.224 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "2a42d70a-3cf5-4015-b53b-a162a7de6de5")
+	)
+	(text "Dual Stepper Driver Evaluation Board"
+		(exclude_from_sim no)
+		(at 92.202 24.13 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.524)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "304ee729-2cc8-444e-8a87-2d165ee7ff29")
+	)
+	(text "ELECTRICAL\nCHARACTERISTICS:\nVoltage supplied,\nCurrent drawn, ..."
+		(exclude_from_sim no)
+		(at 81.915 173.355 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "490e31d0-0017-46eb-a9db-256deef9b129")
+	)
+	(text "During PCB design phase:\n- HSE oscilator\n- simulaties\n\nFinal design:\n- should split IO in seperate sheet"
+		(exclude_from_sim no)
+		(at 201.168 87.122 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "727c2bff-fd75-41e7-a184-b6251890df85")
+	)
+	(text "To-Do:"
+		(exclude_from_sim no)
+		(at 210.312 68.326 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+				(color 0 0 194 1)
+			)
+		)
+		(uuid "734a8997-97bb-499b-9f96-6e458733ee7e")
+	)
+	(text "2026-10-22"
+		(exclude_from_sim no)
+		(at 249.428 25.654 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.524)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "81439985-fcad-4344-b14c-5feb134a96e9")
+	)
+	(text "Rev 1.0"
+		(exclude_from_sim no)
+		(at 238.252 36.068 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.524)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "9ffeced0-ba79-4677-ad8d-6f967b365648")
+	)
+	(text "DESIGN NOTE:\nExample text for\ninformational \ndesign notes."
+		(exclude_from_sim no)
+		(at 17.145 173.355 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "a11ee339-98e7-49fa-8807-542c7b181ca9")
+	)
+	(text "DESIGN NOTE:\nExample text for\ncritical \ndesign notes."
+		(exclude_from_sim no)
+		(at 114.3 173.355 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.2381)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "aad86c2a-ad78-4662-85eb-d1ade19bd5c6")
+	)
+	(text "If not mentioned otherwise\nR: tolerance=1%, package=0603 \nC: dielectric (not polarized)=X7R, package=0603"
+		(exclude_from_sim no)
+		(at 176.276 147.574 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "af10f0db-f141-45a2-a04d-abb46526b34a")
+	)
+	(text "DESIGN NOTE:\nExample text for\ndebug \ndesign notes."
+		(exclude_from_sim no)
+		(at 49.53 173.355 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "c12265d3-fea0-435e-b116-4e4ddb764139")
+	)
+	(text "Standard passive component values"
+		(exclude_from_sim no)
+		(at 228.346 137.16 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+				(color 0 0 194 1)
+			)
+		)
+		(uuid "c8e8fb40-bc94-4a77-ac06-1c296c62a4d4")
+	)
+	(text "DESIGN CONSIDERATIONS"
+		(exclude_from_sim no)
+		(at 52.578 159.766 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+				(color 0 0 194 1)
+			)
+		)
+		(uuid "e80ac108-81be-4595-8bd4-0d9b2f4071fb")
+	)
+	(text "LAYOUT NOTE:\nExample text for\ncritical layout \nguidelines."
+		(exclude_from_sim no)
+		(at 146.05 173.355 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.2381)
+				(color 0 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "f875ee9c-e95a-4311-852b-4a7e45bcd9d9")
+	)
+	(wire
+		(pts
+			(xy 76.2 67.31) (xy 86.36 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aedd5d0-ba30-48c9-ad30-1dbf636d7ab6")
+	)
+	(wire
+		(pts
+			(xy 83.82 82.55) (xy 83.82 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "330ba4ed-68e2-4411-a3b2-ce48eeb2b06a")
+	)
+	(wire
+		(pts
+			(xy 97.79 54.61) (xy 97.79 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1dea44-f3fc-40b2-86e4-aa1f4d7e6c55")
+	)
+	(bus
+		(pts
+			(xy 77.47 110.49) (xy 107.95 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4187a5e6-3b6d-4d65-9a64-87bee14f2cbc")
+	)
+	(wire
+		(pts
+			(xy 86.36 54.61) (xy 86.36 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8778f0-b8fc-4591-87a8-65c717d9c90f")
+	)
+	(bus
+		(pts
+			(xy 77.47 116.84) (xy 107.95 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cea48c3-e7cf-4c68-91f2-c79268fd6d85")
+	)
+	(wire
+		(pts
+			(xy 80.01 62.23) (xy 76.2 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d9b2779-7061-40e0-81e7-a50573057052")
+	)
+	(wire
+		(pts
+			(xy 92.71 54.61) (xy 92.71 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7175d0eb-b881-4bd8-a35e-a92af9980f3a")
+	)
+	(bus
+		(pts
+			(xy 77.47 107.95) (xy 107.95 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cbcff63-2c61-48c3-b072-b9c0f8bbe406")
+	)
+	(wire
+		(pts
+			(xy 76.2 82.55) (xy 83.82 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a5db300-9cfd-4d6e-be65-910bdf9f7118")
+	)
+	(wire
+		(pts
+			(xy 76.2 77.47) (xy 97.79 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91838572-1d8a-4766-bb04-a5daa7e239f3")
+	)
+	(wire
+		(pts
+			(xy 77.47 120.65) (xy 107.95 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987961ce-9ef6-4581-a5db-d0785cc1a1fe")
+	)
+	(wire
+		(pts
+			(xy 80.01 54.61) (xy 80.01 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f2302cc-fa6e-49b2-b4ba-ba9227900fe0")
+	)
+	(wire
+		(pts
+			(xy 76.2 72.39) (xy 92.71 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9fe9a8-235c-4ab3-9d16-3dc65c8651d6")
+	)
+	(wire
+		(pts
+			(xy 77.47 104.14) (xy 83.82 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ae428e-629a-4530-ad39-8eb63df461e9")
+	)
+	(bus
+		(pts
+			(xy 77.47 114.3) (xy 107.95 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db06d6b2-6720-43df-a8c7-a1ee5d0d60a0")
+	)
+	(wire
+		(pts
+			(xy 77.47 123.19) (xy 107.95 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa979d1b-131e-4824-a49b-cf63e2fde825")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 86.36 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e1abe19-50e7-4b8e-b1f4-548d71cf4e6c")
+		(property "Reference" "#PWR02"
+			(at 86.36 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 86.36 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 86.36 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe226270-d998-4941-bc95-1e301b49d57d")
+		)
+		(instances
+			(project "stepper_motor_eval_board_v1.0"
+				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 97.79 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d1dba80-85cd-45dd-b5bf-8e424a78a8a1")
+		(property "Reference" "#PWR04"
+			(at 97.79 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V_MCU"
+			(at 102.616 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 97.79 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa631297-5f05-4ab1-8a7f-4d188f26d949")
+		)
+		(instances
+			(project "stepper_motor_eval_board_v1.0"
+				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 92.71 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65efaa4c-0245-4629-94c1-dd8c8bc9f05c")
+		(property "Reference" "#PWR03"
+			(at 92.71 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 92.71 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 92.71 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dad794d0-f341-468f-b135-abad69a31a3b")
+		)
+		(instances
+			(project "stepper_motor_eval_board_v1.0"
+				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 80.01 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e63ab7fc-e604-4cbf-9dfb-cd51b6ac4cf1")
+		(property "Reference" "#PWR01"
+			(at 80.01 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 80.01 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 80.01 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3184cbd-1f90-4896-9076-573166358108")
+		)
+		(instances
+			(project "stepper_motor_eval_board_v1.0"
+				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 58.42)
+		(size 36.83 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "20842745-18af-498f-8180-95a0a8b6794d")
+		(property "Sheetname" "Power - distribution"
+			(at 39.37 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_distribution.kicad_sch"
+			(at 39.37 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3.3V" output
+			(at 76.2 72.39 0)
+			(uuid "8480a3d5-593b-4c93-b757-fa91c604dbba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" output
+			(at 76.2 67.31 0)
+			(uuid "f13e967c-db0a-4c7e-a978-b8a0520e67e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+24V" output
+			(at 76.2 62.23 0)
+			(uuid "d8840c84-b19f-40d3-bf8e-94e7309d8eb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3.3V_MCU" output
+			(at 76.2 77.47 0)
+			(uuid "23b91a82-b698-453f-be35-8ce1153667e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_MODE" output
+			(at 76.2 82.55 0)
+			(uuid "ed711125-0c87-4c35-ae82-ae9d8a59c133")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "stepper_motor_eval_board_v1.0"
+				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 59.055)
+		(size 36.83 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3fe0edb6-7b8f-44f4-89a4-9c2269b2cb51")
+		(property "Sheetname" "Misc"
+			(at 107.95 58.3434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "misc.kicad_sch"
+			(at 107.95 87.5796 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stepper_motor_eval_board_v1.0"
+				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 100.33)
+		(size 38.1 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5566eb57-101d-464f-8854-b5b6b95c0649")
+		(property "Sheetname" "MCU - IO"
+			(at 39.37 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 39.37 128.8546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{ENC1}" input
+			(at 77.47 107.95 0)
+			(uuid "6a18a99f-464f-40ed-81e4-0af7bfa7df34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{ENC2}" input
+			(at 77.47 110.49 0)
+			(uuid "20014d32-6667-461b-b10d-80c6c359eb21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{TMC1}" output
+			(at 77.47 114.3 0)
+			(uuid "c789c594-057e-4c33-89e9-8febce4f4ebd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{TMC2}" output
+			(at 77.47 116.84 0)
+			(uuid "27a2e883-6c49-42a4-b8a2-bb62f032abef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_MODE" input
+			(at 77.47 104.14 0)
+			(uuid "fed03c11-2ac6-452c-98fc-b4f75efe3042")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TMC1_PDN_UART" bidirectional
+			(at 77.47 120.65 0)
+			(uuid "dc682bd6-a066-408d-b492-94ea8d5d2d89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TMC2_PDN_UART" bidirectional
+			(at 77.47 123.19 0)
+			(uuid "07708910-898f-4c6e-bc4a-911855e04642")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "stepper_motor_eval_board_v1.0"
+				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 100.33)
+		(size 36.83 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "eb8c68d2-160e-4cf6-94b1-8204133e14a6")
+		(property "Sheetname" "Driver - encoder"
+			(at 107.95 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver_encoder.kicad_sch"
+			(at 107.95 128.8546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{ENC1}" output
+			(at 107.95 107.95 180)
+			(uuid "aa98a21d-4c98-4c4e-8029-f01857c24065")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{ENC2}" output
+			(at 107.95 110.49 180)
+			(uuid "765c8849-5a40-43c6-bac2-545af8330195")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{TMC1}" input
+			(at 107.95 114.3 180)
+			(uuid "78432f1d-7db9-4d94-830d-8c3d5b082636")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{TMC2}" input
+			(at 107.95 116.84 180)
+			(uuid "f718287d-dac2-496b-b6f6-2ab81980f7ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TMC1_PDN_UART" bidirectional
+			(at 107.95 120.65 180)
+			(uuid "38fbbdbf-d873-4e09-b8c9-9d23e16a27a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TMC2_PDN_UART" bidirectional
+			(at 107.95 123.19 180)
+			(uuid "f1280d88-d802-4882-827e-6dbfddc80750")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "stepper_motor_eval_board_v1.0"
+				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

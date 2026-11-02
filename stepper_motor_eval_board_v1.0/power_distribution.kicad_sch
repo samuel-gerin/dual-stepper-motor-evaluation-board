@@ -8034,6 +8034,10 @@
 				)
 			)
 		)
+		(property "LCSC" "C5949168"
+		  (at 284.48 69.85 90)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Value" "10µ"
 			(at 284.48 72.39 90)
 			(show_name no)
@@ -8137,6 +8141,10 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C25803"
+		  (at 193.04 205.7399 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Value" "100k"
 			(at 193.04 208.2799 0)
 			(show_name no)
@@ -8239,6 +8247,10 @@
 				)
 				(justify left)
 			)
+		)
+		(property "LCSC" "C80857"
+		  (at 83.566 80.772 90)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "BZX84C15LT1G"
 			(at 74.93 86.868 90)
@@ -8424,6 +8436,10 @@
 				)
 				(justify left)
 			)
+		)
+		(property "LCSC" "C25804"
+		  (at 248.92 210.8199 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "10k"
 			(at 248.92 213.3599 0)
@@ -8764,6 +8780,10 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C77102"
+		  (at 229.87 78.7399 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Value" "10µ 50V 1210"
 			(at 230.124 85.598 0)
 			(show_name no)
@@ -8868,6 +8888,10 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C19077578"
+		  (at 119.38 80.0099 90)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Value" "SMBJ24A"
 			(at 119.38 82.5499 90)
 			(show_name no)
@@ -8971,6 +8995,10 @@
 				)
 				(justify left)
 			)
+		)
+		(property "LCSC" "C5673"
+		  (at 212.09 220.9799 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "1µ 25V"
 			(at 212.09 223.5199 0)
@@ -9155,6 +9183,10 @@
 				(justify right)
 			)
 		)
+		(property "LCSC" "C2286"
+		  (at 313.69 213.6774 90)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Value" "R_LED"
 			(at 313.69 216.2174 90)
 			(show_name no)
@@ -9269,6 +9301,10 @@
 				)
 				(justify right)
 			)
+		)
+		(property "LCSC" "C2286"
+		  (at 298.45 213.6774 90)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "R_LED"
 			(at 298.45 216.2174 90)
@@ -9385,6 +9421,10 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C14858"
+		  (at 295.91 82.5499 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Value" "100p C0G 50V"
 			(at 295.91 85.0899 0)
 			(show_name no)
@@ -9487,6 +9527,10 @@
 				)
 				(justify left)
 			)
+		)
+		(property "LCSC" "C5199900"
+		  (at 377.444 231.14 90)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "TestPoint"
 			(at 374.1421 233.68 0)
@@ -9668,6 +9712,10 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C22930"
+		  (at 316.23 135.8899 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Value" "196k"
 			(at 316.23 138.4299 0)
 			(show_name no)
@@ -9770,6 +9818,10 @@
 				)
 				(justify right)
 			)
+		)
+		(property "LCSC" "C14663"
+		  (at 276.86 77.4699 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "100n 50V"
 			(at 276.86 80.772 0)
@@ -10292,6 +10344,10 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C23221"
+		  (at 316.23 151.1299 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Value" "62k"
 			(at 316.23 153.6699 0)
 			(show_name no)
@@ -10631,6 +10687,10 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C5199900"
+		  (at 377.444 214.63 90)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Value" "TestPoint"
 			(at 374.1421 217.17 0)
 			(hide yes)
@@ -10730,6 +10790,10 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "LCSC" "C3204125"
+		  (at 43.18 69.596 90)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "2A"
 			(at 43.18 72.136 90)
@@ -11039,6 +11103,10 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C5199900"
+		  (at 377.444 198.12 90)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Value" "TestPoint"
 			(at 374.1421 200.66 0)
 			(hide yes)
@@ -11219,6 +11287,10 @@
 				)
 				(justify left)
 			)
+		)
+		(property "LCSC" "C22984"
+		  (at 316.23 97.7899 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "30k"
 			(at 316.23 100.3299 0)
@@ -11401,6 +11473,10 @@
 				)
 				(justify left)
 			)
+		)
+		(property "LCSC" "C23228"
+		  (at 327.66 200.6599 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "680"
 			(at 327.66 203.1999 0)
@@ -11740,6 +11816,10 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C22843"
+		  (at 312.42 200.6599 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Value" "1k5"
 			(at 312.42 203.1999 0)
 			(show_name no)
@@ -11843,6 +11923,10 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C238122"
+		  (at 377.444 233.68 90)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Value" "TestPoint"
 			(at 374.1421 236.22 0)
 			(hide yes)
@@ -11944,6 +12028,10 @@
 				)
 				(justify right)
 			)
+		)
+		(property "LCSC" "C2286"
+		  (at 328.93 213.6774 90)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "R_LED"
 			(at 328.93 216.2174 90)
@@ -12059,6 +12147,10 @@
 				)
 				(justify left)
 			)
+		)
+		(property "LCSC" "C5673"
+		  (at 212.09 194.3099 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "1µ 25V"
 			(at 212.09 196.8499 0)
@@ -12240,6 +12332,10 @@
 				)
 				(justify left)
 			)
+		)
+		(property "LCSC" "C22827"
+		  (at 192.786 194.564 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "180K"
 			(at 192.786 197.104 0)
@@ -12424,6 +12520,10 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C25804"
+		  (at 297.18 200.6599 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Value" "10k"
 			(at 297.18 203.1999 0)
 			(show_name no)
@@ -12606,6 +12706,10 @@
 				)
 			)
 		)
+		(property "LCSC" "C2046638"
+		  (at 284.48 123.19 90)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Value" "6µ8"
 			(at 284.48 125.73 90)
 			(show_name no)
@@ -12707,6 +12811,10 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "LCSC" "C49256455"
+		  (at 64.77 68.58 90)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "SQD50P04-13L_T4GE3-HXY"
 			(at 64.77 71.12 90)
@@ -12996,6 +13104,10 @@
 				)
 			)
 		)
+		(property "LCSC" "C381117"
+		  (at 29.21 68.58 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Value" "Barrel_Jack_Switch"
 			(at 29.21 71.12 0)
 			(show_name no)
@@ -13157,6 +13269,10 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "LCSC" "C2071868"
+		  (at 250.19 67.31 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "AP63200WU-7"
 			(at 250.19 69.85 0)
@@ -13351,6 +13467,10 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C238122"
+		  (at 377.444 217.17 90)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Value" "TestPoint"
 			(at 374.1421 219.71 0)
 			(hide yes)
@@ -13451,6 +13571,10 @@
 				)
 				(justify left)
 			)
+		)
+		(property "LCSC" "C77102"
+		  (at 229.87 132.0799 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "10µ 50V 1210"
 			(at 230.124 138.684 0)
@@ -13554,6 +13678,10 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "LCSC" "C2071868"
+		  (at 250.19 120.65 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "AP63200WU-7"
 			(at 250.19 123.19 0)
@@ -13851,6 +13979,10 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C14858"
+		  (at 295.91 135.8899 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Value" "100p C0G 50V"
 			(at 295.91 138.684 0)
 			(show_name no)
@@ -13953,6 +14085,10 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "LCSC" "C3235557"
+		  (at 233.68 199.39 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "TPS2116DRL"
 			(at 233.68 201.93 0)
@@ -14074,6 +14210,10 @@
 				)
 				(justify left)
 			)
+		)
+		(property "LCSC" "C5673"
+		  (at 259.08 195.5799 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "1µ 25V"
 			(at 259.08 198.1199 0)
@@ -14256,6 +14396,10 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C22469994"
+		  (at 165.1 79.1209 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Value" "470µ 50V"
 			(at 165.1 81.6609 0)
 			(show_name no)
@@ -14359,6 +14503,10 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C238122"
+		  (at 377.444 200.66 90)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Value" "TestPoint"
 			(at 374.1421 203.2 0)
 			(hide yes)
@@ -14459,6 +14607,10 @@
 				)
 				(justify right)
 			)
+		)
+		(property "LCSC" "C14663"
+		  (at 276.86 130.8099 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "100n 50V"
 			(at 276.86 134.112 0)
@@ -14642,6 +14794,10 @@
 				)
 				(justify left)
 			)
+		)
+		(property "LCSC" "C17414"
+		  (at 67.31 90.1699 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Value" "10 k"
 			(at 67.31 92.7099 0)

@@ -604,7 +604,7 @@
 		)
 		(uuid "aad86c2a-ad78-4662-85eb-d1ade19bd5c6")
 	)
-	(text "If not mentioned otherwise\nR: tolerance=1%, rated power=1W, package=0603 \nC: dielectric (not polarized)=X7R, package=0603"
+	(text "If not mentioned otherwise\nR: tolerance=1%, package=0603 \nC: dielectric (not polarized)=X7R, package=0603"
 		(exclude_from_sim no)
 		(at 176.276 147.574 0)
 		(effects
