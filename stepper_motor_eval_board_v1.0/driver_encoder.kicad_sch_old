@@ -10578,6 +10578,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 109.22 233.934 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 104.14 234.95 0)
 			(hide yes)
@@ -10757,6 +10768,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 151.13 52.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 148.59 54.61 0)
 			(hide yes)
@@ -10906,7 +10928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
 			(at 310.8452 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10930,6 +10952,17 @@
 		)
 		(property "Description" "Polarized capacitor"
 			(at 309.88 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C962164"
+			(at 313.69 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11041,6 +11074,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C99228"
+			(at 289.56 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 289.56 76.2 90)
 			(hide yes)
@@ -11133,6 +11177,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 72.39 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 72.898 200.406 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11368,6 +11423,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 109.22 236.474 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 105.41 237.49 0)
 			(hide yes)
@@ -11459,6 +11525,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 137.16 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 139.446 52.578 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11727,6 +11804,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 243.078 228.854 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 234.95 229.87 0)
 			(hide yes)
@@ -11907,6 +11995,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 48.26 221.996 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 50.8 227.33 0)
 			(hide yes)
@@ -11999,6 +12098,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 287.02 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21122"
+			(at 290.83 90.1699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12347,6 +12457,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 311.15 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 309.88 129.54 0)
 			(hide yes)
@@ -12527,6 +12648,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 243.078 241.554 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 241.3 242.57 0)
 			(hide yes)
@@ -12697,6 +12829,17 @@
 		)
 		(property "Description" "test point"
 			(at 303.53 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C238123"
+			(at 310.134 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13043,6 +13186,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 109.22 241.554 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 107.95 242.57 0)
 			(hide yes)
@@ -13135,6 +13289,17 @@
 		)
 		(property "Description" "test point"
 			(at 238.76 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C238123"
+			(at 243.078 236.474 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13403,6 +13568,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 243.078 239.014 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 240.03 240.03 0)
 			(hide yes)
@@ -13504,6 +13680,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 181.61 214.122 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 184.15 219.71 0)
 			(hide yes)
@@ -13596,6 +13783,17 @@
 		)
 		(property "Description" "test point"
 			(at 151.13 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C238123"
+			(at 162.306 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13862,6 +14060,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 48.514 242.316 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 50.8 247.65 0)
 			(hide yes)
@@ -13956,6 +14165,17 @@
 		)
 		(property "Description" "6-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-14"
 			(at 254 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C962978"
+			(at 274.574 255.524 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14183,6 +14403,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 310.134 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 307.34 115.57 0)
 			(hide yes)
@@ -14363,6 +14594,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 181.864 242.316 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 184.15 247.65 0)
 			(hide yes)
@@ -14454,6 +14696,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 125.73 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 128.016 52.324 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14767,6 +15020,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 244.348 106.934 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 242.57 107.95 0)
 			(hide yes)
@@ -14940,6 +15204,17 @@
 		)
 		(property "Description" "test point"
 			(at 102.87 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C238123"
+			(at 108.966 231.394 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15128,6 +15403,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 181.61 221.996 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 184.15 227.33 0)
 			(hide yes)
@@ -15220,6 +15506,17 @@
 		)
 		(property "Description" "test point"
 			(at 158.75 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C238123"
+			(at 162.306 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15407,6 +15704,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2071868"
+			(at 77.724 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 67.31 237.49 0)
 			(hide yes)
@@ -15553,6 +15861,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2071868"
+			(at 210.566 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 200.66 237.49 0)
 			(hide yes)
@@ -15689,6 +16008,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 261.62 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 258.064 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15878,6 +16208,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23228"
+			(at 253.492 136.144 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 248.92 135.89 0)
 			(hide yes)
@@ -15972,6 +16313,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 285.75 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 289.052 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16154,6 +16506,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 93.98 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 95.758 109.474 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16424,6 +16787,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 162.56 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 161.29 129.54 0)
 			(hide yes)
@@ -16568,7 +16942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
 			(at 162.2552 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -16592,6 +16966,17 @@
 		)
 		(property "Description" "Polarized capacitor"
 			(at 161.29 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C962164"
+			(at 163.83 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16783,6 +17168,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 277.622 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 274.32 54.61 0)
 			(hide yes)
@@ -16878,6 +17274,17 @@
 		)
 		(property "Description" "test point"
 			(at 50.8 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C238123"
+			(at 48.26 214.122 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16985,6 +17392,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C146381"
+			(at 141.986 135.636 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 146.05 137.16 0)
 			(hide yes)
@@ -17077,6 +17495,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 302.26 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C146381"
+			(at 306.07 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17378,6 +17807,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 110.236 52.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 113.03 54.61 0)
 			(hide yes)
@@ -17473,6 +17913,17 @@
 		)
 		(property "Description" "2-phase stepper motor driver, 256 µSteps, 2.8A peak, 2.0A RMS, VS = 4.75..29V, STEP/DIR and UART interface, VQFN-28"
 			(at 269.24 133.604 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2150710"
+			(at 279.146 65.786 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17664,6 +18115,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C146381"
+			(at 157.226 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 153.67 137.16 0)
 			(hide yes)
@@ -17768,6 +18230,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 162.306 106.934 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 147.32 107.95 0)
 			(hide yes)
@@ -17860,6 +18333,17 @@
 		)
 		(property "Description" "2-phase stepper motor driver, 256 µSteps, 2.8A peak, 2.0A RMS, VS = 4.75..29V, STEP/DIR and UART interface, VQFN-28"
 			(at 120.65 133.604 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2150710"
+			(at 130.81 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18054,6 +18538,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 109.22 239.014 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 106.68 240.03 0)
 			(hide yes)
@@ -18155,6 +18650,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 162.56 125.984 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 160.02 127 0)
 			(hide yes)
@@ -18247,6 +18753,17 @@
 		)
 		(property "Description" "Zener diode"
 			(at 172.72 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19077541"
+			(at 175.26 53.3399 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18360,6 +18877,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 108.966 228.854 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 101.6 229.87 0)
 			(hide yes)
@@ -18452,6 +18980,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 138.43 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21122"
+			(at 142.24 90.1699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18565,6 +19104,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 243.078 233.934 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 237.49 234.95 0)
 			(hide yes)
@@ -18657,6 +19207,17 @@
 		)
 		(property "Description" "test point"
 			(at 154.94 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C238123"
+			(at 162.306 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19114,6 +19675,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C238123"
+			(at 310.134 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 299.72 110.49 0)
 			(hide yes)
@@ -19206,6 +19778,17 @@
 		)
 		(property "Description" "Light emitting diode"
 			(at 99.06 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 102.87 145.0974 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19321,6 +19904,17 @@
 		)
 		(property "Description" "test point"
 			(at 308.61 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C238123"
+			(at 311.15 125.984 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19507,6 +20101,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C99228"
+			(at 140.97 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 140.97 76.2 90)
 			(hide yes)
@@ -19602,6 +20207,17 @@
 		)
 		(property "Description" "test point"
 			(at 295.91 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C238123"
+			(at 310.134 106.934 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19787,6 +20403,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 206.248 200.152 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 205.74 207.01 90)
 			(hide yes)
@@ -19882,6 +20509,17 @@
 		)
 		(property "Description" "Light emitting diode"
 			(at 248.92 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 252.73 145.0974 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20082,6 +20720,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23228"
+			(at 103.632 136.144 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 99.06 135.89 0)
 			(hide yes)
@@ -20177,6 +20826,17 @@
 		)
 		(property "Description" "Zener diode"
 			(at 321.31 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19077541"
+			(at 323.85 53.3399 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20362,6 +21022,17 @@
 		)
 		(property "Description" "6-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-14"
 			(at 119.38 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C962978"
+			(at 139.954 255.524 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20666,6 +21337,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C146381"
+			(at 291.084 138.938 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 294.64 137.16 90)
 			(hide yes)
@@ -20760,6 +21442,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 297.18 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 300.99 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21022,6 +21715,17 @@
 		)
 		(property "Description" "test point"
 			(at 236.22 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C238123"
+			(at 243.078 231.394 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

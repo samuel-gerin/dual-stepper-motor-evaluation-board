@@ -657,10 +657,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238122"
-		  (at 158.75 88.1379 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 158.75 90.6779 0)
 			(show_name no)
@@ -696,6 +692,17 @@
 		)
 		(property "Description" "test point"
 			(at 156.21 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C238122"
+			(at 158.75 88.1379 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1660,10 +1667,6 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C238122"
-		  (at 133.35 88.1379 0)
-		  (effects (font (size 1.27 1.27)) (hide yes))
-		)
 		(property "Value" "TestPoint"
 			(at 133.35 90.6779 0)
 			(show_name no)
@@ -1699,6 +1702,17 @@
 		)
 		(property "Description" "test point"
 			(at 130.81 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C238122"
+			(at 133.35 88.1379 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
