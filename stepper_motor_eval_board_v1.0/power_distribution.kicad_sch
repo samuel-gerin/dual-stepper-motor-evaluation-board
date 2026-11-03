@@ -13144,7 +13144,11 @@
 				(justify left)
 			)
 		)
-		(property "Value" "157k"
+		(property "LCSC" "C22883"
+		  (at 316.23 82.5499 0)
+		  (effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "158k"
 			(at 316.23 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)

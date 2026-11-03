@@ -529,9 +529,9 @@
 		)
 		(uuid "490e31d0-0017-46eb-a9db-256deef9b129")
 	)
-	(text "During PCB design phase:\n- HSE oscilator\n- simulaties\n\nFinal design:\n- should split IO in seperate sheet"
+	(text "During PCB design phase:\n- HSE oscilator\n- simulaties\n\nOrdering:\n- Check JLCPCB preview PCB\n\nFinal design:\n- should split IO in seperate sheet"
 		(exclude_from_sim no)
-		(at 201.168 87.122 0)
+		(at 200.406 92.202 0)
 		(effects
 			(font
 				(size 2.54 2.54)

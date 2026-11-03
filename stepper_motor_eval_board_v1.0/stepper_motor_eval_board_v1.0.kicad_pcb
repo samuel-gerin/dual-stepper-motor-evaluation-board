@@ -1068,7 +1068,7 @@
 				)
 			)
 		)
-		(property "Value" "157k"
+		(property "Value" "158k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "feef075b-cb89-40ee-aa4c-8b629861728f")
@@ -1136,6 +1136,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C22883"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "103e974d-edbe-485e-b21e-2959867d4be6")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22067,12 +22078,12 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_Elec_6.3x7.7"
+	(footprint "Capacitor_SMD:CP_Elec_6.3x7.7"
 		(layer "F.Cu")
 		(uuid "8b6b21ce-716a-4d44-8121-bbb97c137f9e")
 		(at 70.11 50.175)
-		(descr "SMD capacitor, aluminum electrolytic nonpolar, 6.3x7.7mm")
-		(tags "capacitor electrolytic nonpolar")
+		(descr "SMD capacitor, aluminum electrolytic, Nichicon, 6.3x7.7mm")
+		(tags "capacitor electrolytic")
 		(property "Reference" "C21"
 			(at 0 -4.35 0)
 			(layer "F.SilkS")
@@ -22117,7 +22128,7 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/SMD/elec_round"
+		(property "KiLib_Generator" "capacitor/SMD/elec_round_polarized"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -22134,7 +22145,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e171bbde-c51d-4846-9b40-159453879727")
+			(uuid "ce57f4f3-254f-4c3c-beb8-2525d7d0fda2")
 			(effects
 				(font
 					(size 1 1)
@@ -22147,7 +22158,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "be5ee52d-ab05-4389-8649-6a0f4df6140d")
+			(uuid "e40eac7f-ee0a-45ec-8431-9317a3aa261e")
 			(effects
 				(font
 					(size 1 1)
@@ -22160,7 +22171,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e7c3c79-bfa8-440f-bc4e-6a78b513b520")
+			(uuid "5d150314-2e0e-4863-a2ff-380da137a764")
 			(effects
 				(font
 					(size 1 1)
@@ -22180,6 +22191,26 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -4.4375 -1.8475)
+			(end -3.65 -1.8475)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "129dc3b7-eebe-44be-a2af-0345f3bb42a9")
+		)
+		(fp_line
+			(start -4.04375 -2.24125)
+			(end -4.04375 -1.45375)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b852bfbd-509e-4b8e-ad6b-b2e6224e2ea6")
+		)
 		(fp_line
 			(start -3.41 -2.345563)
 			(end -3.41 -1.06)
@@ -22261,17 +22292,17 @@
 			(uuid "fc0a84e9-6ae4-4bd4-a8ee-878f0748cd2f")
 		)
 		(fp_line
-			(start -4.45 -1.05)
-			(end -4.45 1.05)
+			(start -4.7 -1.05)
+			(end -4.7 1.05)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "da59d603-332e-4cb1-83df-e5ba3dbc8ce9")
+			(uuid "154ceb34-4334-4d15-b030-c8e7a20efb6a")
 		)
 		(fp_line
-			(start -4.45 1.05)
+			(start -4.7 1.05)
 			(end -3.55 1.05)
 			(stroke
 				(width 0.05)
@@ -22302,7 +22333,7 @@
 		)
 		(fp_line
 			(start -3.55 -1.05)
-			(end -4.45 -1.05)
+			(end -4.7 -1.05)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -22362,7 +22393,7 @@
 		)
 		(fp_line
 			(start 3.55 -1.05)
-			(end 4.45 -1.05)
+			(end 4.7 -1.05)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -22381,17 +22412,17 @@
 			(uuid "b8157162-ba0d-4010-a2bc-e6069e151420")
 		)
 		(fp_line
-			(start 4.45 -1.05)
-			(end 4.45 1.05)
+			(start 4.7 -1.05)
+			(end 4.7 1.05)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "154ceb34-4334-4d15-b030-c8e7a20efb6a")
+			(uuid "da59d603-332e-4cb1-83df-e5ba3dbc8ce9")
 		)
 		(fp_line
-			(start 4.45 1.05)
+			(start 4.7 1.05)
 			(end 3.55 1.05)
 			(stroke
 				(width 0.05)
@@ -22429,6 +22460,26 @@
 			)
 			(layer "F.Fab")
 			(uuid "283a2570-6d27-4d3e-8784-75a8887ba858")
+		)
+		(fp_line
+			(start -2.704838 -1.33)
+			(end -2.074838 -1.33)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d47a7630-c647-4b2d-9dd1-378a2eb4cce7")
+		)
+		(fp_line
+			(start -2.389838 -1.645)
+			(end -2.389838 -1.015)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "73e1ec9d-39e7-43f8-83fa-a5bfda60b76e")
 		)
 		(fp_line
 			(start -2.3 -3.3)
@@ -22483,8 +22534,8 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -2.5375 0)
-			(size 3.325 1.6)
+			(at -2.7 0)
+			(size 3.5 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
 			(net "+24V")
@@ -22492,8 +22543,8 @@
 			(uuid "b2ddc6ee-9295-4191-ba04-299e8a87015d")
 		)
 		(pad "2" smd roundrect
-			(at 2.5375 0)
-			(size 3.325 1.6)
+			(at 2.7 0)
+			(size 3.5 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
 			(net "GND")
@@ -22501,7 +22552,7 @@
 			(uuid "fd695b53-047b-478e-95fa-e9a6d3fe123b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_Elec_6.3x7.7.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_6.3x7.7.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25279,12 +25330,12 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Capacitor_SMD:C_Elec_6.3x7.7"
+	(footprint "Capacitor_SMD:CP_Elec_6.3x7.7"
 		(layer "F.Cu")
 		(uuid "9d687422-706d-4efa-abe4-4c99bfee4c98")
 		(at 70.11 60.025)
-		(descr "SMD capacitor, aluminum electrolytic nonpolar, 6.3x7.7mm")
-		(tags "capacitor electrolytic nonpolar")
+		(descr "SMD capacitor, aluminum electrolytic, Nichicon, 6.3x7.7mm")
+		(tags "capacitor electrolytic")
 		(property "Reference" "C29"
 			(at 0 -4.35 0)
 			(layer "F.SilkS")
@@ -25329,7 +25380,7 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/SMD/elec_round"
+		(property "KiLib_Generator" "capacitor/SMD/elec_round_polarized"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -25346,7 +25397,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "700f06de-46cd-4d86-b6e9-5ef284dc0fd5")
+			(uuid "f40bcb28-c0b6-4a3e-8333-0330056c9da8")
 			(effects
 				(font
 					(size 1 1)
@@ -25359,7 +25410,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79e52fc6-bed5-4775-9b48-903cbf832fad")
+			(uuid "70ede332-c58c-41c3-9913-656015d01771")
 			(effects
 				(font
 					(size 1 1)
@@ -25372,7 +25423,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a6579834-2330-4614-befa-e75f35b2ac63")
+			(uuid "04aa7ae6-cc07-4ca3-85a4-3e9f003192bb")
 			(effects
 				(font
 					(size 1 1)
@@ -25392,6 +25443,26 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -4.4375 -1.8475)
+			(end -3.65 -1.8475)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "caf60ba1-0d81-43b4-8379-d67eaa06c342")
+		)
+		(fp_line
+			(start -4.04375 -2.24125)
+			(end -4.04375 -1.45375)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ec429c1a-7826-4cd1-8d62-f2665cfb3ede")
+		)
 		(fp_line
 			(start -3.41 -2.345563)
 			(end -3.41 -1.06)
@@ -25473,17 +25544,17 @@
 			(uuid "7a0385bf-e55b-4e9b-a7fb-18a86560ac44")
 		)
 		(fp_line
-			(start -4.45 -1.05)
-			(end -4.45 1.05)
+			(start -4.7 -1.05)
+			(end -4.7 1.05)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e0e4ae50-fc78-4f79-84f9-aabb1cba0ccc")
+			(uuid "aba0711b-2708-4eba-8e66-f02812b1c413")
 		)
 		(fp_line
-			(start -4.45 1.05)
+			(start -4.7 1.05)
 			(end -3.55 1.05)
 			(stroke
 				(width 0.05)
@@ -25514,7 +25585,7 @@
 		)
 		(fp_line
 			(start -3.55 -1.05)
-			(end -4.45 -1.05)
+			(end -4.7 -1.05)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -25574,7 +25645,7 @@
 		)
 		(fp_line
 			(start 3.55 -1.05)
-			(end 4.45 -1.05)
+			(end 4.7 -1.05)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -25593,17 +25664,17 @@
 			(uuid "95091e26-d7c9-4953-b48e-dc082e26f654")
 		)
 		(fp_line
-			(start 4.45 -1.05)
-			(end 4.45 1.05)
+			(start 4.7 -1.05)
+			(end 4.7 1.05)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "aba0711b-2708-4eba-8e66-f02812b1c413")
+			(uuid "e0e4ae50-fc78-4f79-84f9-aabb1cba0ccc")
 		)
 		(fp_line
-			(start 4.45 1.05)
+			(start 4.7 1.05)
 			(end 3.55 1.05)
 			(stroke
 				(width 0.05)
@@ -25641,6 +25712,26 @@
 			)
 			(layer "F.Fab")
 			(uuid "fc7ea980-c1fb-4118-a3be-f5097e761280")
+		)
+		(fp_line
+			(start -2.704838 -1.33)
+			(end -2.074838 -1.33)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "01c66103-3d48-4a00-a8e4-5a2fad7e6ef6")
+		)
+		(fp_line
+			(start -2.389838 -1.645)
+			(end -2.389838 -1.015)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c9aa6fd6-e253-46da-accf-9dc8d0676d0f")
 		)
 		(fp_line
 			(start -2.3 -3.3)
@@ -25695,8 +25786,8 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -2.5375 0)
-			(size 3.325 1.6)
+			(at -2.7 0)
+			(size 3.5 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
 			(net "+24V")
@@ -25704,8 +25795,8 @@
 			(uuid "9f05aace-c1d9-4299-a93f-83b8554d54e6")
 		)
 		(pad "2" smd roundrect
-			(at 2.5375 0)
-			(size 3.325 1.6)
+			(at 2.7 0)
+			(size 3.5 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
 			(net "GND")
@@ -25713,7 +25804,7 @@
 			(uuid "7a2a8f1c-e585-4095-85ab-3af902334aeb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_Elec_6.3x7.7.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_6.3x7.7.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26362,7 +26453,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2071868"
+		(property "LCSC" "C527448"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -31509,7 +31600,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2071868"
+		(property "LCSC" "C527448"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
