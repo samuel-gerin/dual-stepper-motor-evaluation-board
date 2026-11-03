@@ -5,244 +5,6 @@
 	(uuid "f2dd6a29-2ae8-4026-b0d4-98b9308ba622")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector:Barrel_Jack_Switch"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.334 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Barrel_Jack_Switch"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 1.27 -1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "DC Barrel Jack with an internal switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "DC power barrel jack connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "BarrelJack*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Barrel_Jack_Switch_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.286) (xy 1.905 -1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Barrel_Jack_Switch_1_1"
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -1709,6 +1471,281 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCPCB:PJ-080BH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "DC"
+				(at 0 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PJ-080BH"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda:AUDIO-TH_PJ-080BH"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C3094242.pdf"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "CUI"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "PJ-080BH"
+				(at 0 -24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C3094242"
+				(at 0 -26.67 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PJ-080BH_0_1"
+				(arc
+					(start -6.35 5.08)
+					(mid -7.36 6.095)
+					(end -6.35 7.11)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.62)
+					(end -0.25 4.57)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 7.11) (xy -6.35 7.11)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -6.35 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.1) (xy -0.25 6.1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -6.1 1.27) (xy -6.6 2.29) (xy -7.11 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 6.35 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 1.27 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -1.27 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -3.81 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -6.35 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -8.89 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3478,6 +3515,12 @@
 		(uuid "0c54f370-0eeb-4250-85aa-2ba440a14698")
 	)
 	(junction
+		(at 39.37 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11dc7220-0776-4ba9-af1c-01ac2e2e7900")
+	)
+	(junction
 		(at 273.05 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3550,12 +3593,6 @@
 		(uuid "3a146674-49ec-459f-864d-dd3155804a22")
 	)
 	(junction
-		(at 39.37 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d7675d9-1b46-46b2-9bcf-9b8c037017ea")
-	)
-	(junction
 		(at 337.82 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3602,6 +3639,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7149cea1-5407-419f-bee1-a72a6b27cdfa")
+	)
+	(junction
+		(at 39.37 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "833b885d-2a59-4aec-a3e5-96920fb53cda")
 	)
 	(junction
 		(at 226.06 74.93)
@@ -3652,6 +3695,12 @@
 		(uuid "b4a6c702-86e3-430c-ac9d-db1d8aa5412e")
 	)
 	(junction
+		(at 39.37 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b99b6933-5e1d-427d-a9ab-42fb173dfd81")
+	)
+	(junction
 		(at 292.1 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3699,6 +3748,12 @@
 		(color 0 0 0 0)
 		(uuid "fa5e72f9-7d17-4e8b-a878-e9dd99805673")
 	)
+	(junction
+		(at 39.37 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc2707b8-a9fa-4e8a-ad75-27f1eb21f7d0")
+	)
 	(wire
 		(pts
 			(xy 325.12 217.17) (xy 325.12 220.98)
@@ -3718,6 +3773,16 @@
 			(type default)
 		)
 		(uuid "0502d678-9f7f-4be1-af7a-6879f14df046")
+	)
+	(wire
+		(pts
+			(xy 39.37 82.55) (xy 39.37 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061b103a-6e81-4843-b11e-e9c92ed23d86")
 	)
 	(wire
 		(pts
@@ -3881,16 +3946,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 77.47) (xy 39.37 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "212e2641-d2fe-4a27-b77e-a7d73f2fab50")
-	)
-	(wire
-		(pts
 			(xy 246.38 207.01) (xy 250.19 207.01)
 		)
 		(stroke
@@ -3898,16 +3953,6 @@
 			(type default)
 		)
 		(uuid "246c6c9c-90ca-4229-bcfb-7a9533255a1d")
-	)
-	(wire
-		(pts
-			(xy 36.83 80.01) (xy 39.37 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25f009c3-2344-4694-aaa4-63b0e4712ce7")
 	)
 	(wire
 		(pts
@@ -3971,6 +4016,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 92.71) (xy 39.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce235d4-447d-4cae-b2c2-1df131ac4e57")
+	)
+	(wire
+		(pts
 			(xy 181.61 217.17) (xy 181.61 214.63)
 		)
 		(stroke
@@ -4018,16 +4073,6 @@
 			(type default)
 		)
 		(uuid "31ab91bf-ef49-40be-a228-a699d312de31")
-	)
-	(wire
-		(pts
-			(xy 36.83 77.47) (xy 39.37 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31cf55e0-8942-4b67-8959-1c2520280f77")
 	)
 	(wire
 		(pts
@@ -4333,6 +4378,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 87.63) (xy 39.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60fd7faa-dabe-49b0-9145-f3de94588297")
+	)
+	(wire
+		(pts
 			(xy 190.5 191.77) (xy 190.5 193.04)
 		)
 		(stroke
@@ -4350,6 +4405,16 @@
 			(type default)
 		)
 		(uuid "66d46d43-ec86-4c8d-a411-e26f2d42bc47")
+	)
+	(wire
+		(pts
+			(xy 36.83 90.17) (xy 39.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68231ad2-28f1-4702-a56e-b6cdd5e77c30")
 	)
 	(wire
 		(pts
@@ -4380,16 +4445,6 @@
 			(type default)
 		)
 		(uuid "69bd6261-43eb-4dde-9417-e4e9f7829107")
-	)
-	(wire
-		(pts
-			(xy 39.37 80.01) (xy 39.37 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a2dec47-c100-44f6-ba2d-96a9d1a0a3de")
 	)
 	(wire
 		(pts
@@ -4513,6 +4568,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 85.09) (xy 39.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b74687-9ba0-41f2-8b8d-5811000d0c34")
+	)
+	(wire
+		(pts
 			(xy 294.64 194.31) (xy 294.64 198.12)
 		)
 		(stroke
@@ -4631,6 +4696,16 @@
 			(type default)
 		)
 		(uuid "9e294545-3325-46a7-b9b2-5db1accce04d")
+	)
+	(wire
+		(pts
+			(xy 39.37 90.17) (xy 39.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5a7e95-4ed0-4330-b241-9b83dda20f6d")
 	)
 	(wire
 		(pts
@@ -4784,6 +4859,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 85.09) (xy 39.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e6d23d-2e1f-46fc-a4d2-a45a5633f588")
+	)
+	(wire
+		(pts
 			(xy 234.95 133.35) (xy 234.95 128.27)
 		)
 		(stroke
@@ -4881,6 +4966,16 @@
 			(type default)
 		)
 		(uuid "cb4655a2-c9d4-4788-8119-e912f7aa9375")
+	)
+	(wire
+		(pts
+			(xy 36.83 87.63) (xy 39.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd95a13e-705f-4ce6-8b82-c0ff764fd69f")
 	)
 	(wire
 		(pts
@@ -5004,6 +5099,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 82.55) (xy 39.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea6f57d3-8eab-488b-96e4-cfc2d2ec9369")
+	)
+	(wire
+		(pts
 			(xy 313.69 74.93) (xy 330.2 74.93)
 		)
 		(stroke
@@ -5111,6 +5216,16 @@
 			(type default)
 		)
 		(uuid "f171fd03-4733-45f9-a4fb-feec23f49a30")
+	)
+	(wire
+		(pts
+			(xy 39.37 80.01) (xy 36.83 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f276ad39-c6f7-4b14-b415-dce6240ac439")
 	)
 	(wire
 		(pts
@@ -9610,7 +9725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "JLCPCB:TestPoint_Keystone_5000_Miniature"
 			(at 372.11 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -10808,7 +10923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "JLCPCB:TestPoint_Keystone_5000_Miniature"
 			(at 372.11 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -11260,7 +11375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "JLCPCB:TestPoint_Keystone_5000_Miniature"
 			(at 372.11 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -12108,7 +12223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "JLCPCB:TestPoint_Keystone_5001_Miniature"
 			(at 372.11 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -13188,6 +13303,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C22883"
+			(at 316.23 82.5499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 313.69 83.82 0)
 			(hide yes)
@@ -13227,7 +13353,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 82.55 0)
+		(at 39.37 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13238,7 +13364,7 @@
 		(fields_autoplaced yes)
 		(uuid "b72307b8-832c-4a59-aadc-9e8d0cafb642")
 		(property "Reference" "#PWR080"
-			(at 39.37 88.9 0)
+			(at 39.37 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13249,7 +13375,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 87.63 0)
+			(at 39.37 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13260,7 +13386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 82.55 0)
+			(at 39.37 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13271,7 +13397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 82.55 0)
+			(at 39.37 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13282,7 +13408,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 82.55 0)
+			(at 39.37 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13299,100 +13425,6 @@
 			(project "stepper_motor_eval_board_v1.0"
 				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/20842745-18af-498f-8180-95a0a8b6794d"
 					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 29.21 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7f57abd-dc08-4f6a-8d4a-1db567df8463")
-		(property "Reference" "J7"
-			(at 29.21 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Barrel_Jack_Switch"
-			(at 29.21 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCPCB:DC-IN-TH_DC-012-5A-2.0"
-			(at 30.48 78.486 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 78.486 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DC Barrel Jack with an internal switch"
-			(at 29.21 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C381117"
-			(at 29.21 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97753bdf-26cd-4bf5-927b-967f7bb6fece")
-		)
-		(pin "3"
-			(uuid "9f68c924-6ec0-4353-ad3b-6cae2b876858")
-		)
-		(pin "2"
-			(uuid "26670b49-8af7-4cf9-b748-a5cfdeebbf9a")
-		)
-		(instances
-			(project "stepper_motor_eval_board_v1.0"
-				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/20842745-18af-498f-8180-95a0a8b6794d"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -13682,6 +13714,131 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCPCB:PJ-080BH")
+		(at 30.48 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc7cb139-91a8-4a1b-bd0d-41c38315e285")
+		(property "Reference" "DC1"
+			(at 27.435 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PJ-080BH"
+			(at 27.435 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCPCB:AUDIO-TH_PJ-080BH"
+			(at 30.48 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3094242.pdf"
+			(at 30.48 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "CUI"
+			(at 30.48 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PJ-080BH"
+			(at 30.48 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C3094242"
+			(at 30.48 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b80c3c22-8d3b-42d2-84fb-4fe5543462f3")
+		)
+		(pin "4"
+			(uuid "2f8b5f0b-b59b-4c9b-a529-03956d05175a")
+		)
+		(pin "6"
+			(uuid "a2d52863-b40d-40ef-af6c-70313aaf8eae")
+		)
+		(pin "2"
+			(uuid "b27c3e71-6a41-4ca1-8f97-ba4beb6c62fe")
+		)
+		(pin "5"
+			(uuid "5e8d2b67-574d-416a-842f-00b3dc9864c8")
+		)
+		(pin "1"
+			(uuid "6f30be58-5ff2-43f9-8ed1-ce4b5407f518")
+		)
+		(instances
+			(project "stepper_motor_eval_board_v1.0"
+				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/20842745-18af-498f-8180-95a0a8b6794d"
+					(reference "DC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 372.11 217.17 270)
 		(unit 1)
@@ -13715,7 +13872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "JLCPCB:TestPoint_Keystone_5001_Miniature"
 			(at 372.11 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -14811,7 +14968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "JLCPCB:TestPoint_Keystone_5001_Miniature"
 			(at 372.11 205.74 0)
 			(hide yes)
 			(show_name no)

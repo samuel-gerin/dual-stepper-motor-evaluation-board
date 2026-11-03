@@ -495,7 +495,7 @@
 	)
 	(text ""
 		(exclude_from_sim no)
-		(at 176.53 141.224 0)
+		(at 177.546 149.098 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -531,7 +531,7 @@
 	)
 	(text "During PCB design phase:\n- HSE oscilator\n- simulaties\n\nOrdering:\n- Check JLCPCB preview PCB\n\nFinal design:\n- should split IO in seperate sheet"
 		(exclude_from_sim no)
-		(at 200.406 92.202 0)
+		(at 171.45 54.102 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -542,7 +542,7 @@
 	)
 	(text "To-Do:"
 		(exclude_from_sim no)
-		(at 210.312 68.326 0)
+		(at 181.356 30.226 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -606,7 +606,7 @@
 	)
 	(text "If not mentioned otherwise\nR: tolerance=1%, package=0603 \nC: dielectric (not polarized)=X7R, package=0603"
 		(exclude_from_sim no)
-		(at 176.276 147.574 0)
+		(at 177.292 155.448 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -629,7 +629,7 @@
 	)
 	(text "Standard passive component values"
 		(exclude_from_sim no)
-		(at 228.346 137.16 0)
+		(at 229.362 145.034 0)
 		(effects
 			(font
 				(size 3.81 3.81)
