@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "2d9ac515-e0a2-47ec-b0dd-574649acdf3f")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "Stepper Motor Evaluation Board")
 		(date "2026-10-23")
@@ -429,10 +429,10 @@
 		)
 	)
 	(rectangle
-		(start 81.026 165.989)
-		(end 108.585 185.674)
+		(start 128.143 248.92)
+		(end 173.99 273.939)
 		(stroke
-			(width 0.762)
+			(width 1.905)
 			(type solid)
 			(color 255 255 0 1)
 		)
@@ -442,10 +442,10 @@
 		(uuid "309e300a-81f4-4a23-9487-9ab130965a33")
 	)
 	(rectangle
-		(start 48.641 165.989)
-		(end 76.2 185.674)
+		(start 76.708 248.92)
+		(end 121.92 273.05)
 		(stroke
-			(width 0.762)
+			(width 1.905)
 			(type solid)
 			(color 255 153 0 1)
 		)
@@ -455,10 +455,10 @@
 		(uuid "60d24e51-7c15-4949-9f10-653ef0921a55")
 	)
 	(rectangle
-		(start 145.161 165.989)
-		(end 172.72 185.674)
+		(start 234.823 249.174)
+		(end 279.4 273.05)
 		(stroke
-			(width 1.016)
+			(width 1.905)
 			(type solid)
 			(color 0 0 255 1)
 		)
@@ -468,10 +468,10 @@
 		(uuid "87053d1b-876c-49c0-9f6b-9e3e38629f73")
 	)
 	(rectangle
-		(start 16.256 165.989)
-		(end 43.815 185.674)
+		(start 26.416 248.92)
+		(end 71.12 272.669)
 		(stroke
-			(width 0.762)
+			(width 1.905)
 			(type solid)
 			(color 132 132 132 1)
 		)
@@ -481,10 +481,10 @@
 		(uuid "a9be8796-fbad-44c5-800e-60df04a85693")
 	)
 	(rectangle
-		(start 113.411 165.989)
-		(end 140.97 185.674)
+		(start 184.023 249.174)
+		(end 228.6 273.05)
 		(stroke
-			(width 1.016)
+			(width 1.905)
 			(type solid)
 			(color 255 0 0 1)
 		)
@@ -495,7 +495,7 @@
 	)
 	(text ""
 		(exclude_from_sim no)
-		(at 177.546 149.098 0)
+		(at 136.144 218.948 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -506,10 +506,10 @@
 	)
 	(text "Dual Stepper Driver Evaluation Board"
 		(exclude_from_sim no)
-		(at 92.202 24.13 0)
+		(at 129.54 32.258 0)
 		(effects
 			(font
-				(size 5.08 5.08)
+				(size 7.62 7.62)
 				(thickness 1.524)
 				(bold yes)
 				(color 132 0 0 1)
@@ -519,10 +519,10 @@
 	)
 	(text "ELECTRICAL\nCHARACTERISTICS:\nVoltage supplied,\nCurrent drawn, ..."
 		(exclude_from_sim no)
-		(at 81.915 173.355 0)
+		(at 130.048 260.858 0)
 		(effects
 			(font
-				(size 1.905 1.905)
+				(size 3.175 3.175)
 				(color 0 0 0 1)
 			)
 			(justify left)
@@ -531,7 +531,7 @@
 	)
 	(text "During PCB design phase:\n- HSE oscilator\n- simulaties\n\nOrdering:\n- Check JLCPCB preview PCB\n\nFinal design:\n- should split IO in seperate sheet"
 		(exclude_from_sim no)
-		(at 171.45 54.102 0)
+		(at 204.978 100.838 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -542,7 +542,7 @@
 	)
 	(text "To-Do:"
 		(exclude_from_sim no)
-		(at 181.356 30.226 0)
+		(at 214.884 76.962 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -555,10 +555,10 @@
 	)
 	(text "2026-10-22"
 		(exclude_from_sim no)
-		(at 249.428 25.654 0)
+		(at 361.442 32.512 0)
 		(effects
 			(font
-				(size 5.08 5.08)
+				(size 7.62 7.62)
 				(thickness 1.524)
 				(bold yes)
 				(color 132 0 0 1)
@@ -568,10 +568,10 @@
 	)
 	(text "Rev 1.0"
 		(exclude_from_sim no)
-		(at 238.252 36.068 0)
+		(at 378.206 45.212 0)
 		(effects
 			(font
-				(size 5.08 5.08)
+				(size 7.62 7.62)
 				(thickness 1.524)
 				(bold yes)
 				(color 132 0 0 1)
@@ -581,10 +581,10 @@
 	)
 	(text "DESIGN NOTE:\nExample text for\ninformational \ndesign notes."
 		(exclude_from_sim no)
-		(at 17.145 173.355 0)
+		(at 27.686 260.604 0)
 		(effects
 			(font
-				(size 1.905 1.905)
+				(size 3.175 3.175)
 				(color 0 0 0 1)
 			)
 			(justify left)
@@ -593,10 +593,10 @@
 	)
 	(text "DESIGN NOTE:\nExample text for\ncritical \ndesign notes."
 		(exclude_from_sim no)
-		(at 114.3 173.355 0)
+		(at 185.42 260.858 0)
 		(effects
 			(font
-				(size 1.905 1.905)
+				(size 3.175 3.175)
 				(thickness 0.2381)
 				(color 255 0 0 1)
 			)
@@ -606,10 +606,10 @@
 	)
 	(text "If not mentioned otherwise\nR: tolerance=1%, package=0603 \nC: dielectric (not polarized)=X7R, package=0603"
 		(exclude_from_sim no)
-		(at 177.292 155.448 0)
+		(at 25.654 218.186 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3.81 3.81)
 			)
 			(justify left)
 		)
@@ -617,10 +617,10 @@
 	)
 	(text "DESIGN NOTE:\nExample text for\ndebug \ndesign notes."
 		(exclude_from_sim no)
-		(at 49.53 173.355 0)
+		(at 78.232 260.858 0)
 		(effects
 			(font
-				(size 1.905 1.905)
+				(size 3.175 3.175)
 				(color 0 0 0 1)
 			)
 			(justify left)
@@ -629,10 +629,10 @@
 	)
 	(text "Standard passive component values"
 		(exclude_from_sim no)
-		(at 229.362 145.034 0)
+		(at 94.996 204.216 0)
 		(effects
 			(font
-				(size 3.81 3.81)
+				(size 5.08 5.08)
 				(thickness 1.016)
 				(bold yes)
 				(color 0 0 194 1)
@@ -642,10 +642,10 @@
 	)
 	(text "DESIGN CONSIDERATIONS"
 		(exclude_from_sim no)
-		(at 52.578 159.766 0)
+		(at 76.454 239.522 0)
 		(effects
 			(font
-				(size 3.81 3.81)
+				(size 5.08 5.08)
 				(thickness 1.016)
 				(bold yes)
 				(color 0 0 194 1)
@@ -655,10 +655,10 @@
 	)
 	(text "LAYOUT NOTE:\nExample text for\ncritical layout \nguidelines."
 		(exclude_from_sim no)
-		(at 146.05 173.355 0)
+		(at 236.22 261.112 0)
 		(effects
 			(font
-				(size 1.905 1.905)
+				(size 3.175 3.175)
 				(thickness 0.2381)
 				(color 0 0 255 1)
 			)
@@ -668,7 +668,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 67.31) (xy 86.36 67.31)
+			(xy 105.41 95.25) (xy 115.57 95.25)
 		)
 		(stroke
 			(width 0)
@@ -678,7 +678,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 82.55) (xy 83.82 104.14)
+			(xy 113.03 110.49) (xy 113.03 132.08)
 		)
 		(stroke
 			(width 0)
@@ -688,7 +688,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 54.61) (xy 97.79 77.47)
+			(xy 127 82.55) (xy 127 105.41)
 		)
 		(stroke
 			(width 0)
@@ -698,7 +698,7 @@
 	)
 	(bus
 		(pts
-			(xy 77.47 110.49) (xy 107.95 110.49)
+			(xy 106.68 138.43) (xy 137.16 138.43)
 		)
 		(stroke
 			(width 0)
@@ -708,7 +708,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 54.61) (xy 86.36 67.31)
+			(xy 115.57 82.55) (xy 115.57 95.25)
 		)
 		(stroke
 			(width 0)
@@ -718,7 +718,7 @@
 	)
 	(bus
 		(pts
-			(xy 77.47 116.84) (xy 107.95 116.84)
+			(xy 106.68 144.78) (xy 137.16 144.78)
 		)
 		(stroke
 			(width 0)
@@ -728,7 +728,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 62.23) (xy 76.2 62.23)
+			(xy 109.22 90.17) (xy 105.41 90.17)
 		)
 		(stroke
 			(width 0)
@@ -738,7 +738,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 54.61) (xy 92.71 72.39)
+			(xy 121.92 82.55) (xy 121.92 100.33)
 		)
 		(stroke
 			(width 0)
@@ -748,7 +748,7 @@
 	)
 	(bus
 		(pts
-			(xy 77.47 107.95) (xy 107.95 107.95)
+			(xy 106.68 135.89) (xy 137.16 135.89)
 		)
 		(stroke
 			(width 0)
@@ -758,7 +758,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 82.55) (xy 83.82 82.55)
+			(xy 105.41 110.49) (xy 113.03 110.49)
 		)
 		(stroke
 			(width 0)
@@ -768,7 +768,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 77.47) (xy 97.79 77.47)
+			(xy 105.41 105.41) (xy 127 105.41)
 		)
 		(stroke
 			(width 0)
@@ -778,7 +778,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 120.65) (xy 107.95 120.65)
+			(xy 106.68 148.59) (xy 137.16 148.59)
 		)
 		(stroke
 			(width 0)
@@ -788,7 +788,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 54.61) (xy 80.01 62.23)
+			(xy 109.22 82.55) (xy 109.22 90.17)
 		)
 		(stroke
 			(width 0)
@@ -798,7 +798,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 72.39) (xy 92.71 72.39)
+			(xy 105.41 100.33) (xy 121.92 100.33)
 		)
 		(stroke
 			(width 0)
@@ -808,7 +808,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 104.14) (xy 83.82 104.14)
+			(xy 106.68 132.08) (xy 113.03 132.08)
 		)
 		(stroke
 			(width 0)
@@ -818,7 +818,7 @@
 	)
 	(bus
 		(pts
-			(xy 77.47 114.3) (xy 107.95 114.3)
+			(xy 106.68 142.24) (xy 137.16 142.24)
 		)
 		(stroke
 			(width 0)
@@ -828,7 +828,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 123.19) (xy 107.95 123.19)
+			(xy 106.68 151.13) (xy 137.16 151.13)
 		)
 		(stroke
 			(width 0)
@@ -836,9 +836,1927 @@
 		)
 		(uuid "fa979d1b-131e-4824-a49b-cf63e2fde825")
 	)
+	(table
+		(column_count 5)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0.508)
+				(type solid)
+				(color 0 0 0 1)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 0 0 0 1)
+			)
+		)
+		(column_widths 6.35 19.05 39.37 31.75 11.43)
+		(row_heights 6.35 8.89 7.62 10.16 7.62 7.62 8.89 7.62 7.62 7.62 8.89 8.89
+			8.89 7.62 7.62 7.62 7.62 7.62
+		)
+		(uuid "7f196d54-e85a-45c9-a206-209bcc82831a")
+		(cells
+			(table_cell "#"
+				(exclude_from_sim no)
+				(at 287.02 81.28 0)
+				(size 6.35 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "f8061e23-0420-4d1c-81d8-c20b3f43ae09")
+			)
+			(table_cell "Test"
+				(exclude_from_sim no)
+				(at 293.37 81.28 0)
+				(size 19.05 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "18639ab6-f912-4203-8e99-dc1867790825")
+			)
+			(table_cell "Procedure\n"
+				(exclude_from_sim no)
+				(at 312.42 81.28 0)
+				(size 39.37 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "14af9938-412e-4893-86bc-0a6255a4e087")
+			)
+			(table_cell "Pass criterion"
+				(exclude_from_sim no)
+				(at 351.79 81.28 0)
+				(size 31.75 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "1241d89d-dbe4-4e48-8782-454baa2749a4")
+			)
+			(table_cell "Result"
+				(exclude_from_sim no)
+				(at 383.54 81.28 0)
+				(size 11.43 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "c858c130-604d-4903-b9f4-0906e34b40d7")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 287.02 87.63 0)
+				(size 6.35 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "17d40229-075d-4bb3-a5b2-a3c380392b1f")
+			)
+			(table_cell "24V supply"
+				(exclude_from_sim no)
+				(at 293.37 87.63 0)
+				(size 19.05 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "30a49d5e-d426-4d05-8209-a31760e76a4a")
+			)
+			(table_cell "24 V only, no motors"
+				(exclude_from_sim no)
+				(at 312.42 87.63 0)
+				(size 39.37 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "e5a975c0-dfdb-4d0d-93cd-41bc781863ff")
+			)
+			(table_cell "+5 V within 4.85-5.15 V, +3.3 V within 3.20-3.40 V, ripple below 50 mVpp"
+				(exclude_from_sim no)
+				(at 351.79 87.63 0)
+				(size 31.75 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "8829449d-4f2d-49a5-b631-3eb263bf2943")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 383.54 87.63 0)
+				(size 11.43 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "64453941-4898-44f9-8fe8-bde5b5d6896a")
+			)
+			(table_cell "2"
+				(exclude_from_sim no)
+				(at 287.02 96.52 0)
+				(size 6.35 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "e4e3c968-048d-4c82-927e-fa1b05463f85")
+			)
+			(table_cell "USB supply"
+				(exclude_from_sim no)
+				(at 293.37 96.52 0)
+				(size 19.05 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "0326367d-b45e-4c2c-a5d1-502ff623b4c3")
+			)
+			(table_cell "USB only, with a C-to-C cable and an A-to-C cable"
+				(exclude_from_sim no)
+				(at 312.42 96.52 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "b8d08ea7-c9d7-40a5-8bbc-7f2f8db1176a")
+			)
+			(table_cell "Board is recognised over USB with both; drivers unpowered"
+				(exclude_from_sim no)
+				(at 351.79 96.52 0)
+				(size 31.75 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "e57dad82-a4c0-45c3-80ff-d0cfa9361890")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 383.54 96.52 0)
+				(size 11.43 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "30492d87-0e77-46aa-a31d-fb02ace75e16")
+			)
+			(table_cell "3"
+				(exclude_from_sim no)
+				(at 287.02 104.14 0)
+				(size 6.35 10.16)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "04fd224a-e841-47c8-abfd-cf5cc09d4dfe")
+			)
+			(table_cell "Supply switching"
+				(exclude_from_sim no)
+				(at 293.37 104.14 0)
+				(size 19.05 10.16)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "b2fd5c33-fe8b-48c3-8807-211e77776e24")
+			)
+			(table_cell "Unplug/replug 24 V while USB is connected, then unplug USB while 24 V is connected; scope +3.3V_MCU"
+				(exclude_from_sim no)
+				(at 312.42 104.14 0)
+				(size 39.37 10.16)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "0c3b3375-f25b-479a-830b-a7027bb29277")
+			)
+			(table_cell "No MCU reset, no USB disconnect, +3.3V_MCU stays above 3.0 V"
+				(exclude_from_sim no)
+				(at 351.79 104.14 0)
+				(size 31.75 10.16)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "77deec3a-af92-430e-8d48-bece08ff3f59")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 383.54 104.14 0)
+				(size 11.43 10.16)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "76aeb75e-41ad-4667-966c-3c40ff6b08e4")
+			)
+			(table_cell "4"
+				(exclude_from_sim no)
+				(at 287.02 114.3 0)
+				(size 6.35 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "024e703d-6a93-480d-a8db-c96e258ab83c")
+			)
+			(table_cell "Reverse polarity"
+				(exclude_from_sim no)
+				(at 293.37 114.3 0)
+				(size 19.05 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "e28707bd-d183-47f2-b627-6b69df33369f")
+			)
+			(table_cell "−24 V from a lab supply limited to 0.5 A, for 10 s"
+				(exclude_from_sim no)
+				(at 312.42 114.3 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "538ad03b-feca-46aa-b461-62389614e9fe")
+			)
+			(table_cell "Draws under 1 mA; board works afterwards"
+				(exclude_from_sim no)
+				(at 351.79 114.3 0)
+				(size 31.75 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "72e8dc5e-11fb-4020-9bf6-577071a74674")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 383.54 114.3 0)
+				(size 11.43 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "115120ee-7e23-45b0-b08c-d27e40b38a9a")
+			)
+			(table_cell "5"
+				(exclude_from_sim no)
+				(at 287.02 121.92 0)
+				(size 6.35 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "d15b8968-a0c7-41e8-9a58-1979de0562f6")
+			)
+			(table_cell "Hot-plug"
+				(exclude_from_sim no)
+				(at 293.37 121.92 0)
+				(size 19.05 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "0515e98d-5ba2-41ec-a4f2-8d77f2794053")
+			)
+			(table_cell "Plug in the adapter with the 4 m cable 10 times; scope TP48"
+				(exclude_from_sim no)
+				(at 312.42 121.92 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "1a14ef4e-2b71-45ad-af0c-613f8df53de3")
+			)
+			(table_cell "Peak below 29 V"
+				(exclude_from_sim no)
+				(at 351.79 121.92 0)
+				(size 31.75 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "c9fd3bc1-4e0d-4f78-a7cb-45008ad8a64b")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 383.54 121.92 0)
+				(size 11.43 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "12163de5-309a-4611-bdee-aadeee3cbfdf")
+			)
+			(table_cell "6"
+				(exclude_from_sim no)
+				(at 287.02 129.54 0)
+				(size 6.35 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "52f54e80-eb39-4be8-94d0-5f887597fd84")
+			)
+			(table_cell "Brown-out"
+				(exclude_from_sim no)
+				(at 293.37 129.54 0)
+				(size 19.05 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "1083590e-25e8-4cfa-b16f-8884ca1542e5")
+			)
+			(table_cell "Ramp a lab supply 0 → 24 → 0 V slowly, motors connected"
+				(exclude_from_sim no)
+				(at 312.42 129.54 0)
+				(size 39.37 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "c03c054e-57ab-42fe-8d10-a1a213046179")
+			)
+			(table_cell "No motor movement; clean start and stop"
+				(exclude_from_sim no)
+				(at 351.79 129.54 0)
+				(size 31.75 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "c27f412d-96ae-43a0-8488-366154dea4d0")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 383.54 129.54 0)
+				(size 11.43 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "a360d66c-cf1d-4e25-9cb4-1355c460b47d")
+			)
+			(table_cell "7"
+				(exclude_from_sim no)
+				(at 287.02 138.43 0)
+				(size 6.35 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "609773d6-08ad-4334-bc68-7fc40e905d0f")
+			)
+			(table_cell "Motor enable"
+				(exclude_from_sim no)
+				(at 293.37 138.43 0)
+				(size 19.05 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "2706564a-b32a-4b7d-b385-f803315f91bd")
+			)
+			(table_cell "Power up, hold reset, flash firmware, all with 24 V present"
+				(exclude_from_sim no)
+				(at 312.42 138.43 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "c3edc49a-cda1-4a5c-b350-fca130c747ca")
+			)
+			(table_cell "No holding torque until the firmware enables the motors"
+				(exclude_from_sim no)
+				(at 351.79 138.43 0)
+				(size 31.75 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "b7852f4b-8b97-4b23-b004-78968eb2e076")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 383.54 138.43 0)
+				(size 11.43 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "1e1f4045-c653-4294-ae3c-6f86a366afaf")
+			)
+			(table_cell "8"
+				(exclude_from_sim no)
+				(at 287.02 146.05 0)
+				(size 6.35 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "ed97d446-3317-4e0c-a13d-b0be8f12e5cb")
+			)
+			(table_cell "Driver UART"
+				(exclude_from_sim no)
+				(at 293.37 146.05 0)
+				(size 19.05 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "6f399e0a-b9cd-4290-b3d1-9bc7e6fb9117")
+			)
+			(table_cell "Write and read back GCONF and IHOLD_IRUN on both drivers"
+				(exclude_from_sim no)
+				(at 312.42 146.05 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "073c6b08-613d-4a94-a347-f79c95582587")
+			)
+			(table_cell "Both answer, values match, no error flags"
+				(exclude_from_sim no)
+				(at 351.79 146.05 0)
+				(size 31.75 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "314dbec1-433b-4df8-9f39-cd04c1f52d9f")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 383.54 146.05 0)
+				(size 11.43 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "ba51c141-bbe9-452d-91a4-313c1e13a935")
+			)
+			(table_cell "9"
+				(exclude_from_sim no)
+				(at 287.02 153.67 0)
+				(size 6.35 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "f7429278-56eb-4af2-a1a0-8a444d5687af")
+			)
+			(table_cell "Motor current"
+				(exclude_from_sim no)
+				(at 293.37 153.67 0)
+				(size 19.05 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "9e8ddea2-dcab-43e4-82f5-eed40c2590c6")
+			)
+			(table_cell "Maximum set current; measure across the sense resistor (I = V / 0.22 Ω)"
+				(exclude_from_sim no)
+				(at 312.42 153.67 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "23fdc7b5-589f-44cb-b572-02dfb8a516c7")
+			)
+			(table_cell "Within ±10 % of the setting and at most 1.0 A RMS"
+				(exclude_from_sim no)
+				(at 351.79 153.67 0)
+				(size 31.75 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "f0a6e596-3b13-4070-ad35-061c42493f2e")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 383.54 153.67 0)
+				(size 11.43 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "239872b2-f33f-4320-9998-7adf2da95b4d")
+			)
+			(table_cell "10"
+				(exclude_from_sim no)
+				(at 287.02 161.29 0)
+				(size 6.35 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "c208eadc-dc67-4697-941b-b3adbec6e7a2")
+			)
+			(table_cell "Temperature"
+				(exclude_from_sim no)
+				(at 293.37 161.29 0)
+				(size 19.05 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "1f5c2c54-88e7-4d2f-9ddb-001ab79cce8c")
+			)
+			(table_cell "Both motors at maximum load for 30 min, board in its enclosure"
+				(exclude_from_sim no)
+				(at 312.42 161.29 0)
+				(size 39.37 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "e9528af8-f158-498f-bdb2-2e816a35dc79")
+			)
+			(table_cell "No overtemperature warning, TMC2209 below 90 °C, other parts below 70 °C"
+				(exclude_from_sim no)
+				(at 351.79 161.29 0)
+				(size 31.75 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "47811e75-ee0a-4ba5-8e43-a53a3eef5717")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 383.54 161.29 0)
+				(size 11.43 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "90f323fe-427e-4631-9f85-26016d63b1d3")
+			)
+			(table_cell "11"
+				(exclude_from_sim no)
+				(at 287.02 170.18 0)
+				(size 6.35 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "f63b10fe-f078-4201-83b2-b518d8200f16")
+			)
+			(table_cell "Braking energy"
+				(exclude_from_sim no)
+				(at 293.37 170.18 0)
+				(size 19.05 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "86d430b5-11bf-4cca-a993-36da5bcf5d01")
+			)
+			(table_cell "Hardest deceleration at maximum load, and cut 24 V while running"
+				(exclude_from_sim no)
+				(at 312.42 170.18 0)
+				(size 39.37 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "0d047b9c-27be-4278-bfcb-c0efc58e5ec8")
+			)
+			(table_cell "+24 V stays below 29 V"
+				(exclude_from_sim no)
+				(at 351.79 170.18 0)
+				(size 31.75 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "cf5cae73-507a-44cb-af5c-527909688e5f")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 383.54 170.18 0)
+				(size 11.43 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "d93e7c15-1784-4ec7-9c89-a01cad89ffaa")
+			)
+			(table_cell "12"
+				(exclude_from_sim no)
+				(at 287.02 179.07 0)
+				(size 6.35 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "35b095be-e1a9-4220-91c9-875c4d5dd237")
+			)
+			(table_cell "Encoder count"
+				(exclude_from_sim no)
+				(at 293.37 179.07 0)
+				(size 19.05 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "cfc72a35-ce36-4c5f-ba96-5a59ee796c21")
+			)
+			(table_cell "100 revolutions forward and back at maximum speed"
+				(exclude_from_sim no)
+				(at 312.42 179.07 0)
+				(size 39.37 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "2fafeca3-7acd-45ca-8163-34e4e39d9fac")
+			)
+			(table_cell "Back to exactly 0 counts; one index pulse per revolution; direction correct"
+				(exclude_from_sim no)
+				(at 351.79 179.07 0)
+				(size 31.75 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "25c70306-9f1a-488c-8e14-085f1518364b")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 383.54 179.07 0)
+				(size 11.43 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "795d2ca5-da57-46f7-afaf-938d2db16eae")
+			)
+			(table_cell "13"
+				(exclude_from_sim no)
+				(at 287.02 187.96 0)
+				(size 6.35 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "81f0884c-bebb-4260-b0f9-453b33ecff6d")
+			)
+			(table_cell "Lockstep"
+				(exclude_from_sim no)
+				(at 293.37 187.96 0)
+				(size 19.05 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "7df71dd8-9be5-4fc5-969c-5998ce432665")
+			)
+			(table_cell "Both motors driving the ring gear"
+				(exclude_from_sim no)
+				(at 312.42 187.96 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "9d2267bb-53c4-44c3-8b82-3ff0d40b92fc")
+			)
+			(table_cell "Difference between the two encoders below 20 counts"
+				(exclude_from_sim no)
+				(at 351.79 187.96 0)
+				(size 31.75 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "e6686896-b4e9-4bb0-8366-e03bce3d3859")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 383.54 187.96 0)
+				(size 11.43 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "42209322-88e8-4df8-b0aa-b83269dcecef")
+			)
+			(table_cell "14"
+				(exclude_from_sim no)
+				(at 287.02 195.58 0)
+				(size 6.35 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "9bad31c1-ab66-49be-909d-f4165b71722d")
+			)
+			(table_cell "Encoder fault"
+				(exclude_from_sim no)
+				(at 293.37 195.58 0)
+				(size 19.05 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "cb376f07-f0d3-42ca-bacb-8767ebe9fcf6")
+			)
+			(table_cell "Unplug an encoder while running"
+				(exclude_from_sim no)
+				(at 312.42 195.58 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "a3950c2a-c150-4305-b578-d643f5b8f976")
+			)
+			(table_cell "No false counts; firmware flags the fault"
+				(exclude_from_sim no)
+				(at 351.79 195.58 0)
+				(size 31.75 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "8fc901ff-5d57-4c44-8d09-143064037d3d")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 383.54 195.58 0)
+				(size 11.43 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "2b746131-ddef-45e8-ba13-0aef3589d10a")
+			)
+			(table_cell "15"
+				(exclude_from_sim no)
+				(at 287.02 203.2 0)
+				(size 6.35 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "ad181fa7-692c-454e-8d55-0c3ffe7c2b94")
+			)
+			(table_cell "USB under load"
+				(exclude_from_sim no)
+				(at 293.37 203.2 0)
+				(size 19.05 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "13e83169-e48c-448b-a141-10c3e8591bb0")
+			)
+			(table_cell "Stream data for 30 min during maximum acceleration"
+				(exclude_from_sim no)
+				(at 312.42 203.2 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "7293e3fb-2ea5-4b72-b426-a900d605e2ba")
+			)
+			(table_cell "0 errors, 0 disconnects"
+				(exclude_from_sim no)
+				(at 351.79 203.2 0)
+				(size 31.75 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "89991284-5f90-4411-90fb-5be6ee4e8e36")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 383.54 203.2 0)
+				(size 11.43 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "0edb31b5-9fa4-4443-9c01-604dda4a8a84")
+			)
+			(table_cell "16"
+				(exclude_from_sim no)
+				(at 287.02 210.82 0)
+				(size 6.35 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "22ba6ba1-4706-47f6-9af7-d0c443a3a723")
+			)
+			(table_cell "Programming"
+				(exclude_from_sim no)
+				(at 293.37 210.82 0)
+				(size 19.05 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "a5df9ffd-b21d-4ef9-acdb-673d2f911407")
+			)
+			(table_cell "Flash over SWD with the ST-LINK; enter DFU with BOOT0"
+				(exclude_from_sim no)
+				(at 312.42 210.82 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "a8a024f4-05c7-4613-a059-5fea3b23780d")
+			)
+			(table_cell "Both work"
+				(exclude_from_sim no)
+				(at 351.79 210.82 0)
+				(size 31.75 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "7462f411-5d7f-4d14-bb64-76fb5e71f49e")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 383.54 210.82 0)
+				(size 11.43 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "9fb844e5-e67b-4dca-9629-942e6975b60f")
+			)
+			(table_cell "17"
+				(exclude_from_sim no)
+				(at 287.02 218.44 0)
+				(size 6.35 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "a89ce740-09f0-4df6-9fec-96c787d758f1")
+			)
+			(table_cell "ESD"
+				(exclude_from_sim no)
+				(at 293.37 218.44 0)
+				(size 19.05 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "3dd51398-fe8d-4c3b-83e9-86c3363327f9")
+			)
+			(table_cell "±4 kV contact discharge on the USB shell and the terminals"
+				(exclude_from_sim no)
+				(at 312.42 218.44 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "be255d51-46e1-44aa-a062-2047ba9cc241")
+			)
+			(table_cell "Keeps working or recovers by itself"
+				(exclude_from_sim no)
+				(at 351.79 218.44 0)
+				(size 31.75 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "d0201c45-c727-432b-828b-dc9d9033d0ff")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 383.54 218.44 0)
+				(size 11.43 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "c3cce287-6e4f-4500-949b-0d96be3cb4bf")
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 86.36 54.61 0)
+		(at 115.57 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -849,7 +2767,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e1abe19-50e7-4b8e-b1f4-548d71cf4e6c")
 		(property "Reference" "#PWR02"
-			(at 86.36 58.42 0)
+			(at 115.57 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -860,7 +2778,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 86.36 49.53 0)
+			(at 115.57 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -870,7 +2788,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 54.61 0)
+			(at 115.57 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -881,7 +2799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 54.61 0)
+			(at 115.57 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -892,7 +2810,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 86.36 54.61 0)
+			(at 115.57 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -916,7 +2834,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 97.79 54.61 0)
+		(at 127 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -926,7 +2844,7 @@
 		(dnp no)
 		(uuid "4d1dba80-85cd-45dd-b5bf-8e424a78a8a1")
 		(property "Reference" "#PWR04"
-			(at 97.79 58.42 0)
+			(at 127 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -937,7 +2855,7 @@
 			)
 		)
 		(property "Value" "+3.3V_MCU"
-			(at 102.616 49.53 0)
+			(at 131.826 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -947,7 +2865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 54.61 0)
+			(at 127 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -958,7 +2876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 54.61 0)
+			(at 127 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -969,7 +2887,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 97.79 54.61 0)
+			(at 127 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -993,7 +2911,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 92.71 54.61 0)
+		(at 121.92 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1004,7 +2922,7 @@
 		(fields_autoplaced yes)
 		(uuid "65efaa4c-0245-4629-94c1-dd8c8bc9f05c")
 		(property "Reference" "#PWR03"
-			(at 92.71 58.42 0)
+			(at 121.92 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1015,7 +2933,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 92.71 49.53 0)
+			(at 121.92 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1025,7 +2943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 54.61 0)
+			(at 121.92 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1036,7 +2954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 54.61 0)
+			(at 121.92 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1047,7 +2965,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 92.71 54.61 0)
+			(at 121.92 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1071,7 +2989,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 80.01 54.61 0)
+		(at 109.22 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1082,7 +3000,7 @@
 		(fields_autoplaced yes)
 		(uuid "e63ab7fc-e604-4cbf-9dfb-cd51b6ac4cf1")
 		(property "Reference" "#PWR01"
-			(at 80.01 58.42 0)
+			(at 109.22 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1093,7 +3011,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 80.01 49.53 0)
+			(at 109.22 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1103,7 +3021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 54.61 0)
+			(at 109.22 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1114,7 +3032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 54.61 0)
+			(at 109.22 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1125,7 +3043,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 80.01 54.61 0)
+			(at 109.22 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1148,7 +3066,7 @@
 		)
 	)
 	(sheet
-		(at 39.37 58.42)
+		(at 68.58 86.36)
 		(size 36.83 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1164,7 +3082,7 @@
 		)
 		(uuid "20842745-18af-498f-8180-95a0a8b6794d")
 		(property "Sheetname" "Power - distribution"
-			(at 39.37 57.7084 0)
+			(at 68.58 85.6484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1175,7 +3093,7 @@
 			)
 		)
 		(property "Sheetfile" "power_distribution.kicad_sch"
-			(at 39.37 86.9446 0)
+			(at 68.58 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1186,7 +3104,7 @@
 			)
 		)
 		(pin "+3.3V" output
-			(at 76.2 72.39 0)
+			(at 105.41 100.33 0)
 			(uuid "8480a3d5-593b-4c93-b757-fa91c604dbba")
 			(effects
 				(font
@@ -1196,7 +3114,7 @@
 			)
 		)
 		(pin "+5V" output
-			(at 76.2 67.31 0)
+			(at 105.41 95.25 0)
 			(uuid "f13e967c-db0a-4c7e-a978-b8a0520e67e3")
 			(effects
 				(font
@@ -1206,7 +3124,7 @@
 			)
 		)
 		(pin "+24V" output
-			(at 76.2 62.23 0)
+			(at 105.41 90.17 0)
 			(uuid "d8840c84-b19f-40d3-bf8e-94e7309d8eb8")
 			(effects
 				(font
@@ -1216,7 +3134,7 @@
 			)
 		)
 		(pin "+3.3V_MCU" output
-			(at 76.2 77.47 0)
+			(at 105.41 105.41 0)
 			(uuid "23b91a82-b698-453f-be35-8ce1153667e5")
 			(effects
 				(font
@@ -1226,7 +3144,7 @@
 			)
 		)
 		(pin "PWR_MODE" output
-			(at 76.2 82.55 0)
+			(at 105.41 110.49 0)
 			(uuid "ed711125-0c87-4c35-ae82-ae9d8a59c133")
 			(effects
 				(font
@@ -1244,7 +3162,7 @@
 		)
 	)
 	(sheet
-		(at 107.95 59.055)
+		(at 137.16 86.995)
 		(size 36.83 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1260,7 +3178,7 @@
 		)
 		(uuid "3fe0edb6-7b8f-44f4-89a4-9c2269b2cb51")
 		(property "Sheetname" "Misc"
-			(at 107.95 58.3434 0)
+			(at 137.16 86.2834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1271,7 +3189,7 @@
 			)
 		)
 		(property "Sheetfile" "misc.kicad_sch"
-			(at 107.95 87.5796 0)
+			(at 137.16 115.5196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1290,7 +3208,7 @@
 		)
 	)
 	(sheet
-		(at 39.37 100.33)
+		(at 68.58 128.27)
 		(size 38.1 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1306,7 +3224,7 @@
 		)
 		(uuid "5566eb57-101d-464f-8854-b5b6b95c0649")
 		(property "Sheetname" "MCU - IO"
-			(at 39.37 99.6184 0)
+			(at 68.58 127.5584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1317,7 +3235,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 39.37 128.8546 0)
+			(at 68.58 156.7946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1328,7 +3246,7 @@
 			)
 		)
 		(pin "{ENC1}" input
-			(at 77.47 107.95 0)
+			(at 106.68 135.89 0)
 			(uuid "6a18a99f-464f-40ed-81e4-0af7bfa7df34")
 			(effects
 				(font
@@ -1338,7 +3256,7 @@
 			)
 		)
 		(pin "{ENC2}" input
-			(at 77.47 110.49 0)
+			(at 106.68 138.43 0)
 			(uuid "20014d32-6667-461b-b10d-80c6c359eb21")
 			(effects
 				(font
@@ -1348,7 +3266,7 @@
 			)
 		)
 		(pin "{TMC1}" output
-			(at 77.47 114.3 0)
+			(at 106.68 142.24 0)
 			(uuid "c789c594-057e-4c33-89e9-8febce4f4ebd")
 			(effects
 				(font
@@ -1358,7 +3276,7 @@
 			)
 		)
 		(pin "{TMC2}" output
-			(at 77.47 116.84 0)
+			(at 106.68 144.78 0)
 			(uuid "27a2e883-6c49-42a4-b8a2-bb62f032abef")
 			(effects
 				(font
@@ -1368,7 +3286,7 @@
 			)
 		)
 		(pin "PWR_MODE" input
-			(at 77.47 104.14 0)
+			(at 106.68 132.08 0)
 			(uuid "fed03c11-2ac6-452c-98fc-b4f75efe3042")
 			(effects
 				(font
@@ -1378,7 +3296,7 @@
 			)
 		)
 		(pin "TMC1_PDN_UART" bidirectional
-			(at 77.47 120.65 0)
+			(at 106.68 148.59 0)
 			(uuid "dc682bd6-a066-408d-b492-94ea8d5d2d89")
 			(effects
 				(font
@@ -1388,7 +3306,7 @@
 			)
 		)
 		(pin "TMC2_PDN_UART" bidirectional
-			(at 77.47 123.19 0)
+			(at 106.68 151.13 0)
 			(uuid "07708910-898f-4c6e-bc4a-911855e04642")
 			(effects
 				(font
@@ -1406,7 +3324,7 @@
 		)
 	)
 	(sheet
-		(at 107.95 100.33)
+		(at 137.16 128.27)
 		(size 36.83 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1422,7 +3340,7 @@
 		)
 		(uuid "eb8c68d2-160e-4cf6-94b1-8204133e14a6")
 		(property "Sheetname" "Driver - encoder"
-			(at 107.95 99.6184 0)
+			(at 137.16 127.5584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1433,7 +3351,7 @@
 			)
 		)
 		(property "Sheetfile" "driver_encoder.kicad_sch"
-			(at 107.95 128.8546 0)
+			(at 137.16 156.7946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1444,7 +3362,7 @@
 			)
 		)
 		(pin "{ENC1}" output
-			(at 107.95 107.95 180)
+			(at 137.16 135.89 180)
 			(uuid "aa98a21d-4c98-4c4e-8029-f01857c24065")
 			(effects
 				(font
@@ -1454,7 +3372,7 @@
 			)
 		)
 		(pin "{ENC2}" output
-			(at 107.95 110.49 180)
+			(at 137.16 138.43 180)
 			(uuid "765c8849-5a40-43c6-bac2-545af8330195")
 			(effects
 				(font
@@ -1464,7 +3382,7 @@
 			)
 		)
 		(pin "{TMC1}" input
-			(at 107.95 114.3 180)
+			(at 137.16 142.24 180)
 			(uuid "78432f1d-7db9-4d94-830d-8c3d5b082636")
 			(effects
 				(font
@@ -1474,7 +3392,7 @@
 			)
 		)
 		(pin "{TMC2}" input
-			(at 107.95 116.84 180)
+			(at 137.16 144.78 180)
 			(uuid "f718287d-dac2-496b-b6f6-2ab81980f7ee")
 			(effects
 				(font
@@ -1484,7 +3402,7 @@
 			)
 		)
 		(pin "TMC1_PDN_UART" bidirectional
-			(at 107.95 120.65 180)
+			(at 137.16 148.59 180)
 			(uuid "38fbbdbf-d873-4e09-b8c9-9d23e16a27a9")
 			(effects
 				(font
@@ -1494,7 +3412,7 @@
 			)
 		)
 		(pin "TMC2_PDN_UART" bidirectional
-			(at 107.95 123.19 180)
+			(at 137.16 151.13 180)
 			(uuid "f1280d88-d802-4882-827e-6dbfddc80750")
 			(effects
 				(font

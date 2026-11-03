@@ -13207,7 +13207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:TestPoint_Keystone_5002_Miniature"
+		(property "Footprint" "JLCPCB:TestPoint_Keystone_5000_Miniature"
 			(at 332.74 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -18593,7 +18593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCPCB:TestPoint_Keystone_5002_Miniature"
+		(property "Footprint" "JLCPCB:TestPoint_Keystone_5000_Miniature"
 			(at 304.8 76.2 0)
 			(hide yes)
 			(show_name no)

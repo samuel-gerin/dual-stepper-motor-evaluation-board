@@ -2253,190 +2253,6 @@
 			)
 		)
 	)
-	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
-		(layer "F.Cu")
-		(uuid "0d060c6a-4fea-48a8-8ec6-83b252691be9")
-		(at 152.15 69.7)
-		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
-		(tags "Through Hole Mount Test Points")
-		(property "Reference" "TP17"
-			(at 0 -2.5 0)
-			(layer "F.SilkS")
-			(uuid "ffea4864-7f60-4108-aac6-7fde71eed005")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.5 0)
-			(layer "F.Fab")
-			(uuid "e42a6296-ddec-4f9f-a286-b771433363c2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1b26d744-74de-4154-8292-37a0cd0f2733")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7fae5986-8147-4426-a692-9fafe808d7ea")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C238123"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "04d03091-21b1-492f-a784-dac3f32ea722")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e73d60eb-070f-4114-8226-5aaa55628b59")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "40b89eb4-ad3b-4a41-a963-8abe86b9457c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/5566eb57-101d-464f-8854-b5b6b95c0649/337d9d8d-917f-4438-a165-04a1c6268486")
-		(sheetname "/MCU - IO/")
-		(sheetfile "mcu.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 1.4 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "14ecdbe6-0325-4661-8f93-17797dc91a95")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.65 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "8d6910ec-10cc-42ce-bbf9-9d8cc2f2a304")
-		)
-		(fp_rect
-			(start -0.75 -0.25)
-			(end 0.75 0.25)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "09fd53f6-6cb5-43c6-bb74-335b943d8c1e")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "1b78820f-e475-4757-8468-c356b4591fa6")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 0)
-			(layer "F.Fab")
-			(uuid "b0479116-9420-4b77-a95b-fd2e5c02633e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "+3.3V_USB")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "6faedcfa-b49d-49ac-95a1-987a7f026997")
-		)
-		(embedded_fonts no)
-		(model "/home/sgerin/imec/y2/designs/stepper_motor_eval_board_v1.0/libs/testpoints.3dshapes/5002.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-	)
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8_1x08_P5.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0d46c792-46d7-4968-b9f6-7b2d521c3b1d")
@@ -24314,6 +24130,190 @@
 			)
 		)
 	)
+	(footprint "JLCPCB:TestPoint_Keystone_5000_Miniature"
+		(layer "F.Cu")
+		(uuid "96f00330-38eb-4b00-b97e-cca1b8ad3269")
+		(at 152.175 70.025)
+		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
+		(tags "Through Hole Mount Test Points")
+		(property "Reference" "TP17"
+			(at 0 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "bd7a9231-ffcb-47e7-b2aa-a95ae498c91a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.5 0)
+			(layer "F.Fab")
+			(uuid "27676ac0-6731-47ff-bcb9-a3a5fb49c634")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20d80033-b307-4229-b4d5-bd0968c6b138")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "436bd853-f49e-4741-95a0-d0b299af9322")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C238123"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e074a32c-40a5-4195-ac78-dd0c05f3242b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84650a1c-4ddb-4faa-9c7b-d102d61b50c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09058889-362c-4caa-8a71-58a147e67026")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/5566eb57-101d-464f-8854-b5b6b95c0649/337d9d8d-917f-4438-a165-04a1c6268486")
+		(sheetname "/MCU - IO/")
+		(sheetfile "mcu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.4 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "29793551-a1ce-45be-9731-7d260862ced7")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.65 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a5e8c2bb-dbda-4f9b-9bac-52d73ba85055")
+		)
+		(fp_rect
+			(start -0.75 -0.25)
+			(end 0.75 0.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "3f800f12-5642-4256-9b40-1a19fb724964")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "cc34117f-ab75-4b29-9a19-8a9e5eab61a5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.5 0)
+			(layer "F.Fab")
+			(uuid "d71bc838-fe70-4ef5-8b51-7bbd4c67098b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "+3.3V_USB")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "217e8374-0013-4246-abb1-01b74c3bbfe0")
+		)
+		(embedded_fonts no)
+		(model "/home/sgerin/imec/y2/designs/stepper_motor_eval_board_v1.0/libs/testpoints.3dshapes/5000--3DModel-STEP-630548.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
 	(footprint "Inductor_custom:IND_ASPI-0630HI-3R3M-T15"
 		(layer "F.Cu")
 		(uuid "9703f280-f228-4cac-92e9-af29843a656a")
@@ -27432,190 +27432,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
-		(layer "F.Cu")
-		(uuid "a543ac7f-6143-475f-ae0a-6c1749ad899a")
-		(at 152.15 65.35)
-		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
-		(tags "Through Hole Mount Test Points")
-		(property "Reference" "TP16"
-			(at 0 -2.5 0)
-			(layer "F.SilkS")
-			(uuid "76387bf1-5de0-4e33-b5c4-11ac5c1f4318")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.5 0)
-			(layer "F.Fab")
-			(uuid "31605d9b-d139-404e-bdf9-81667702f909")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a70bdc23-4625-4557-88f4-4605e43d20a1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "adb24f4f-09d4-4646-bcb1-5bc1b99dd5cc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C238123"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "844bfc5a-8d16-4e40-83fc-5194adac46f6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "41d5a814-3c54-4fea-a7e9-b05fe3f6b6bc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fd8859e6-4360-4cd0-8dad-6c8a10e6476c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/5566eb57-101d-464f-8854-b5b6b95c0649/cc19d314-cc2a-4778-b91e-a2a03443634a")
-		(sheetname "/MCU - IO/")
-		(sheetfile "mcu.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 1.4 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "8cd30ead-9279-422e-b9bc-5353dae04ff7")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.65 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "11c98ae4-44c4-4512-9b12-aaff58af4dfa")
-		)
-		(fp_rect
-			(start -0.75 -0.25)
-			(end 0.75 0.25)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "ab4505f0-8aaa-419e-b209-613e9c6c39d7")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "983e294c-2b69-44eb-ad05-fcb6384ec6c9")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 0)
-			(layer "F.Fab")
-			(uuid "90550f0d-b347-458f-bcbf-3e79c2999712")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "+5V_USB")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "7a2aedc9-f64b-47d7-b632-1e88fc70112e")
-		)
-		(embedded_fonts no)
-		(model "/home/sgerin/imec/y2/designs/stepper_motor_eval_board_v1.0/libs/testpoints.3dshapes/5002.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -43176,6 +42992,190 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JLCPCB:TestPoint_Keystone_5000_Miniature"
+		(layer "F.Cu")
+		(uuid "fcf408c3-739f-4003-ae28-874b218a408a")
+		(at 152.175 65.675)
+		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
+		(tags "Through Hole Mount Test Points")
+		(property "Reference" "TP16"
+			(at 0 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "625b2f38-8f39-434b-bb58-2f7264a7849e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.5 0)
+			(layer "F.Fab")
+			(uuid "bd70077f-8a55-4cda-a446-ec6cacfd4f97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6488e258-8ad2-4e63-b7e0-a6a6643897b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0703de05-bb04-46f6-88a3-d55be4c0b6f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C238123"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7789e10b-adff-4622-9f26-796b7438b1f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1d0ab46-a3c9-4519-b150-041e1eb74ff8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8406806c-89a1-4f4a-9b96-63b013fd6497")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/5566eb57-101d-464f-8854-b5b6b95c0649/cc19d314-cc2a-4778-b91e-a2a03443634a")
+		(sheetname "/MCU - IO/")
+		(sheetfile "mcu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.4 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "5b242f66-9658-4431-9a6c-0768573a6143")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.65 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e4ff06cb-941e-4f94-aae6-23b984ab291e")
+		)
+		(fp_rect
+			(start -0.75 -0.25)
+			(end 0.75 0.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "9f12fe13-9d52-402e-97ce-c5aedf62a2c5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "c7e73542-c9ba-4277-a41e-bb145a4f145b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.5 0)
+			(layer "F.Fab")
+			(uuid "5db42f12-0969-423f-b3cb-a1d0e160bc38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "+5V_USB")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "7c24b531-e14e-4879-99c6-b3f1aba42dd8")
+		)
+		(embedded_fonts no)
+		(model "/home/sgerin/imec/y2/designs/stepper_motor_eval_board_v1.0/libs/testpoints.3dshapes/5000--3DModel-STEP-630548.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
