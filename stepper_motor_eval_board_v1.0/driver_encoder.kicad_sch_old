@@ -7570,7 +7570,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 107.95) (xy 147.32 107.95)
+			(xy 140.97 107.95) (xy 147.32 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7600,7 +7600,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 107.95) (xy 295.91 107.95)
+			(xy 289.56 107.95) (xy 295.91 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7700,7 +7700,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 115.57) (xy 307.34 115.57)
+			(xy 289.56 115.57) (xy 307.34 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7760,7 +7760,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 116.84) (xy 139.7 116.84)
+			(xy 135.89 116.84) (xy 140.97 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8100,7 +8100,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 115.57) (xy 158.75 115.57)
+			(xy 140.97 115.57) (xy 158.75 115.57)
 		)
 		(stroke
 			(width 0)
@@ -8320,7 +8320,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 106.68) (xy 288.29 107.95)
+			(xy 289.56 106.68) (xy 289.56 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8631,7 +8631,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 106.68) (xy 139.7 107.95)
+			(xy 140.97 106.68) (xy 140.97 107.95)
 		)
 		(stroke
 			(width 0)
@@ -9071,7 +9071,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 116.84) (xy 288.29 115.57)
+			(xy 289.56 116.84) (xy 289.56 115.57)
 		)
 		(stroke
 			(width 0)
@@ -9192,7 +9192,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 106.68) (xy 288.29 106.68)
+			(xy 284.48 106.68) (xy 289.56 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9302,7 +9302,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 106.68) (xy 139.7 106.68)
+			(xy 135.89 106.68) (xy 140.97 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9584,7 +9584,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 116.84) (xy 139.7 115.57)
+			(xy 140.97 116.84) (xy 140.97 115.57)
 		)
 		(stroke
 			(width 0)
@@ -9935,7 +9935,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 116.84) (xy 288.29 116.84)
+			(xy 284.48 116.84) (xy 289.56 116.84)
 		)
 		(stroke
 			(width 0)
@@ -10165,6 +10165,16 @@
 		)
 		(uuid "2333eeaf-4e6e-4e8a-9e69-4e1d513d2b31")
 	)
+	(label "MOT1_B-"
+		(at 135.89 116.84 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a794585-2736-41f5-b05b-57d323e29561")
+	)
 	(label "TMC2_EN"
 		(at 209.55 81.28 0)
 		(effects
@@ -10184,6 +10194,26 @@
 			(justify right bottom)
 		)
 		(uuid "360c9045-0629-4f43-abee-5b5e1e735433")
+	)
+	(label "MOT1_B+"
+		(at 135.89 114.3 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a64998c-1681-4833-97ca-59056c8cda7b")
+	)
+	(label "MOT1_A-"
+		(at 135.89 109.22 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "42e6d5b6-eba0-4ef2-a6a4-a14a18dba6cb")
 	)
 	(label "ENC2_EB"
 		(at 171.45 227.33 0)
@@ -10245,6 +10275,16 @@
 		)
 		(uuid "63872783-99d0-4b19-8c57-74cf65b0070d")
 	)
+	(label "MOT2_B+"
+		(at 284.48 114.3 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "68fb1da6-e3b3-4585-a486-483826f5a274")
+	)
 	(label "TMC1_INDEX"
 		(at 60.96 86.36 0)
 		(effects
@@ -10264,6 +10304,16 @@
 			(justify right bottom)
 		)
 		(uuid "7a0ef1c4-1097-40fd-b0f1-06d77e90d434")
+	)
+	(label "MOT2_A+"
+		(at 284.48 106.68 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "7aaec82d-eece-4b5e-83ee-b5ca4b9a1dd2")
 	)
 	(label "ENC2_EA"
 		(at 171.45 219.71 0)
@@ -10325,6 +10375,16 @@
 		)
 		(uuid "ac547f52-cbcc-4f6c-a94a-c6185a52cd22")
 	)
+	(label "MOT2_A-"
+		(at 284.48 109.22 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "ade6b06c-f7be-4a34-a4ea-bef94f4410ae")
+	)
 	(label "ENC2_EB+"
 		(at 274.32 234.95 180)
 		(effects
@@ -10374,6 +10434,26 @@
 			(justify left bottom)
 		)
 		(uuid "ca3baf99-f801-4aa1-ac85-6b8bc2e2fdcf")
+	)
+	(label "MOT2_B-"
+		(at 284.48 116.84 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6629f3b-e9dd-4c67-9e0a-6e4831626a7c")
+	)
+	(label "MOT1_A+"
+		(at 135.89 106.68 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3bc05fc-5879-4279-88f3-266defaf5f94")
 	)
 	(label "ENC2_EA+"
 		(at 274.32 229.87 180)
@@ -11268,7 +11348,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8_1x08_P5.00mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal"
 			(at 144.78 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -14866,7 +14946,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8_1x08_P5.00mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal"
 			(at 279.4 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -17665,7 +17745,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
 			(at 171.45 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -19295,7 +19375,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
 			(at 320.04 113.03 0)
 			(hide yes)
 			(show_name no)

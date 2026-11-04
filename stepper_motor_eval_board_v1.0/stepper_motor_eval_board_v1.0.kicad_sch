@@ -506,7 +506,7 @@
 	)
 	(text "Dual Stepper Driver Evaluation Board"
 		(exclude_from_sim no)
-		(at 129.54 32.258 0)
+		(at 134.874 30.988 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -529,9 +529,9 @@
 		)
 		(uuid "490e31d0-0017-46eb-a9db-256deef9b129")
 	)
-	(text "During PCB design phase:\n- HSE oscilator\n- simulaties\n\nOrdering:\n- Check JLCPCB preview PCB\n\nFinal design:\n- should split IO in seperate sheet"
+	(text "During PCB design phase:\n- HSE oscilator\n- simulaties\n- check USB speed\n-> full speed no impedance control\n\nOrdering:\n- Check JLCPCB preview PCB\n\nFinal design:\n- should split IO in seperate sheet\n- IPC design rules\n- block diagram\n- firmware info? State diagram?"
 		(exclude_from_sim no)
-		(at 204.978 100.838 0)
+		(at 200.66 111.76 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -542,7 +542,7 @@
 	)
 	(text "To-Do:"
 		(exclude_from_sim no)
-		(at 214.884 76.962 0)
+		(at 210.058 78.232 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -555,7 +555,7 @@
 	)
 	(text "2026-10-22"
 		(exclude_from_sim no)
-		(at 361.442 32.512 0)
+		(at 360.934 32.512 0)
 		(effects
 			(font
 				(size 7.62 7.62)

@@ -10792,6 +10792,16 @@
 		)
 		(uuid "50390a6a-c13f-42b5-a6e7-0eea21da64eb")
 	)
+	(label "USBC_D+"
+		(at 323.85 93.98 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b5b1b62-15c4-4941-9217-8008a8442daf")
+	)
 	(label "NRST"
 		(at 189.23 256.54 0)
 		(effects
@@ -11041,6 +11051,16 @@
 			(justify left bottom)
 		)
 		(uuid "98e9bf0c-0cd9-481d-a04c-567b4e7a4c4d")
+	)
+	(label "USBC_D-"
+		(at 323.85 91.44 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d2ceb92-835e-435e-9981-655922453d0b")
 	)
 	(label "ENC2_EA"
 		(at 356.87 205.74 0)
