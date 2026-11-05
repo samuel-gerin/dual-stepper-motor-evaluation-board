@@ -152,7 +152,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "0058e532-f098-47ce-849e-4f7da2d8196b")
-		(at 206 99.7)
+		(at 220.5 104.83)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP25"
@@ -336,7 +336,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "00677144-f92c-458b-813d-d8ba12d832a8")
-		(at 56.085 163.85)
+		(at 24.5 108.75 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R12"
@@ -396,7 +396,7 @@
 			)
 		)
 		(property "LCSC" "C23228"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -409,7 +409,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -422,7 +422,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -447,16 +447,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.237258 -0.5225)
-			(end 0.237258 -0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3f01320c-c500-4249-8810-e6134d9ef764")
-		)
-		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
 			(stroke
@@ -465,6 +455,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "a09ed02f-4ab8-418d-9892-a48b45f987bc")
+		)
+		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3f01320c-c500-4249-8810-e6134d9ef764")
 		)
 		(fp_rect
 			(start -1.48 -0.73)
@@ -500,7 +500,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 180)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -509,7 +509,7 @@
 			(uuid "2692fd03-35a9-48a4-8449-e6624f41eb7d")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 180)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -533,7 +533,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "00ed4e6b-c784-4e6b-a8c0-bb1f66669bdf")
-		(at 186 97.65)
+		(at 202 88.58)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP18"
@@ -1111,7 +1111,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "0220f246-2a1c-4ec7-aeb9-6f38768e0df3")
-		(at 186 106.35)
+		(at 201.5 107.08)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP20"
@@ -1295,7 +1295,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "05395ede-232f-4ca8-986c-d9a96018cea4")
-		(at 52.075 161.34)
+		(at 158.075 118.25)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R5"
@@ -1486,190 +1486,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
-		(layer "F.Cu")
-		(uuid "077ab297-484f-4c2f-92ac-ec040bc36700")
-		(at 32.2825 160.1)
-		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
-		(tags "Through Hole Mount Test Points")
-		(property "Reference" "TP13"
-			(at 0 -2.5 0)
-			(layer "F.SilkS")
-			(uuid "6775ff00-a8af-4a36-8d0d-6fa68fd7ee81")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.5 0)
-			(layer "F.Fab")
-			(uuid "ea8f6317-e47c-4729-ae2a-3dac895be086")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a4b1d196-6bd9-4eee-91cd-845ca3fee062")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f13c3116-e743-4767-864e-4abca611266b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C238123"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "57bc7e37-51e3-4de5-a663-effcbcb36aa5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b291f4ba-a559-46c3-b587-9ee287533a12")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f29249da-f22f-48c5-a311-18446e53d1ff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/5566eb57-101d-464f-8854-b5b6b95c0649/96edec18-d237-4db5-887f-b5a199390d9f")
-		(sheetname "/MCU - IO/")
-		(sheetfile "mcu.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 1.4 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "0ea7011e-6b5b-48f4-b671-996bd077b7e4")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.65 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "234ffcb2-b4f8-406b-a07f-199be569f022")
-		)
-		(fp_rect
-			(start -0.75 -0.25)
-			(end 0.75 0.25)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "8ad0f5a7-9a01-4d21-b461-8816a0c89bef")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "459efdac-818a-4393-ac2e-4a9b0bb6f069")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 0)
-			(layer "F.Fab")
-			(uuid "b6a88554-a9d9-4890-b9fd-d14b15501a43")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/MCU - IO/SWCLK")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "2cee7428-9cf9-4b5d-8a4b-ce908ab1fbac")
-		)
-		(embedded_fonts no)
-		(model "/home/sgerin/imec/y2/designs/stepper_motor_eval_board_v1.0/libs/testpoints.3dshapes/5002.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -1937,7 +1753,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "09a6888c-ea59-42a8-ae6c-00cd41cd86ae")
-		(at 69.125 177.65)
+		(at 28.35 96.5 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C13"
@@ -1997,7 +1813,7 @@
 			)
 		)
 		(property "LCSC" "C98195"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2010,7 +1826,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2023,7 +1839,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2048,16 +1864,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.261252 -0.735)
-			(end 0.261252 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ebbf1e0d-e557-4ac9-9656-6aaf5371069a")
-		)
-		(fp_line
 			(start -0.261252 0.735)
 			(end 0.261252 0.735)
 			(stroke
@@ -2066,6 +1872,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "a5f8be8f-dbcd-4e36-94f3-dc56f9bc5f5f")
+		)
+		(fp_line
+			(start -0.261252 -0.735)
+			(end 0.261252 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ebbf1e0d-e557-4ac9-9656-6aaf5371069a")
 		)
 		(fp_rect
 			(start -1.7 -0.98)
@@ -2101,7 +1917,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.95 0)
+			(at -0.95 0 180)
 			(size 1 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -2110,7 +1926,7 @@
 			(uuid "ad276294-6fd5-4752-9c18-23a4a7a67ab5")
 		)
 		(pad "2" smd roundrect
-			(at 0.95 0)
+			(at 0.95 0 180)
 			(size 1 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -2134,7 +1950,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "09e56bad-a3bc-495d-8a64-ac221efb1cdc")
-		(at 196 139.35)
+		(at 201.5 153.58)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP35"
@@ -2696,190 +2512,6 @@
 			)
 		)
 	)
-	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
-		(layer "F.Cu")
-		(uuid "0e950c8f-20c4-400b-8e55-53170285e74c")
-		(at 32.2825 168.8)
-		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
-		(tags "Through Hole Mount Test Points")
-		(property "Reference" "TP15"
-			(at 0 -2.5 0)
-			(layer "F.SilkS")
-			(uuid "41f2f3b5-7560-4d54-8347-daa71dce5421")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.5 0)
-			(layer "F.Fab")
-			(uuid "566ba75e-32f1-4579-983b-c9ba590007bd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1acbf846-69ef-49b3-9168-4fcc66dc3b6d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1bec50b9-affe-4367-93de-10b8917de52b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C238123"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6af3a033-70c2-488c-ac6d-2f1f2bd04793")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a1af9288-12df-43a3-af7f-c3e010bb3c1a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "430fed94-dcfb-4dce-8ef6-28894c90ccdc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/5566eb57-101d-464f-8854-b5b6b95c0649/703e46d7-ed0b-41ef-a49a-bd8116c73926")
-		(sheetname "/MCU - IO/")
-		(sheetfile "mcu.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 1.4 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "199873b9-e6f4-43da-8e97-46ab92018cc3")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.65 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "c8dd66e6-3410-4ce5-b7b9-9b9df2dca246")
-		)
-		(fp_rect
-			(start -0.75 -0.25)
-			(end 0.75 0.25)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "6731c06a-f2b5-456b-885c-1870670ff78c")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "580f453a-9e00-42e2-84f6-2532f3eee82d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 0)
-			(layer "F.Fab")
-			(uuid "f5e85a0e-7d0d-45f1-a6bc-e6e9b8cba475")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/MCU - IO/SWO")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "f9957ceb-00bd-4575-9e04-bbc23ebb7ad1")
-		)
-		(embedded_fonts no)
-		(model "/home/sgerin/imec/y2/designs/stepper_motor_eval_board_v1.0/libs/testpoints.3dshapes/5002.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-	)
 	(footprint "Package_TO_SOT_SMD:TO-252-2"
 		(layer "F.Cu")
 		(uuid "119e4110-166d-4981-a85e-9ca5cef2f90b")
@@ -3242,11 +2874,11 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "11e82873-5948-4ec0-b290-08552a4b5fd0")
-		(at 73.395 174.01)
+		(at 145.76 136.255 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
 		(property "Reference" "D2"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "ed97c77e-2098-44c6-84ad-53d172757201")
 			(effects
@@ -3257,7 +2889,7 @@
 			)
 		)
 		(property "Value" "R_LED"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "a6704489-d206-47a2-b6bf-d3f4ef78c654")
 			(effects
@@ -3268,7 +2900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b3a6d5f4-984f-4cb9-afd2-02cbf8b08c1d")
@@ -3279,7 +2911,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "121cc891-8688-4ffc-902f-b08aae2fb0f5")
@@ -3290,7 +2922,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "317f262a-a23c-46ba-9c4d-981a87169157")
@@ -3302,7 +2934,7 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3315,7 +2947,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3328,7 +2960,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3341,7 +2973,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3366,6 +2998,16 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
+			(start 0.8 -0.735)
+			(end -1.485 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "df9238de-31cd-4ded-b639-1b633b12ac0a")
+		)
+		(fp_line
 			(start -1.485 -0.735)
 			(end -1.485 0.735)
 			(stroke
@@ -3385,16 +3027,6 @@
 			(layer "F.SilkS")
 			(uuid "9a80004d-c797-48b0-b559-299413285731")
 		)
-		(fp_line
-			(start 0.8 -0.735)
-			(end -1.485 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "df9238de-31cd-4ded-b639-1b633b12ac0a")
-		)
 		(fp_rect
 			(start -1.48 -0.73)
 			(end 1.48 0.73)
@@ -3407,24 +3039,14 @@
 			(uuid "1bf180d3-edbf-499e-8ae1-5a35e71e6f50")
 		)
 		(fp_line
-			(start -0.8 -0.1)
-			(end -0.8 0.4)
+			(start 0.8 -0.4)
+			(end -0.5 -0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8c52e958-b74e-4ef2-af5b-2c8bf9c876ac")
-		)
-		(fp_line
-			(start -0.8 0.4)
-			(end 0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c64931e8-2625-4b24-aaed-cb9f975ce8be")
+			(uuid "ac3d46c1-13f8-4389-b4fc-7ad1c1fc9063")
 		)
 		(fp_line
 			(start -0.5 -0.4)
@@ -3437,14 +3059,14 @@
 			(uuid "87acb2e1-5589-4e5a-a23f-dc9324de2509")
 		)
 		(fp_line
-			(start 0.8 -0.4)
-			(end -0.5 -0.4)
+			(start -0.8 -0.1)
+			(end -0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ac3d46c1-13f8-4389-b4fc-7ad1c1fc9063")
+			(uuid "8c52e958-b74e-4ef2-af5b-2c8bf9c876ac")
 		)
 		(fp_line
 			(start 0.8 0.4)
@@ -3456,8 +3078,18 @@
 			(layer "F.Fab")
 			(uuid "0c80fb00-e485-45de-9b1f-b9a1333c18e6")
 		)
+		(fp_line
+			(start -0.8 0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c64931e8-2625-4b24-aaed-cb9f975ce8be")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "cc590931-6362-48cc-8e2a-2651412dd5ad")
 			(effects
@@ -3468,7 +3100,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.7875 0)
+			(at -0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -3478,7 +3110,7 @@
 			(uuid "e987c5fa-17ff-4537-8e07-e1f9261f7738")
 		)
 		(pad "2" smd roundrect
-			(at 0.7875 0)
+			(at 0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -4117,7 +3749,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "140abb31-f236-4e97-80ae-0a9268345035")
-		(at 221 157.35)
+		(at 220.5 158.33)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP41"
@@ -4301,7 +3933,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "154992ac-a7cc-4aa3-a607-59b23ffd0046")
-		(at 52.075 158.83)
+		(at 165 118.25)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R4"
@@ -4498,7 +4130,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "1640e2aa-afe2-44da-b0e8-bc7910556407")
-		(at 221 153)
+		(at 220.5 153.08)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP40"
@@ -4682,7 +4314,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "172e966c-8f4e-4f83-a961-85636bafa8d2")
-		(at 221 144.3)
+		(at 220.5 142.83)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP38"
@@ -6012,7 +5644,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "1d9cb810-54c3-4492-96fe-e57bb0dc45a6")
-		(at 186 102)
+		(at 201.75 97.58)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP19"
@@ -6196,7 +5828,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "1f3fa228-5acc-466b-ba54-524d5ac37fe2")
-		(at 49.5 29 -90)
+		(at 102.675 113 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C31"
@@ -6393,7 +6025,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5000_Miniature"
 		(layer "F.Cu")
 		(uuid "2371a6b3-7621-4fe3-a91f-12d68fc9195d")
-		(at 17.65 17)
+		(at 75.975 168.54)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP48"
@@ -6577,7 +6209,7 @@
 	(footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "24acb83c-1b9a-4c3a-b99f-7be76199cfde")
-		(at 220.525 133.175)
+		(at 210.725 145.175)
 		(descr "SOIC, 16 Pin (JEDEC MS-012, variation AC, https://www.jedec.org/document_search?search_api_views_fulltext=MS-012, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf)")
 		(tags "SOIC SO 16-pin-NSOP R-16 R-16-S D0016A M2B SO16 SOT109-1 751B SOIC_N narrow")
 		(property "Reference" "U8"
@@ -7277,7 +6909,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5001_Miniature"
 		(layer "F.Cu")
 		(uuid "27f3d392-e9d7-4aeb-b0fe-65c1b402e001")
-		(at 17.65 21.35)
+		(at 75.975 172.89)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP49"
@@ -7855,11 +7487,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2fef6dd4-0138-45a3-9e87-5b4a54d8972d")
-		(at 48.065 158.83)
+		(at 156 96.5 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C8"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "d769bf8d-90b8-4edf-877f-c5d449a31671")
 			(effects
@@ -7870,7 +7502,7 @@
 			)
 		)
 		(property "Value" "100n 50V"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "55322542-9b10-49fd-9310-edc1836481bc")
 			(effects
@@ -7881,7 +7513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "08f70e4d-c376-4fcb-b26e-efb4e0b14d98")
@@ -7892,7 +7524,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "641dc7f1-fdcb-4652-a78e-78843e9eac50")
@@ -7903,7 +7535,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7a86400d-81fb-4cd6-a5f9-1597cd2dbef1")
@@ -7915,7 +7547,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7928,7 +7560,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7941,7 +7573,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7966,16 +7598,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "12e0ad19-3e99-4a60-842f-14c596cf4954")
-		)
-		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
 			(stroke
@@ -7984,6 +7606,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "7afd7ceb-a560-449f-8090-8f4257be3822")
+		)
+		(fp_line
+			(start -0.14058 -0.51)
+			(end 0.14058 -0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "12e0ad19-3e99-4a60-842f-14c596cf4954")
 		)
 		(fp_rect
 			(start -1.48 -0.73)
@@ -8008,7 +7640,7 @@
 			(uuid "8f8855e3-ed49-47b7-a923-7b7446e2b6d4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "458e9365-b320-4d2a-89e2-63e2935c5def")
 			(effects
@@ -8019,7 +7651,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
+			(at -0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -8028,7 +7660,7 @@
 			(uuid "4a7a13bd-0a58-43ca-854f-21b7c86d3c4a")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
+			(at 0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -8052,7 +7684,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "303127af-27ef-464d-bb84-4ab5cbcdde3a")
-		(at 206 104.05)
+		(at 220.5 110.33)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP26"
@@ -8236,7 +7868,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 		(layer "F.Cu")
 		(uuid "3092b04c-7c29-447d-9452-28280d2cbcaf")
-		(at 28 103.85)
+		(at 125.75 162.45)
 		(descr "Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py")
 		(tags "mountinghole M3 DIN965")
 		(property "Reference" "H1"
@@ -8589,7 +8221,7 @@
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "325c12a7-5270-4aee-973d-bf29b40a482e")
-		(at 243.5 114.25 90)
+		(at 234.75 115.33 90)
 		(descr "Terminal Block Phoenix MKDS-1,5-8-5.08, 8 pins, pitch 5.08mm, size 40.6x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-8-5.08 pitch 5.08mm size 40.6x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "J3"
@@ -9233,7 +8865,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "35715efd-ae0f-4de0-a7bb-f14eebfb299a")
-		(at 27.9325 164.45)
+		(at 153.75 28.1)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP8"
@@ -9417,7 +9049,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "37375739-ec76-4238-a79c-716b3f9374f4")
-		(at 206 91)
+		(at 220.75 95.33)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP23"
@@ -10087,7 +9719,7 @@
 	(footprint "JLCPCB:KEY-SMD_4P-L6.0-W6.0-P4.50-LS8.6"
 		(layer "F.Cu")
 		(uuid "39505b08-8e4d-4808-8c1c-fbae87c1595a")
-		(at 61 181)
+		(at 132.5 134.25)
 		(property "Reference" "SW2"
 			(at 0 -6.25 0)
 			(layer "F.SilkS")
@@ -11292,11 +10924,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "3f53fdfa-eb48-4b5a-9fdf-4ea61b58f9e3")
-		(at 52.075 166.36)
+		(at 145.75 133.075 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R7"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "92588035-965f-40b1-9f3f-119ba398f454")
 			(effects
@@ -11307,7 +10939,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "db401326-69f1-4e41-a979-8daac3e0998f")
 			(effects
@@ -11318,7 +10950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "07da3fae-2694-4b90-9bae-071033fd24c9")
@@ -11329,7 +10961,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "efd5e851-07d9-479d-8b1c-afd92791d56a")
@@ -11340,7 +10972,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "80b07ee7-0dd4-4b4b-aa32-8f27b10d8b53")
@@ -11352,7 +10984,7 @@
 			)
 		)
 		(property "LCSC" "C23228"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11365,7 +10997,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11378,7 +11010,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11403,16 +11035,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.237258 -0.5225)
-			(end 0.237258 -0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "52192e9a-e25f-4167-93b3-d15db8cc5fda")
-		)
-		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
 			(stroke
@@ -11421,6 +11043,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "b15242c0-7a41-4d7d-8a27-e2733a66cf60")
+		)
+		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "52192e9a-e25f-4167-93b3-d15db8cc5fda")
 		)
 		(fp_rect
 			(start -1.48 -0.73)
@@ -11445,7 +11077,7 @@
 			(uuid "06e38848-174f-4086-a29e-23f285cc7322")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "1af6e81d-0dd9-4dc1-b1d3-69181c298be5")
 			(effects
@@ -11456,7 +11088,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 270)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -11465,7 +11097,7 @@
 			(uuid "60c22dff-a7fe-4436-88f1-0373ba2fa594")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 270)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -11489,11 +11121,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "3fd1e7da-1d47-41c8-8f28-f6eb27e3bb2f")
-		(at 220.5 122.75)
+		(at 215.45 141.75 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C22"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "ee54301d-fcff-45ca-a669-2c646a38d97a")
 			(effects
@@ -11504,7 +11136,7 @@
 			)
 		)
 		(property "Value" "100n 50V"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "d1521f01-e951-4b17-8ab0-fe62c9822456")
 			(effects
@@ -11515,7 +11147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7cb2a50c-8262-41ab-b8b0-34b354307109")
@@ -11526,7 +11158,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c1fbabe-e352-4258-b16e-2b4176df84bd")
@@ -11537,7 +11169,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "aa16a3aa-31b5-4bd3-9a99-0281bea40fa2")
@@ -11549,7 +11181,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11562,7 +11194,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11575,7 +11207,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11600,16 +11232,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1c313f8e-f5dd-41d5-8699-4939e03f1913")
-		)
-		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
 			(stroke
@@ -11618,6 +11240,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "2713d418-7723-4f0f-95e0-bc54ff96e32e")
+		)
+		(fp_line
+			(start -0.14058 -0.51)
+			(end 0.14058 -0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1c313f8e-f5dd-41d5-8699-4939e03f1913")
 		)
 		(fp_rect
 			(start -1.48 -0.73)
@@ -11642,7 +11274,7 @@
 			(uuid "7d02d87e-cab7-44f0-b99d-8140aa06d6f0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "6f14fa7b-7cca-41e2-87ac-954579ab24b0")
 			(effects
@@ -11653,7 +11285,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
+			(at -0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -11662,7 +11294,7 @@
 			(uuid "f48d825a-89d1-46dd-ae70-bacca7adcfee")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
+			(at 0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -11883,7 +11515,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "44b5a5a4-f9d8-4bde-ac92-7f2156c94f4d")
-		(at 27.9325 160.1)
+		(at 153.75 23.75)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP7"
@@ -12067,7 +11699,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "471a0d5a-ed2c-40ab-87fc-3575dd64fcc1")
-		(at 23.5825 177.5)
+		(at 165.25 122.75)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP5"
@@ -12842,7 +12474,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4c7d8b92-628b-4b33-bed3-f2962001120f")
-		(at 28 52.5)
+		(at 92.5375 179)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R31"
@@ -13039,7 +12671,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4ca547f1-732a-49bf-8ed5-830ae4cb3550")
-		(at 73.395 179.19)
+		(at 21.2875 108.75)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
 		(property "Reference" "D4"
@@ -13300,7 +12932,7 @@
 	(footprint "Package_SON:Texas_R-PUSON-N14"
 		(layer "F.Cu")
 		(uuid "4d3afb26-f6b6-44b3-bc0d-28cc4276f961")
-		(at 227.325 132.5)
+		(at 225.5 145.33)
 		(descr "USON, 14 Pin (https://www.ti.com/lit/ds/symlink/tpd6e05u06.pdf#page=28)")
 		(tags "USON NoLead")
 		(property "Reference" "U9"
@@ -13741,7 +13373,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4f632ba0-6d36-4c0a-8c72-0198d285020f")
-		(at 73.395 176.6)
+		(at 21.2875 103)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
 		(property "Reference" "D3"
@@ -14600,7 +14232,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "506de174-f924-4dbd-a8a5-9c3573baa294")
-		(at 56.5 25 -90)
+		(at 109.675 109 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R24"
@@ -14797,7 +14429,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "55142226-da7b-40cb-b572-a19dea382f44")
-		(at 56.085 158.83)
+		(at 28 83.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R10"
@@ -14994,7 +14626,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "59552112-707f-4854-b958-e045cf2cb49d")
-		(at 44.055 156.32)
+		(at 143.5 77.5)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -15191,7 +14823,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "59852d30-b8ab-4148-bfa5-50f1b81b102e")
-		(at 55 28.775 -90)
+		(at 108.175 112.775 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C32"
@@ -15388,7 +15020,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5a9f1cbb-93ad-420e-8d3a-2bdc65960981")
-		(at 48.065 168.87)
+		(at 141.5 122.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R2"
@@ -15979,7 +15611,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "610282c3-07e9-4bf6-9f32-787d0cb94ded")
-		(at 23.5825 164.45)
+		(at 41.75 87)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP2"
@@ -16163,7 +15795,7 @@
 	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "61c2c71e-9154-432a-90ef-2e9b0dea07b6")
-		(at 33.35 109.15)
+		(at 131.1 167.75)
 		(descr "Fiducial, circular marking, 1mm bare copper, 2mm soldermask opening (Level A)")
 		(tags "fiducial")
 		(property "Reference" "FID3"
@@ -16307,7 +15939,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "637c4532-485b-472e-a682-590c6c941818")
-		(at 201.65 108.4)
+		(at 220.75 89.58)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP22"
@@ -16491,7 +16123,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "6506b2b9-83cf-478d-9b5d-c58557b236a5")
-		(at 51.5 24.5 180)
+		(at 104.675 108.5 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C35"
@@ -16688,7 +16320,7 @@
 	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "6524c9a9-9913-4bb9-9cd8-cc830afa2aa8")
-		(at 33.35 105.6)
+		(at 131.1 164.2)
 		(descr "Fiducial, circular marking, 1mm bare copper, 2mm soldermask opening (Level A)")
 		(tags "fiducial")
 		(property "Reference" "FID2"
@@ -16832,7 +16464,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "657196d1-90ee-4d58-ab4c-84099e802506")
-		(at 48.065 163.85)
+		(at 147.5 93.75)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C10"
@@ -17029,7 +16661,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 		(layer "F.Cu")
 		(uuid "6a5d3b68-baad-4eee-9c14-5828b5b8c2bb")
-		(at 28 125.3)
+		(at 125.75 183.9)
 		(descr "Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py")
 		(tags "mountinghole M3 DIN965")
 		(property "Reference" "H4"
@@ -17150,11 +16782,11 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "6aedd4d1-c4a2-4ba2-bc3b-7008777012c9")
-		(at 72.015 162.715)
+		(at 28.5 86.5)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U3"
-			(at 0 -2.4 0)
+			(at -0.2 2.65 180)
 			(layer "F.SilkS")
 			(uuid "a5790fee-0635-48ad-950d-043f1a91df5f")
 			(effects
@@ -18129,7 +17761,7 @@
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "6e4613d0-14c1-433b-b32f-805c3da4aa50")
-		(at 243.5 162 90)
+		(at 234.75 163.08 90)
 		(descr "Terminal Block Phoenix MKDS-1,5-8-5.08, 8 pins, pitch 5.08mm, size 40.6x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-8-5.08 pitch 5.08mm size 40.6x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "J5"
@@ -19555,7 +19187,7 @@
 	(footprint "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical_SMD"
 		(layer "F.Cu")
 		(uuid "7473db60-ab33-4f9e-94a7-bb5e5368c6bf")
-		(at 89.05 192)
+		(at 137.45 74.52)
 		(descr "surface-mounted straight pin header, 2x07, 1.27mm pitch, double rows")
 		(tags "Surface mounted pin header SMD 2x07 1.27mm double row")
 		(property "Reference" "J8"
@@ -20906,7 +20538,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "79252aee-46f9-4cc9-b5e6-868be443daf8")
-		(at 23.5825 168.8)
+		(at 41.75 91.35)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP3"
@@ -21090,7 +20722,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5000_Miniature"
 		(layer "F.Cu")
 		(uuid "7b7c4d94-ffe6-488d-90f4-38e4fd9358de")
-		(at 22 17)
+		(at 80.325 168.54)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP50"
@@ -21274,7 +20906,7 @@
 	(footprint "JLCPCB:KEY-SMD_4P-L6.0-W6.0-P4.50-LS8.6"
 		(layer "F.Cu")
 		(uuid "80450c0d-33ca-4ccd-9bd1-5473dd6ebd64")
-		(at 61 173.75)
+		(at 132.7 122.25)
 		(property "Reference" "SW1"
 			(at 0 -6.25 0)
 			(layer "F.SilkS")
@@ -21809,7 +21441,7 @@
 	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "84744b5f-0cda-4b6b-b378-6a79811f69a8")
-		(at 33.35 112.7)
+		(at 131.1 171.3)
 		(descr "Fiducial, circular marking, 1mm bare copper, 2mm soldermask opening (Level A)")
 		(tags "fiducial")
 		(property "Reference" "FID4"
@@ -22150,7 +21782,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8697c353-d4a2-46cb-90c6-ab3878dd76de")
-		(at 44.055 163.85)
+		(at 150.725 108.25 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C4"
@@ -22210,7 +21842,7 @@
 			)
 		)
 		(property "LCSC" "C5673"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22223,7 +21855,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22236,7 +21868,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22261,16 +21893,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c3f9a211-f46f-411d-996e-a5bc0ef60325")
-		)
-		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
 			(stroke
@@ -22279,6 +21901,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "d60a9a6e-2f6e-4808-b105-7a17bb5ba3e3")
+		)
+		(fp_line
+			(start -0.14058 -0.51)
+			(end 0.14058 -0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c3f9a211-f46f-411d-996e-a5bc0ef60325")
 		)
 		(fp_rect
 			(start -1.48 -0.73)
@@ -22314,7 +21946,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
+			(at -0.775 0 180)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -22323,7 +21955,7 @@
 			(uuid "ab9b01eb-4427-442a-bc96-8caa84a907d6")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
+			(at 0.775 0 180)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -22544,7 +22176,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8cb0f944-cdba-4f78-84f0-f6cb80a6106e")
-		(at 28 47 180)
+		(at 92.5375 173.5 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R30"
@@ -22741,7 +22373,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5001_Miniature"
 		(layer "F.Cu")
 		(uuid "8dc47910-a650-4d59-9fe6-273fccac117c")
-		(at 36.4 125.45)
+		(at 131.75 182.6)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP55"
@@ -23122,7 +22754,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8e73ee7d-36c7-49c0-b5aa-f24c4488fbf3")
-		(at 56.085 156.32)
+		(at 28 81.25)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R9"
@@ -24614,7 +24246,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "933bce82-1e91-4e7b-b7da-372b2006a83e")
-		(at 28 41.5)
+		(at 92.5375 168)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R25"
@@ -25008,7 +24640,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9637c647-4c7b-4e5d-a302-3e8b7ad034f8")
-		(at 52.075 168.87)
+		(at 127.675 134)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R8"
@@ -25205,7 +24837,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5000_Miniature"
 		(layer "F.Cu")
 		(uuid "96f00330-38eb-4b00-b97e-cca1b8ad3269")
-		(at 32.3075 177.825)
+		(at 28.5 108.5)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP17"
@@ -25621,7 +25253,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "98c9ea8e-2ccc-42dd-8583-ce565c14b159")
-		(at 56.085 161.34)
+		(at 24.5 103 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R11"
@@ -25681,7 +25313,7 @@
 			)
 		)
 		(property "LCSC" "C22843"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25694,7 +25326,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25707,7 +25339,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25732,16 +25364,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.237258 -0.5225)
-			(end 0.237258 -0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3260fe33-15b3-4541-9d8f-e83e50fd493a")
-		)
-		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
 			(stroke
@@ -25750,6 +25372,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "fffe2312-e4c6-441a-965a-ad1ec9434825")
+		)
+		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3260fe33-15b3-4541-9d8f-e83e50fd493a")
 		)
 		(fp_rect
 			(start -1.48 -0.73)
@@ -25785,7 +25417,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 180)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -25794,7 +25426,7 @@
 			(uuid "e1e4a640-f167-4e04-af1d-4343fca898ae")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 180)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -26015,7 +25647,7 @@
 	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "9b3dbd3a-fdcf-4ab4-bf64-fa93f99b8265")
-		(at 33.35 102.05)
+		(at 131.1 160.65)
 		(descr "Fiducial, circular marking, 1mm bare copper, 2mm soldermask opening (Level A)")
 		(tags "fiducial")
 		(property "Reference" "FID1"
@@ -26159,7 +25791,7 @@
 	(footprint "Package_SON:Texas_R-PUSON-N14"
 		(layer "F.Cu")
 		(uuid "9c8d0d8c-c8fe-481d-9227-0ee2dea0b87e")
-		(at 227.325 95.5)
+		(at 226.325 96.08)
 		(descr "USON, 14 Pin (https://www.ti.com/lit/ds/symlink/tpd6e05u06.pdf#page=28)")
 		(tags "USON NoLead")
 		(property "Reference" "U6"
@@ -27277,7 +26909,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "a0e4e5b0-4810-4f51-8502-db40df7768f3")
-		(at 27.9325 168.8)
+		(at 153.5 52)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP9"
@@ -27461,7 +27093,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a0f3543f-d509-41f4-8e38-45a7ca9a825b")
-		(at 32 41.54 180)
+		(at 96.5375 168.04 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
 		(property "Reference" "D11"
@@ -27919,11 +27551,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a1e1260c-482c-4d15-a693-d05edaf06fc3")
-		(at 48.065 156.32)
+		(at 154 105.525 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "c7697008-1060-478e-99e5-f56fdf1e0970")
 			(effects
@@ -27934,7 +27566,7 @@
 			)
 		)
 		(property "Value" "100n 50V"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "bb60571b-4099-4893-9798-b842e3b21cbd")
 			(effects
@@ -27945,7 +27577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "937cdd84-ed83-4a7f-9355-033323d11b65")
@@ -27956,7 +27588,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cb40667b-4f06-40ef-9337-44215588856e")
@@ -27967,7 +27599,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f626cadf-ad80-4263-99a3-242328ddc959")
@@ -27979,7 +27611,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -27992,7 +27624,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28005,7 +27637,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28030,16 +27662,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "061cf80a-b82c-4c25-a1c7-e734c51cd335")
-		)
-		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
 			(stroke
@@ -28048,6 +27670,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "08114a55-36c1-4f94-9bf9-3b732177a41c")
+		)
+		(fp_line
+			(start -0.14058 -0.51)
+			(end 0.14058 -0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "061cf80a-b82c-4c25-a1c7-e734c51cd335")
 		)
 		(fp_rect
 			(start -1.48 -0.73)
@@ -28072,7 +27704,7 @@
 			(uuid "6aa61032-08ba-4ca2-9ba6-beb9fcca097a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "d1e739cc-a3aa-4214-9341-569fbe73d8a8")
 			(effects
@@ -28083,7 +27715,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
+			(at -0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -28092,7 +27724,7 @@
 			(uuid "4d580285-f23f-4576-a665-bc37a9d2bf00")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
+			(at 0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -28116,11 +27748,11 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "a23350a9-1837-402c-a4d5-adb9471ed4d4")
-		(at 69.125 171.63)
+		(at 156 105.75 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at 0 -1.68 0)
+			(at 0 -1.68 90)
 			(layer "F.SilkS")
 			(uuid "56627254-f8e2-49d0-871b-07da37c6b522")
 			(effects
@@ -28131,7 +27763,7 @@
 			)
 		)
 		(property "Value" "4u7 25V 0805"
-			(at 0 1.68 0)
+			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "d1728955-831c-4dac-a7b3-84ac2f53098a")
 			(effects
@@ -28142,7 +27774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "18fe2433-07be-47b7-9e01-50288c7d4bc9")
@@ -28153,7 +27785,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b5fb6f7f-5c25-496d-ae63-a742d0d06b92")
@@ -28164,7 +27796,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "49852f3b-314c-42bc-9008-0e4e86a459ea")
@@ -28176,7 +27808,7 @@
 			)
 		)
 		(property "LCSC" "C98195"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28189,7 +27821,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28202,7 +27834,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28227,16 +27859,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.261252 -0.735)
-			(end 0.261252 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cf64ad8b-5a6b-4fd7-803b-75d97f5f3a95")
-		)
-		(fp_line
 			(start -0.261252 0.735)
 			(end 0.261252 0.735)
 			(stroke
@@ -28245,6 +27867,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "a4de5c12-0f5a-4d0a-a340-4957641edac0")
+		)
+		(fp_line
+			(start -0.261252 -0.735)
+			(end 0.261252 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cf64ad8b-5a6b-4fd7-803b-75d97f5f3a95")
 		)
 		(fp_rect
 			(start -1.7 -0.98)
@@ -28269,7 +27901,7 @@
 			(uuid "90c3c2e2-56fc-42f7-aa17-a82bedf55e16")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "ec4ea0a4-e740-4e1a-8fd4-a69729911fe2")
 			(effects
@@ -28280,7 +27912,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.95 0)
+			(at -0.95 0 270)
 			(size 1 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -28289,7 +27921,7 @@
 			(uuid "4d505043-2fdf-4e5f-8b9b-fd3114bca19e")
 		)
 		(pad "2" smd roundrect
-			(at 0.95 0)
+			(at 0.95 0 270)
 			(size 1 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -28510,7 +28142,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a84b5d79-c867-4a17-bebb-08316b885c40")
-		(at 50.5 31.5)
+		(at 103.675 115.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R22"
@@ -29101,7 +28733,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "afadd801-3c58-4573-b3aa-c45997341a45")
-		(at 44.055 166.36)
+		(at 150.725 106.5 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C5"
@@ -29161,7 +28793,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29174,7 +28806,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29187,7 +28819,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29212,16 +28844,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3e762f32-89f1-48ac-a00b-232bc29634f8")
-		)
-		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
 			(stroke
@@ -29230,6 +28852,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "ec1f2475-90d8-44dc-a31b-fae469a34fb7")
+		)
+		(fp_line
+			(start -0.14058 -0.51)
+			(end 0.14058 -0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3e762f32-89f1-48ac-a00b-232bc29634f8")
 		)
 		(fp_rect
 			(start -1.48 -0.73)
@@ -29265,7 +28897,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
+			(at -0.775 0 180)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -29274,7 +28906,7 @@
 			(uuid "83bdd95c-fbbc-4e25-859c-00e1b1a565bf")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
+			(at 0.775 0 180)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -29298,7 +28930,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-583-8"
 		(layer "F.Cu")
 		(uuid "b3a0d9c1-48f2-40da-bfbd-d55a65bebb07")
-		(at 52.26 27.25)
+		(at 105.435 111.25)
 		(descr "https://www.ti.com/lit/ds/symlink/tps62933.pdf")
 		(tags "SOT-583-8")
 		(property "Reference" "U11"
@@ -30028,190 +29660,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
-		(layer "F.Cu")
-		(uuid "b7180afd-5e62-4c85-b3e2-e11d3d562d22")
-		(at 32.2825 164.45)
-		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
-		(tags "Through Hole Mount Test Points")
-		(property "Reference" "TP14"
-			(at 0 -2.5 0)
-			(layer "F.SilkS")
-			(uuid "267376c3-2e0b-4185-987e-036632965362")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.5 0)
-			(layer "F.Fab")
-			(uuid "14239d75-7c36-4269-8bff-961ad930a936")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bd37f209-d861-4e62-8496-3e61042a2659")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "84a6b0b2-4600-4733-80e9-9997e9fa6fe2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C238123"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bef4419a-380e-48cd-863e-733cad584346")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fa59b496-b092-46ef-a7a2-14dc6652a171")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1a86ea86-8d14-4005-9248-b68348afefa0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/5566eb57-101d-464f-8854-b5b6b95c0649/612fc7bf-7848-48a0-8cd9-8e6d564e4716")
-		(sheetname "/MCU - IO/")
-		(sheetfile "mcu.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 1.4 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "b8816bab-2903-4d03-8c13-7ae84e562fea")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.65 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "2c3e3ab5-83c1-4722-a62c-d7551c4903fa")
-		)
-		(fp_rect
-			(start -0.75 -0.25)
-			(end 0.75 0.25)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "be4247a4-119c-481a-9ba6-774a356730d2")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "2f294aee-0db3-4f2a-8023-e873aea7c86e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 0)
-			(layer "F.Fab")
-			(uuid "4ddd5ffc-70fc-4497-9a58-2c67e1f5412a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/MCU - IO/SWDIO")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "ca8cb14a-17eb-4394-b9ba-2f8842a71710")
-		)
-		(embedded_fonts no)
-		(model "/home/sgerin/imec/y2/designs/stepper_motor_eval_board_v1.0/libs/testpoints.3dshapes/5002.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -31537,7 +30985,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "bd60cabd-16c4-47ec-be06-776e2c9e3826")
-		(at 216.65 157.35)
+		(at 220.5 132.83)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP36"
@@ -31918,7 +31366,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c30c2de9-ed99-42d6-bd20-62aa7b6274b4")
-		(at 32 52.5 180)
+		(at 96.5375 179 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
 		(property "Reference" "D13"
@@ -32179,7 +31627,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c3696326-e944-404c-a1ad-473d476d0a7f")
-		(at 54 31.5)
+		(at 107.175 115.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R23"
@@ -32573,7 +32021,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5000_Miniature"
 		(layer "F.Cu")
 		(uuid "c7189093-0f06-42ba-8438-0448c8fc8eec")
-		(at 26.35 17)
+		(at 84.675 168.54)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP52"
@@ -32757,7 +32205,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "c7ee1ccf-1a7f-4b66-9eea-bbdba9280d63")
-		(at 196 135)
+		(at 201.75 144.83)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP34"
@@ -32941,7 +32389,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c902b611-4049-4da5-ab65-6242f9eff6c2")
-		(at 44.055 161.34)
+		(at 140 124.5)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C3"
@@ -33138,7 +32586,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 		(layer "F.Cu")
 		(uuid "c9a3f06b-ab73-4e7b-b116-cdb094e75278")
-		(at 28 111)
+		(at 125.75 169.6)
 		(descr "Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py")
 		(tags "mountinghole M3 DIN965")
 		(property "Reference" "H2"
@@ -33259,7 +32707,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "c9abf67c-161b-400f-9524-a666ead207ba")
-		(at 216.65 161.7)
+		(at 220.5 137.58)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP37"
@@ -34605,192 +34053,8 @@
 	)
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
-		(uuid "d6fdddd5-1cbd-4860-a8d7-25000b94a7c9")
-		(at 27.9325 181.85)
-		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
-		(tags "Through Hole Mount Test Points")
-		(property "Reference" "TP12"
-			(at 0 -2.5 0)
-			(layer "F.SilkS")
-			(uuid "ea9fcc7a-f23f-4db6-88ca-be237e8a50a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.5 0)
-			(layer "F.Fab")
-			(uuid "68215008-3f6b-42e4-bd2e-212919f366e2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8100f62f-cabf-41f8-8cc0-70e945c4ac7f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fef56de9-c87a-4ed9-bf2a-22d5c012c2a4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C238123"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5988f686-cf47-40b9-82cb-df5b61aaa4e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4ee37fd9-b948-445b-a015-34e4221eb46a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "914b2303-38d0-4d5d-a855-eb88cf9327a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/5566eb57-101d-464f-8854-b5b6b95c0649/7f0bdfe4-1563-48f6-b0e7-6ff8a7b1c4fc")
-		(sheetname "/MCU - IO/")
-		(sheetfile "mcu.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 1.4 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "2686f68c-3112-49cf-8577-74e46df8021a")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.65 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "ee7c2b01-c703-4f4f-81f8-8a7fd5bc97db")
-		)
-		(fp_rect
-			(start -0.75 -0.25)
-			(end 0.75 0.25)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "efc9c71f-4ae7-49ca-8aec-46d6f19a9c6e")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "ece1462e-7f5c-47e4-a56d-00fed4142740")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 0)
-			(layer "F.Fab")
-			(uuid "71426161-9210-4616-afce-c1879b0d29e2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/MCU - IO/NRST")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "881cc0f8-9d06-4b00-a4d0-66f4f85b2785")
-		)
-		(embedded_fonts no)
-		(model "/home/sgerin/imec/y2/designs/stepper_motor_eval_board_v1.0/libs/testpoints.3dshapes/5002.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-	)
-	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
-		(layer "F.Cu")
 		(uuid "d76543c7-b2da-4246-8cf7-43574ad2d581")
-		(at 206 95.35)
+		(at 220.75 99.33)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP24"
@@ -34974,7 +34238,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5001_Miniature"
 		(layer "F.Cu")
 		(uuid "d9eb7429-47b0-4579-bdf0-609391504366")
-		(at 36.4 121.1)
+		(at 131.75 178.25)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP54"
@@ -35158,7 +34422,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5001_Miniature"
 		(layer "F.Cu")
 		(uuid "db0e06df-c190-4a52-a4b7-6d5493fb7e79")
-		(at 22 21.35)
+		(at 80.325 172.89)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP51"
@@ -35342,7 +34606,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "dc7b9a48-bda1-47cf-bc2a-926b4125b38d")
-		(at 196 130.65)
+		(at 202 134.83)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP33"
@@ -35710,7 +34974,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "dd9100d1-e318-4204-a7aa-e3f37d4974a7")
-		(at 23.5825 181.85)
+		(at 153.65 33)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP6"
@@ -35894,7 +35158,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "deafa0da-1afb-4828-b85c-6f4b3259d97b")
-		(at 69.125 174.64)
+		(at 28.3 90 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C12"
@@ -35954,7 +35218,7 @@
 			)
 		)
 		(property "LCSC" "C98195"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35967,7 +35231,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35980,7 +35244,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36005,16 +35269,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.261252 -0.735)
-			(end 0.261252 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e3d323ca-a4ad-421d-a6f2-de57d37fb557")
-		)
-		(fp_line
 			(start -0.261252 0.735)
 			(end 0.261252 0.735)
 			(stroke
@@ -36023,6 +35277,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "1b5fad57-3afa-45d5-b7ac-e40b276c7d21")
+		)
+		(fp_line
+			(start -0.261252 -0.735)
+			(end 0.261252 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e3d323ca-a4ad-421d-a6f2-de57d37fb557")
 		)
 		(fp_rect
 			(start -1.7 -0.98)
@@ -36058,7 +35322,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.95 0)
+			(at -0.95 0 180)
 			(size 1 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -36067,7 +35331,7 @@
 			(uuid "d58dab3e-2940-458d-9082-fb78915766ef")
 		)
 		(pad "2" smd roundrect
-			(at 0.95 0)
+			(at 0.95 0 180)
 			(size 1 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -36472,7 +35736,7 @@
 	(footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "e2820319-1aa7-4ec6-b82d-04415a2de6f3")
-		(at 88.615 182.5)
+		(at 143.515 73.73 180)
 		(descr "USON-10 2.5x1.0mm_ Pitch 0.5mm http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf")
 		(tags "USON-10 2.5x1.0mm Pitch 0.5mm")
 		(property "Reference" "U2"
@@ -36498,7 +35762,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36511,7 +35775,7 @@
 			)
 		)
 		(property "Description" "4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36524,7 +35788,7 @@
 			)
 		)
 		(property "LCSC" "C138714"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36537,7 +35801,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36550,7 +35814,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36575,16 +35839,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 0.5 -1.41)
-			(end -0.29 -1.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8818e529-dbd4-4852-93b6-793ee629e629")
-		)
-		(fp_line
 			(start 0.5 1.41)
 			(end -0.5 1.41)
 			(stroke
@@ -36593,6 +35847,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "f70c32ac-7479-4565-bd80-80ebad7014a5")
+		)
+		(fp_line
+			(start 0.5 -1.41)
+			(end -0.29 -1.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8818e529-dbd4-4852-93b6-793ee629e629")
 		)
 		(fp_poly
 			(pts
@@ -36607,24 +35871,14 @@
 			(uuid "2cc070e0-0392-41f5-9db8-50132c64e6b8")
 		)
 		(fp_line
-			(start -0.91 -1.5)
-			(end 0.91 -1.5)
+			(start 0.91 1.5)
+			(end -0.91 1.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "584934f7-a17a-440d-9818-4bbe036031b9")
-		)
-		(fp_line
-			(start -0.91 1.5)
-			(end -0.91 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "74092987-45ab-492d-8c0c-928694f6b501")
+			(uuid "43cdbe96-a126-4475-9a0f-5aebb787aec5")
 		)
 		(fp_line
 			(start 0.91 -1.5)
@@ -36637,44 +35891,34 @@
 			(uuid "496cd96f-034c-4462-8c0c-5963a4d7058a")
 		)
 		(fp_line
-			(start 0.91 1.5)
-			(end -0.91 1.5)
+			(start -0.91 1.5)
+			(end -0.91 -1.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "43cdbe96-a126-4475-9a0f-5aebb787aec5")
+			(uuid "74092987-45ab-492d-8c0c-928694f6b501")
 		)
 		(fp_line
-			(start -0.5 -1)
-			(end -0.5 1.25)
+			(start -0.91 -1.5)
+			(end 0.91 -1.5)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "175f5d47-0474-420a-b368-821138482942")
+			(layer "F.CrtYd")
+			(uuid "584934f7-a17a-440d-9818-4bbe036031b9")
 		)
 		(fp_line
-			(start -0.5 1.25)
+			(start 0.5 -1.25)
 			(end 0.5 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e896192e-8b19-4366-944c-bce242f746e8")
-		)
-		(fp_line
-			(start -0.25 -1.25)
-			(end -0.5 -1)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "20ea4ae2-b6aa-4704-9ff0-b4d3473830c8")
+			(uuid "314579dc-1a04-445c-8fd7-4129a49f69f5")
 		)
 		(fp_line
 			(start 0.5 -1.25)
@@ -36687,14 +35931,34 @@
 			(uuid "0c7ad225-82ed-434e-912a-75209bbed561")
 		)
 		(fp_line
-			(start 0.5 -1.25)
+			(start -0.25 -1.25)
+			(end -0.5 -1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "20ea4ae2-b6aa-4704-9ff0-b4d3473830c8")
+		)
+		(fp_line
+			(start -0.5 1.25)
 			(end 0.5 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "314579dc-1a04-445c-8fd7-4129a49f69f5")
+			(uuid "e896192e-8b19-4366-944c-bce242f746e8")
+		)
+		(fp_line
+			(start -0.5 -1)
+			(end -0.5 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "175f5d47-0474-420a-b368-821138482942")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -36708,7 +35972,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.385 -1 270)
+			(at -0.385 -1 90)
 			(size 0.3 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -36718,7 +35982,7 @@
 			(uuid "8976c430-eea5-4475-bae4-747de05fc618")
 		)
 		(pad "2" smd roundrect
-			(at -0.385 -0.5 270)
+			(at -0.385 -0.5 90)
 			(size 0.3 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -36728,7 +35992,7 @@
 			(uuid "eea08cb8-8b3c-4ed5-aedf-4e1900a28955")
 		)
 		(pad "3" smd roundrect
-			(at -0.385 0 270)
+			(at -0.385 0 90)
 			(size 0.3 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -36738,7 +36002,7 @@
 			(uuid "e8bb50f5-0baf-40a1-b33c-41a7b15fcd7b")
 		)
 		(pad "4" smd roundrect
-			(at -0.385 0.5 270)
+			(at -0.385 0.5 90)
 			(size 0.3 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -36748,7 +36012,7 @@
 			(uuid "cff96e12-8814-47cc-b740-427cb6329534")
 		)
 		(pad "5" smd roundrect
-			(at -0.385 1 270)
+			(at -0.385 1 90)
 			(size 0.3 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -36758,7 +36022,7 @@
 			(uuid "cf7084ee-3a99-4ecf-80dc-0adaf9458325")
 		)
 		(pad "6" smd roundrect
-			(at 0.385 1 270)
+			(at 0.385 1 90)
 			(size 0.3 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -36768,7 +36032,7 @@
 			(uuid "0d8a53e1-ed9f-4e70-9519-74ef758efb0f")
 		)
 		(pad "7" smd roundrect
-			(at 0.385 0.5 270)
+			(at 0.385 0.5 90)
 			(size 0.3 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -36778,7 +36042,7 @@
 			(uuid "3d62109e-2ed2-41ec-ac62-3e051779c599")
 		)
 		(pad "8" smd roundrect
-			(at 0.385 0 270)
+			(at 0.385 0 90)
 			(size 0.3 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -36788,7 +36052,7 @@
 			(uuid "02645474-3555-418c-a3ca-17425b7b6058")
 		)
 		(pad "9" smd roundrect
-			(at 0.385 -0.5 270)
+			(at 0.385 -0.5 90)
 			(size 0.3 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -36798,7 +36062,7 @@
 			(uuid "4bf83bf2-35fc-4607-9e33-81b6399c5f10")
 		)
 		(pad "10" smd roundrect
-			(at 0.385 -1 270)
+			(at 0.385 -1 90)
 			(size 0.3 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -36823,11 +36087,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e3696733-74ee-4268-978f-31614779ae51")
-		(at 48.065 161.34)
+		(at 144 96.75 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "0f6e8890-fde5-4772-a73b-c618f3d4b4ea")
 			(effects
@@ -36838,7 +36102,7 @@
 			)
 		)
 		(property "Value" "100n 50V"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "be1b285e-eade-48f9-9895-47cab51cbf99")
 			(effects
@@ -36849,7 +36113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e374f9ef-bbc8-4d3f-be0f-d62188d909f7")
@@ -36860,7 +36124,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc8cd28e-1b37-4083-b550-9c6edb06d514")
@@ -36871,7 +36135,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7ce71238-62ab-478b-9c2c-10bf976ac42a")
@@ -36883,7 +36147,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36896,7 +36160,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36909,7 +36173,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36976,7 +36240,7 @@
 			(uuid "da671d5c-838e-4cd7-ab90-388e30343a08")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "1c8a34fa-d366-4552-9e61-a7374fee71f1")
 			(effects
@@ -36987,7 +36251,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
+			(at -0.775 0 90)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -36996,7 +36260,7 @@
 			(uuid "5c1d475b-df6d-4e7f-a569-4b58ec253f13")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
+			(at 0.775 0 90)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -37020,7 +36284,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "e52d0bd1-9916-4eaf-83d5-b1c59676cc3f")
-		(at 23.5825 173.15)
+		(at 158.75 123)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP4"
@@ -37204,7 +36468,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 		(layer "F.Cu")
 		(uuid "e648815c-0cec-4f20-8083-29c7d9b0cea3")
-		(at 28 118.15)
+		(at 125.75 176.75)
 		(descr "Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py")
 		(tags "mountinghole M3 DIN965")
 		(property "Reference" "H3"
@@ -37325,11 +36589,11 @@
 	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 		(layer "F.Cu")
 		(uuid "e716cee2-1b5b-4c88-b503-3d2433fdbb59")
-		(at 60.945 189.91)
+		(at 20.575 86.43 -90)
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "J2"
-			(at 0 -5.5 0)
+			(at 0 -5.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d0ac9235-e373-4e5d-b021-679b00362aa6")
@@ -37341,7 +36605,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 0 5 0)
+			(at 0 5 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "a2593bfa-a154-410f-85c3-de6c68917e89")
@@ -37353,7 +36617,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -37366,7 +36630,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -37379,7 +36643,7 @@
 			)
 		)
 		(property "LCSC" "C3025063"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -37392,7 +36656,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -37405,7 +36669,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -37484,7 +36748,7 @@
 			(uuid "4f3ca970-a3d5-49ac-a06e-f732f420925a")
 		)
 		(fp_text user "PCB Edge"
-			(at 0 3.1 0)
+			(at 0 3.1 270)
 			(unlocked yes)
 			(layer "Dwgs.User")
 			(uuid "550576f6-5730-4a0e-9d40-24e7db4d5699")
@@ -37496,7 +36760,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "61dbf534-8145-4d98-aaba-ac924c170b3a")
@@ -37508,21 +36772,21 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at -2.89 -2.605)
+			(at -2.89 -2.605 270)
 			(size 0.65 0.65)
 			(drill 0.65)
 			(layers "*.Cu" "*.Mask")
 			(uuid "fe16369a-e125-4044-af60-9cc87ea55dcd")
 		)
 		(pad "" np_thru_hole circle
-			(at 2.89 -2.605)
+			(at 2.89 -2.605 270)
 			(size 0.65 0.65)
 			(drill 0.65)
 			(layers "*.Cu" "*.Mask")
 			(uuid "c2f1e816-59b2-49dd-96b6-a1e4876cc97d")
 		)
 		(pad "A1" smd roundrect
-			(at -3.2 -3.68)
+			(at -3.2 -3.68 270)
 			(size 0.6 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -37532,7 +36796,7 @@
 			(uuid "df5f4ca3-a1b8-49ad-8543-863cb6b81d3a")
 		)
 		(pad "A4" smd roundrect
-			(at -2.4 -3.68)
+			(at -2.4 -3.68 270)
 			(size 0.6 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -37542,7 +36806,7 @@
 			(uuid "d7893224-88c1-4ec8-9f5b-9176d99af4d6")
 		)
 		(pad "A5" smd roundrect
-			(at -1.25 -3.68)
+			(at -1.25 -3.68 270)
 			(size 0.3 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -37552,7 +36816,7 @@
 			(uuid "be94ac85-6381-424c-9b5b-973bc4c8d681")
 		)
 		(pad "A6" smd roundrect
-			(at -0.25 -3.68)
+			(at -0.25 -3.68 270)
 			(size 0.3 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -37562,7 +36826,7 @@
 			(uuid "976f8e2b-5fb7-4938-bdb7-a224d4640b11")
 		)
 		(pad "A7" smd roundrect
-			(at 0.25 -3.68)
+			(at 0.25 -3.68 270)
 			(size 0.3 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -37572,7 +36836,7 @@
 			(uuid "45c2a0a6-bdfd-41e3-a14f-ff78a7fe9f32")
 		)
 		(pad "A8" smd roundrect
-			(at 1.25 -3.68)
+			(at 1.25 -3.68 270)
 			(size 0.3 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -37582,7 +36846,7 @@
 			(uuid "a08df3de-d3ea-437b-a602-f8c5183f57da")
 		)
 		(pad "A9" smd roundrect
-			(at 2.4 -3.68)
+			(at 2.4 -3.68 270)
 			(size 0.6 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -37592,7 +36856,7 @@
 			(uuid "dd066687-e11a-42ba-a67c-283885e3f079")
 		)
 		(pad "A12" smd roundrect
-			(at 3.2 -3.68)
+			(at 3.2 -3.68 270)
 			(size 0.6 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -37602,7 +36866,7 @@
 			(uuid "fb64c6b7-2008-48df-94c5-426af539b0c0")
 		)
 		(pad "B1" smd roundrect
-			(at 3.2 -3.68)
+			(at 3.2 -3.68 270)
 			(size 0.6 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -37612,7 +36876,7 @@
 			(uuid "881b005c-4f93-4dde-ab29-5439811a5000")
 		)
 		(pad "B4" smd roundrect
-			(at 2.4 -3.68)
+			(at 2.4 -3.68 270)
 			(size 0.6 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -37622,7 +36886,7 @@
 			(uuid "a524997e-e0e0-49b6-aaf9-b113e8794c8c")
 		)
 		(pad "B5" smd roundrect
-			(at 1.75 -3.68)
+			(at 1.75 -3.68 270)
 			(size 0.3 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -37632,7 +36896,7 @@
 			(uuid "f710cd6f-3516-495a-a91b-4d72a33b8baf")
 		)
 		(pad "B6" smd roundrect
-			(at 0.75 -3.68)
+			(at 0.75 -3.68 270)
 			(size 0.3 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -37642,7 +36906,7 @@
 			(uuid "660fd105-7d94-4f62-806a-2266496794bb")
 		)
 		(pad "B7" smd roundrect
-			(at -0.75 -3.68)
+			(at -0.75 -3.68 270)
 			(size 0.3 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -37652,7 +36916,7 @@
 			(uuid "1109fac2-ef86-4553-a232-1333a67bb9c1")
 		)
 		(pad "B8" smd roundrect
-			(at -1.75 -3.68)
+			(at -1.75 -3.68 270)
 			(size 0.3 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -37662,7 +36926,7 @@
 			(uuid "ed9b0114-8eb8-4a2d-8470-9cc31d17c83f")
 		)
 		(pad "B9" smd roundrect
-			(at -2.4 -3.68)
+			(at -2.4 -3.68 270)
 			(size 0.6 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -37672,7 +36936,7 @@
 			(uuid "dc5fa6ca-8310-4820-8971-1d51fcbf0815")
 		)
 		(pad "B12" smd roundrect
-			(at -3.2 -3.68)
+			(at -3.2 -3.68 270)
 			(size 0.6 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -37682,7 +36946,7 @@
 			(uuid "4cbda231-a272-4097-aabe-0e3069c1b996")
 		)
 		(pad "SH" thru_hole oval
-			(at -4.32 -3.105)
+			(at -4.32 -3.105 270)
 			(size 1 2.1)
 			(drill oval 0.6 1.7)
 			(property pad_prop_mechanical)
@@ -37694,7 +36958,7 @@
 			(uuid "ff46556f-1936-40dc-83cf-df9587c4a4e5")
 		)
 		(pad "SH" thru_hole oval
-			(at -4.32 1.075)
+			(at -4.32 1.075 270)
 			(size 1 1.8)
 			(drill oval 0.6 1.4)
 			(property pad_prop_mechanical)
@@ -37706,7 +36970,7 @@
 			(uuid "3eeb1835-9b3b-418d-a36d-c19fff5911d7")
 		)
 		(pad "SH" thru_hole oval
-			(at 4.32 -3.105)
+			(at 4.32 -3.105 270)
 			(size 1 2.1)
 			(drill oval 0.6 1.7)
 			(property pad_prop_mechanical)
@@ -37718,7 +36982,7 @@
 			(uuid "3e5e97c2-6f37-4e7d-830a-80c80600629a")
 		)
 		(pad "SH" thru_hole oval
-			(at 4.32 1.075)
+			(at 4.32 1.075 270)
 			(size 1 1.8)
 			(drill oval 0.6 1.4)
 			(property pad_prop_mechanical)
@@ -37745,7 +37009,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "ea256854-0fc3-4c4f-918f-b40da7f02dec")
-		(at 221 148.65)
+		(at 220.5 147.83)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP39"
@@ -37929,7 +37193,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "ecd80cff-ba61-47fc-a53c-a49ddde149f3")
-		(at 27.9325 177.5)
+		(at 153.5 60.7)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP11"
@@ -38113,7 +37377,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "eed19330-56aa-4730-9500-3e1b732cfbd0")
-		(at 32 47 180)
+		(at 96.5375 173.5 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
 		(property "Reference" "D12"
@@ -38374,7 +37638,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ef3e66cf-d358-4e89-8804-78ac6b4b4478")
-		(at 48.065 166.36)
+		(at 138.25 122.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -39253,13 +38517,13 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f2f1974e-a6de-4278-a230-85a2e2f54e92")
-		(at 219.725 85.75)
+		(at 216.2 94.745 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C14"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
-			(uuid "ab05620e-00b9-4e46-8bb5-6af0aecb9d9f")
+			(uuid "26f52398-61e2-4408-afba-67e7759b4f2e")
 			(effects
 				(font
 					(size 1 1)
@@ -39268,9 +38532,9 @@
 			)
 		)
 		(property "Value" "100n 50V"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "cdba0a29-0cf8-4b92-ae68-fa4952537859")
+			(uuid "682e0aec-92fa-41f3-a256-767503638055")
 			(effects
 				(font
 					(size 1 1)
@@ -39279,10 +38543,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf40b430-1b84-4acc-9972-0be286554c01")
+			(uuid "2dcf7464-1939-490f-8797-dc010a1de8b2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39290,10 +38554,10 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b0082d9f-bba7-4fd6-ab84-ce6f9162980c")
+			(uuid "3a58bc77-2ad1-45ae-a92f-3c39ff98a984")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39301,7 +38565,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4141057c-0804-4d34-b04c-2cfadfd3e5d8")
@@ -39313,7 +38577,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39326,7 +38590,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39339,7 +38603,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39364,16 +38628,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "636557f2-4cf0-4e65-985e-6fa893df0da6")
-		)
-		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
 			(stroke
@@ -39382,6 +38636,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "880fd2fd-315e-4876-a405-a86141778873")
+		)
+		(fp_line
+			(start -0.14058 -0.51)
+			(end 0.14058 -0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "636557f2-4cf0-4e65-985e-6fa893df0da6")
 		)
 		(fp_rect
 			(start -1.48 -0.73)
@@ -39406,7 +38670,7 @@
 			(uuid "a6e85f1f-9de3-482a-853f-fdee818e23b6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "31b5e60d-333c-48f7-ace7-c84f958c6e18")
 			(effects
@@ -39417,7 +38681,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
+			(at -0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -39426,7 +38690,7 @@
 			(uuid "dba444ea-69db-4a36-878c-8b145674ae39")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
+			(at 0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -39450,11 +38714,11 @@
 	(footprint "Package_TO_SOT_SMD:TSOT-23-5"
 		(layer "F.Cu")
 		(uuid "f2fca17f-0abe-45e2-a809-16944055894e")
-		(at 72.015 167.34)
+		(at 28.35 93.25 -90)
 		(descr "TSOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AB)")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U4"
-			(at 0 -2.4 0)
+			(at 0 -2.4 90)
 			(layer "F.SilkS")
 			(uuid "b5798861-0ba9-4e5a-b9d1-e5f2cc819836")
 			(effects
@@ -39465,7 +38729,7 @@
 			)
 		)
 		(property "Value" "MIC5365-3.3YD5"
-			(at 0 2.4 0)
+			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "cdc1719d-1a4d-455b-b190-d61f7f0172f2")
 			(effects
@@ -39476,7 +38740,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC5365-6-High-Performance-Single-150mA-LDO-DS20006605A.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6caaadfd-1b11-40b2-aa58-b1cee482b9c2")
@@ -39487,7 +38751,7 @@
 			)
 		)
 		(property "Description" "150mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, TSOT-23-5"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c02de693-bff0-4ada-a85f-364bcc219540")
@@ -39498,7 +38762,7 @@
 			)
 		)
 		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b7e95484-4f25-401a-9014-817c539b7420")
@@ -39510,7 +38774,7 @@
 			)
 		)
 		(property "LCSC" "C626098"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39523,7 +38787,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39536,7 +38800,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39561,26 +38825,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.91 -1.56)
-			(end 0.91 -1.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ea68b466-b4c2-4213-a55a-df15d07b86aa")
-		)
-		(fp_line
-			(start -0.91 -1.51)
-			(end -0.91 -1.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d7536040-6f0f-49c8-bdba-f8b415cbd964")
-		)
-		(fp_line
 			(start -0.91 1.56)
 			(end -0.91 1.51)
 			(stroke
@@ -39591,24 +38835,14 @@
 			(uuid "8ea43212-5dcf-4025-a1b3-10fda2478aa3")
 		)
 		(fp_line
-			(start 0.91 -1.56)
-			(end 0.91 -1.51)
+			(start 0.91 1.56)
+			(end -0.91 1.56)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "04959df8-df19-4695-bfbf-949436355789")
-		)
-		(fp_line
-			(start 0.91 -0.39)
-			(end 0.91 0.39)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "eb826c67-0052-4d70-a27d-e7de988284d6")
+			(uuid "2fc82046-d6c8-4f5e-8803-634ab51a2384")
 		)
 		(fp_line
 			(start 0.91 1.51)
@@ -39621,14 +38855,44 @@
 			(uuid "773a24e4-78cc-42bf-9519-2650819d450c")
 		)
 		(fp_line
-			(start 0.91 1.56)
-			(end -0.91 1.56)
+			(start 0.91 -0.39)
+			(end 0.91 0.39)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2fc82046-d6c8-4f5e-8803-634ab51a2384")
+			(uuid "eb826c67-0052-4d70-a27d-e7de988284d6")
+		)
+		(fp_line
+			(start -0.91 -1.51)
+			(end -0.91 -1.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d7536040-6f0f-49c8-bdba-f8b415cbd964")
+		)
+		(fp_line
+			(start -0.91 -1.56)
+			(end 0.91 -1.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ea68b466-b4c2-4213-a55a-df15d07b86aa")
+		)
+		(fp_line
+			(start 0.91 -1.56)
+			(end 0.91 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "04959df8-df19-4695-bfbf-949436355789")
 		)
 		(fp_poly
 			(pts
@@ -39643,56 +38907,6 @@
 			(uuid "f7bfaffc-0a99-41d9-a38c-45b48b2909ad")
 		)
 		(fp_line
-			(start -2.05 -1.5)
-			(end -1.05 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "575da58c-410c-4486-be4b-7ddd7f6ca994")
-		)
-		(fp_line
-			(start -2.05 1.5)
-			(end -2.05 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5082b88a-de9e-4817-be00-f94604d23d47")
-		)
-		(fp_line
-			(start -1.05 -1.7)
-			(end 1.05 -1.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "66283964-221f-4ff8-9d60-253b87fc9d47")
-		)
-		(fp_line
-			(start -1.05 -1.5)
-			(end -1.05 -1.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5958e95f-054b-4792-bcd6-3347a7afe21f")
-		)
-		(fp_line
-			(start -1.05 1.5)
-			(end -2.05 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0311ea34-6314-4be0-894d-e3cde8aeb717")
-		)
-		(fp_line
 			(start -1.05 1.7)
 			(end -1.05 1.5)
 			(stroke
@@ -39701,56 +38915,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "1ab67b53-d8df-4f5c-b885-ff3340a87cb4")
-		)
-		(fp_line
-			(start 1.05 -1.7)
-			(end 1.05 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "95a45c58-ab5f-454f-9315-d2b3d12238a7")
-		)
-		(fp_line
-			(start 1.05 -1.5)
-			(end 2.05 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ad33a299-090e-4ccd-ba3d-98797c45c4fd")
-		)
-		(fp_line
-			(start 1.05 -0.39)
-			(end 1.05 0.39)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "43e954de-1082-4979-b410-e7f966732231")
-		)
-		(fp_line
-			(start 1.05 0.39)
-			(end 2.05 0.39)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7be99f6f-c0b5-4e42-9306-8671ed38d055")
-		)
-		(fp_line
-			(start 1.05 1.5)
-			(end 1.05 1.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "96be084b-ea40-4fb1-b79b-6f64cc312680")
 		)
 		(fp_line
 			(start 1.05 1.7)
@@ -39763,24 +38927,54 @@
 			(uuid "a5c3281e-fa23-4a59-80a5-9e13137e8164")
 		)
 		(fp_line
-			(start 2.05 -1.5)
-			(end 2.05 -0.39)
+			(start -2.05 1.5)
+			(end -2.05 -1.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "16888f33-9d6c-4805-963e-e4c9b40335cc")
+			(uuid "5082b88a-de9e-4817-be00-f94604d23d47")
 		)
 		(fp_line
-			(start 2.05 -0.39)
-			(end 1.05 -0.39)
+			(start -1.05 1.5)
+			(end -2.05 1.5)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "718b9ada-79e9-42d5-b985-5f92de80d97f")
+			(uuid "0311ea34-6314-4be0-894d-e3cde8aeb717")
+		)
+		(fp_line
+			(start 1.05 1.5)
+			(end 1.05 1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "96be084b-ea40-4fb1-b79b-6f64cc312680")
+		)
+		(fp_line
+			(start 2.05 1.5)
+			(end 1.05 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a6c91153-13d0-47b9-a5a7-43bab9ab9ecf")
+		)
+		(fp_line
+			(start 1.05 0.39)
+			(end 2.05 0.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7be99f6f-c0b5-4e42-9306-8671ed38d055")
 		)
 		(fp_line
 			(start 2.05 0.39)
@@ -39793,14 +38987,84 @@
 			(uuid "a90baf11-296e-45ab-bb44-0383f45bb4a2")
 		)
 		(fp_line
-			(start 2.05 1.5)
-			(end 1.05 1.5)
+			(start 1.05 -0.39)
+			(end 1.05 0.39)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a6c91153-13d0-47b9-a5a7-43bab9ab9ecf")
+			(uuid "43e954de-1082-4979-b410-e7f966732231")
+		)
+		(fp_line
+			(start 2.05 -0.39)
+			(end 1.05 -0.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "718b9ada-79e9-42d5-b985-5f92de80d97f")
+		)
+		(fp_line
+			(start -2.05 -1.5)
+			(end -1.05 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "575da58c-410c-4486-be4b-7ddd7f6ca994")
+		)
+		(fp_line
+			(start -1.05 -1.5)
+			(end -1.05 -1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5958e95f-054b-4792-bcd6-3347a7afe21f")
+		)
+		(fp_line
+			(start 1.05 -1.5)
+			(end 2.05 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ad33a299-090e-4ccd-ba3d-98797c45c4fd")
+		)
+		(fp_line
+			(start 2.05 -1.5)
+			(end 2.05 -0.39)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "16888f33-9d6c-4805-963e-e4c9b40335cc")
+		)
+		(fp_line
+			(start -1.05 -1.7)
+			(end 1.05 -1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "66283964-221f-4ff8-9d60-253b87fc9d47")
+		)
+		(fp_line
+			(start 1.05 -1.7)
+			(end 1.05 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "95a45c58-ab5f-454f-9315-d2b3d12238a7")
 		)
 		(fp_poly
 			(pts
@@ -39815,7 +39079,7 @@
 			(uuid "2b95aa3b-81a1-4b66-b00d-e76834740c40")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6735fcd5-d0f0-4721-b438-eedb945ace3d")
 			(effects
@@ -39826,7 +39090,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.1375 -0.95)
+			(at -1.1375 -0.95 270)
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -39836,7 +39100,7 @@
 			(uuid "a205ea6d-3ee8-4d3c-adaf-a81cb48576cb")
 		)
 		(pad "2" smd roundrect
-			(at -1.1375 0)
+			(at -1.1375 0 270)
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -39846,7 +39110,7 @@
 			(uuid "b2b8504b-7ba6-4615-aea0-732a6e3ea928")
 		)
 		(pad "3" smd roundrect
-			(at -1.1375 0.95)
+			(at -1.1375 0.95 270)
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -39856,7 +39120,7 @@
 			(uuid "3a53d0bd-75b7-4b95-86d7-7c82936acf8b")
 		)
 		(pad "4" smd roundrect
-			(at 1.1375 0.95)
+			(at 1.1375 0.95 270)
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -39866,7 +39130,7 @@
 			(uuid "52056041-25c9-4243-b345-b75ab52c4fdc")
 		)
 		(pad "5" smd roundrect
-			(at 1.1375 -0.95)
+			(at 1.1375 -0.95 270)
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -39891,11 +39155,11 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f3deb31c-0955-4041-988d-20aa139e334c")
-		(at 73.395 171.42)
+		(at 143.17 136.255 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
 		(property "Reference" "D1"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "1bc1ec22-de7e-473f-bc91-2d3fba7ea428")
 			(effects
@@ -39906,7 +39170,7 @@
 			)
 		)
 		(property "Value" "R_LED"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "270ef352-60d6-4bb9-90bb-1e7d44ba9ea2")
 			(effects
@@ -39917,7 +39181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2c06d459-9e83-4b9e-bf78-42c466416c15")
@@ -39928,7 +39192,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6704d4b-0ee9-4547-a957-411850c6a54a")
@@ -39939,7 +39203,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9338d1ab-f1da-4833-b176-3b3509c842c0")
@@ -39951,7 +39215,7 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39964,7 +39228,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39977,7 +39241,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -39990,7 +39254,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -40015,6 +39279,16 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
+			(start 0.8 -0.735)
+			(end -1.485 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "706d85fc-41fb-4cdf-aabf-c861e4f8024f")
+		)
+		(fp_line
 			(start -1.485 -0.735)
 			(end -1.485 0.735)
 			(stroke
@@ -40034,16 +39308,6 @@
 			(layer "F.SilkS")
 			(uuid "30ee1923-a6f2-4700-9b6a-37b6fa2091c8")
 		)
-		(fp_line
-			(start 0.8 -0.735)
-			(end -1.485 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "706d85fc-41fb-4cdf-aabf-c861e4f8024f")
-		)
 		(fp_rect
 			(start -1.48 -0.73)
 			(end 1.48 0.73)
@@ -40056,24 +39320,14 @@
 			(uuid "8f29a298-bfe3-49cd-8a47-7bfdcd0c67d5")
 		)
 		(fp_line
-			(start -0.8 -0.1)
-			(end -0.8 0.4)
+			(start 0.8 -0.4)
+			(end -0.5 -0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f1d8dc98-75f3-4a27-b511-ef936410c0b3")
-		)
-		(fp_line
-			(start -0.8 0.4)
-			(end 0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b975288e-03eb-48ce-a1ff-8e2eef138332")
+			(uuid "cd33fe9d-4d4b-45de-a29e-89fed74b07da")
 		)
 		(fp_line
 			(start -0.5 -0.4)
@@ -40086,14 +39340,14 @@
 			(uuid "54136338-35db-40e8-9ad4-e302a7b33cb4")
 		)
 		(fp_line
-			(start 0.8 -0.4)
-			(end -0.5 -0.4)
+			(start -0.8 -0.1)
+			(end -0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "cd33fe9d-4d4b-45de-a29e-89fed74b07da")
+			(uuid "f1d8dc98-75f3-4a27-b511-ef936410c0b3")
 		)
 		(fp_line
 			(start 0.8 0.4)
@@ -40105,8 +39359,18 @@
 			(layer "F.Fab")
 			(uuid "118e2f45-299c-4e88-83fe-316896c7d3f9")
 		)
+		(fp_line
+			(start -0.8 0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b975288e-03eb-48ce-a1ff-8e2eef138332")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "7381415e-44ea-4219-8d6e-a8a57f1e60a1")
 			(effects
@@ -40117,7 +39381,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.7875 0)
+			(at -0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -40127,7 +39391,7 @@
 			(uuid "da85ee7d-620f-4c32-8118-5c0d258f5cd1")
 		)
 		(pad "2" smd roundrect
-			(at 0.7875 0)
+			(at 0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -40152,7 +39416,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "f481ed3c-b21a-436d-9db5-aece7af49436")
-		(at 201.65 104.05)
+		(at 221 84.58)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP21"
@@ -40520,7 +39784,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5001_Miniature"
 		(layer "F.Cu")
 		(uuid "f690f9bb-d64e-4363-83c1-bacbd5da0791")
-		(at 26.35 21.35)
+		(at 84.675 172.89)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP53"
@@ -41023,7 +40287,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "fac0b2be-fbad-4182-9a36-731631a06256")
-		(at 23.5825 160.1)
+		(at 153.75 75.5)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP1"
@@ -42183,11 +41447,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "fc21a27c-811a-4f70-9343-f396d4182998")
-		(at 52.075 163.85)
+		(at 143.25 133.075 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "e28e4398-2345-435c-ac36-a55cd2c7afd5")
 			(effects
@@ -42198,7 +41462,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "7164873c-6a07-4ccb-b15d-616946f2f5ea")
 			(effects
@@ -42209,7 +41473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b3f83e5f-3faa-4103-a608-8b58b89cc401")
@@ -42220,7 +41484,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "33809279-ddc0-41ea-8b08-0e0beeb13003")
@@ -42231,7 +41495,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e3e0a5f1-dc2f-432a-9ccb-f862a3b888aa")
@@ -42243,7 +41507,7 @@
 			)
 		)
 		(property "LCSC" "C23228"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42256,7 +41520,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42269,7 +41533,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -42294,16 +41558,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.237258 -0.5225)
-			(end 0.237258 -0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3186616c-0792-44c1-8680-1783b66f0de6")
-		)
-		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
 			(stroke
@@ -42312,6 +41566,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "5f5da182-383a-4231-be6d-b87c7687fc3a")
+		)
+		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3186616c-0792-44c1-8680-1783b66f0de6")
 		)
 		(fp_rect
 			(start -1.48 -0.73)
@@ -42336,7 +41600,7 @@
 			(uuid "57c73b6f-0ed5-48d0-b183-ce42073ed016")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "da82b5b3-72cc-4f93-86a1-538ff6080488")
 			(effects
@@ -42347,7 +41611,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 270)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -42356,7 +41620,7 @@
 			(uuid "04f0aed6-a91d-4840-bf64-f1bf2a4050cf")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 270)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -42380,7 +41644,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5002_Miniature"
 		(layer "F.Cu")
 		(uuid "fc8e9177-0fd9-4388-aea4-9364f0b12d08")
-		(at 27.9325 173.15)
+		(at 153.5 56.35)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP10"
@@ -42564,13 +41828,13 @@
 	(footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "fced5b02-f328-407f-970b-57c2a7e694cf")
-		(at 219.525 95.905)
+		(at 211.475 98.175)
 		(descr "SOIC, 16 Pin (JEDEC MS-012, variation AC, https://www.jedec.org/document_search?search_api_views_fulltext=MS-012, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf)")
 		(tags "SOIC SO 16-pin-NSOP R-16 R-16-S D0016A M2B SO16 SOT109-1 751B SOIC_N narrow")
 		(property "Reference" "U5"
 			(at 0 -5.9 0)
 			(layer "F.SilkS")
-			(uuid "9ad6d705-2915-44d7-a1d4-a746016b5de9")
+			(uuid "7e3fb872-185d-4893-b10f-f17eff5c6d18")
 			(effects
 				(font
 					(size 1 1)
@@ -42581,7 +41845,7 @@
 		(property "Value" "AM26LV32EIDRG4"
 			(at 0 5.9 0)
 			(layer "F.Fab")
-			(uuid "20465669-9a9a-4095-829e-e6832901ba2a")
+			(uuid "881da5bb-0ae4-4057-9f8b-6f4dde9d61c2")
 			(effects
 				(font
 					(size 1 1)
@@ -42593,7 +41857,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f554b8e2-83fb-4c34-b8c1-44e7a7f497d4")
+			(uuid "23312df2-bcb5-44c6-99ea-f4009e6b648d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42604,7 +41868,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4371b48b-1b96-4ff1-bd88-e277aea3d0de")
+			(uuid "14e46ed9-c8fc-4c8a-b5fe-d434454d929d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43067,7 +42331,7 @@
 	(footprint "JLCPCB:TestPoint_Keystone_5000_Miniature"
 		(layer "F.Cu")
 		(uuid "fcf408c3-739f-4003-ae28-874b218a408a")
-		(at 32.3075 173.475)
+		(at 28.5 103.25)
 		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP16"
