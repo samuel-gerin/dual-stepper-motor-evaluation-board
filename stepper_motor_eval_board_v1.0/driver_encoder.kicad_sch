@@ -5962,7 +5962,7 @@
 	)
 	(rectangle
 		(start 185.674 94.742)
-		(end 214.249 105.664)
+		(end 218.44 105.664)
 		(stroke
 			(width 0.762)
 			(type solid)
@@ -6203,7 +6203,7 @@
 		)
 		(uuid "363c9137-9cdc-40e2-9669-fc8d239c02b8")
 	)
-	(text "DESIGN NOTE:\nOsciloscope testpoints for\nvoltage measure of stepper\nphases"
+	(text "DESIGN NOTE:\nRemoved osciloscope testpoints\nbecause can just measure at\nthe connector"
 		(exclude_from_sim no)
 		(at 186.69 100.33 0)
 		(effects
@@ -6415,18 +6415,6 @@
 		(uuid "15b30916-3806-4381-a33c-924fe47b8895")
 	)
 	(junction
-		(at 295.91 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2619ca89-4167-4beb-a638-5c0d658bf383")
-	)
-	(junction
-		(at 151.13 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2705b5fc-2ad2-482c-8e62-4cfc218a60c7")
-	)
-	(junction
 		(at 237.49 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6473,12 +6461,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48c221ad-0140-4dde-bb45-3d0084807575")
-	)
-	(junction
-		(at 307.34 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e24fb5e-b88c-4e8e-a551-abd2cca268ad")
 	)
 	(junction
 		(at 161.29 59.69)
@@ -6535,12 +6517,6 @@
 		(uuid "6d748b57-f86e-432e-8ea7-6ef57e844b26")
 	)
 	(junction
-		(at 154.94 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e34022d-7690-49d9-a605-9ca2dc9b758f")
-	)
-	(junction
 		(at 93.98 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6565,12 +6541,6 @@
 		(uuid "78b2bb78-ee8c-4b8b-b984-211d80a928a3")
 	)
 	(junction
-		(at 303.53 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7fc8775d-7416-4363-b81e-cc03b12626de")
-	)
-	(junction
 		(at 294.64 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6593,12 +6563,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9deeb097-f558-49e4-941b-c2636370f5ad")
-	)
-	(junction
-		(at 158.75 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1f89b3e-0634-4229-8e68-e4eac328ac40")
 	)
 	(junction
 		(at 302.26 127)
@@ -6679,22 +6643,10 @@
 		(uuid "d0a65026-b69c-4c05-bef4-d16888d6f524")
 	)
 	(junction
-		(at 299.72 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0d0c092-c8a1-4fd3-bf91-ac470b376d71")
-	)
-	(junction
 		(at 105.41 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d17b8f3f-b5bf-4b78-ac6a-c5ea13ed6f67")
-	)
-	(junction
-		(at 147.32 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d27ec211-07c6-4a78-ae49-1a2e880e6834")
 	)
 	(junction
 		(at 172.72 49.53)
@@ -7039,16 +6991,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 110.49) (xy 299.72 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02ea439f-6ef3-4b68-8fd9-5fe43f9804be")
-	)
-	(wire
-		(pts
 			(xy 96.52 232.41) (xy 116.84 232.41)
 		)
 		(stroke
@@ -7360,7 +7302,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 107.95) (xy 314.96 107.95)
+			(xy 289.56 107.95) (xy 314.96 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7427,16 +7369,6 @@
 			(type default)
 		)
 		(uuid "1b7b1d5c-ca26-4308-9989-20e07c32178c")
-	)
-	(wire
-		(pts
-			(xy 154.94 113.03) (xy 166.37 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b7c899f-4032-45b7-83f3-adc78058640b")
 	)
 	(wire
 		(pts
@@ -7570,7 +7502,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 107.95) (xy 147.32 107.95)
+			(xy 140.97 107.95) (xy 166.37 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7597,26 +7529,6 @@
 			(type default)
 		)
 		(uuid "27c08b5b-dabe-41f6-9d2c-c5812688b302")
-	)
-	(wire
-		(pts
-			(xy 289.56 107.95) (xy 295.91 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2851015d-927a-45f6-afca-38550e312c02")
-	)
-	(wire
-		(pts
-			(xy 292.1 113.03) (xy 303.53 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "286247d9-7bc1-43b6-9349-c437f3a14a79")
 	)
 	(wire
 		(pts
@@ -7700,7 +7612,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 115.57) (xy 307.34 115.57)
+			(xy 289.56 115.57) (xy 314.96 115.57)
 		)
 		(stroke
 			(width 0)
@@ -8097,16 +8009,6 @@
 			(type default)
 		)
 		(uuid "6025278f-2a26-43d7-a65a-ec41d66f9edd")
-	)
-	(wire
-		(pts
-			(xy 140.97 115.57) (xy 158.75 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60e81ad4-023f-4ab0-8f0c-932489240b3d")
 	)
 	(wire
 		(pts
@@ -8511,7 +8413,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 113.03) (xy 154.94 113.03)
+			(xy 143.51 113.03) (xy 166.37 113.03)
 		)
 		(stroke
 			(width 0)
@@ -8571,7 +8473,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 110.49) (xy 314.96 110.49)
+			(xy 292.1 110.49) (xy 314.96 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8751,16 +8653,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 107.95) (xy 166.37 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91da3aac-2368-4f9f-b223-bd5e0573e469")
-	)
-	(wire
-		(pts
 			(xy 119.38 237.49) (xy 139.7 237.49)
 		)
 		(stroke
@@ -8768,16 +8660,6 @@
 			(type default)
 		)
 		(uuid "926b2511-c568-4a26-951d-367dcc51c672")
-	)
-	(wire
-		(pts
-			(xy 151.13 110.49) (xy 166.37 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92796186-58f8-42ed-badf-6f27e1736b17")
 	)
 	(wire
 		(pts
@@ -8861,7 +8743,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 110.49) (xy 151.13 110.49)
+			(xy 143.51 110.49) (xy 166.37 110.49)
 		)
 		(stroke
 			(width 0)
@@ -9915,7 +9797,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 113.03) (xy 314.96 113.03)
+			(xy 292.1 113.03) (xy 314.96 113.03)
 		)
 		(stroke
 			(width 0)
@@ -10015,16 +9897,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 115.57) (xy 314.96 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2e37025-0ba0-463f-aa91-cc46488961cd")
-	)
-	(wire
-		(pts
 			(xy 148.59 59.69) (xy 161.29 59.69)
 		)
 		(stroke
@@ -10087,7 +9959,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 115.57) (xy 166.37 115.57)
+			(xy 140.97 115.57) (xy 166.37 115.57)
 		)
 		(stroke
 			(width 0)
@@ -12852,118 +12724,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 303.53 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "41de2451-849d-43b3-abb4-21687db591a2")
-		(property "Reference" "TP44"
-			(at 310.134 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 306.07 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB:TestPoint_Keystone_5002_Miniature"
-			(at 308.61 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 303.53 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C238123"
-			(at 310.134 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 303.53 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 303.53 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a0a6ebeb-d57f-4a80-80a8-0eff48c9aa0b")
-		)
-		(instances
-			(project "stepper_motor_eval_board_v1.0"
-				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/eb8c68d2-160e-4cf6-94b1-8204133e14a6"
-					(reference "TP44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 77.47 208.28 0)
 		(unit 1)
@@ -13806,118 +13566,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 151.13 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5fa3227b-2af8-4315-9918-30a98aacf45d")
-		(property "Reference" "TP28"
-			(at 162.306 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 153.67 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB:TestPoint_Keystone_5002_Miniature"
-			(at 156.21 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 151.13 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C238123"
-			(at 162.306 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 151.13 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 151.13 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "61c0e1df-9702-4007-99fb-7d6de5d3215a")
-		)
-		(instances
-			(project "stepper_motor_eval_board_v1.0"
-				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/eb8c68d2-160e-4cf6-94b1-8204133e14a6"
-					(reference "TP28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 214.63 233.68 0)
 		(unit 1)
@@ -14411,118 +14059,6 @@
 			(project "stepper_motor_eval_board_v1.0"
 				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/eb8c68d2-160e-4cf6-94b1-8204133e14a6"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 307.34 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "64eb74b4-aa03-40de-a505-16df2b7bef24")
-		(property "Reference" "TP45"
-			(at 310.134 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 309.88 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB:TestPoint_Keystone_5002_Miniature"
-			(at 312.42 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 307.34 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C238123"
-			(at 310.134 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 307.34 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 307.34 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a2c5f033-a01c-46ac-a62e-4891eb38c636")
-		)
-		(instances
-			(project "stepper_motor_eval_board_v1.0"
-				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/eb8c68d2-160e-4cf6-94b1-8204133e14a6"
-					(reference "TP45")
 					(unit 1)
 				)
 			)
@@ -15523,118 +15059,6 @@
 			(project "stepper_motor_eval_board_v1.0"
 				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/eb8c68d2-160e-4cf6-94b1-8204133e14a6"
 					(reference "TP34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 158.75 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "88ab9397-5e1b-4190-bba6-ddf3d0d6e9c6")
-		(property "Reference" "TP30"
-			(at 162.306 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 161.29 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB:TestPoint_Keystone_5002_Miniature"
-			(at 163.83 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 158.75 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C238123"
-			(at 162.306 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 158.75 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 158.75 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a18a1a8-36e5-46df-8e2f-d4ea37588c6e")
-		)
-		(instances
-			(project "stepper_motor_eval_board_v1.0"
-				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/eb8c68d2-160e-4cf6-94b1-8204133e14a6"
-					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -18244,118 +17668,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 147.32 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c12c91ad-c2f4-4aaa-afe3-a16ec12a950e")
-		(property "Reference" "TP27"
-			(at 162.306 106.934 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 149.86 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB:TestPoint_Keystone_5002_Miniature"
-			(at 152.4 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 147.32 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C238123"
-			(at 162.306 106.934 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 147.32 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 147.32 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a8d8e83-b431-4fe2-b551-10e5952627fb")
-		)
-		(instances
-			(project "stepper_motor_eval_board_v1.0"
-				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/eb8c68d2-160e-4cf6-94b1-8204133e14a6"
-					(reference "TP27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "TMC2209-LA_1")
 		(lib_id "Driver_Motor:TMC2209-LA")
 		(at 120.65 101.6 0)
@@ -19005,6 +18317,7 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 138.43 91.44 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19012,10 +18325,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c6639fda-602f-4ca7-a659-91d497794ac3")
 		(property "Reference" "C18"
-			(at 142.24 90.1699 0)
+			(at 134.62 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19026,7 +18338,7 @@
 			)
 		)
 		(property "Value" "22n 50V"
-			(at 142.24 92.7099 0)
+			(at 134.62 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19037,7 +18349,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 139.3952 95.25 0)
+			(at 137.4648 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19070,7 +18382,7 @@
 			)
 		)
 		(property "LCSC" "C21122"
-			(at 142.24 90.1699 0)
+			(at 134.62 90.1699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19224,118 +18536,6 @@
 			(project "stepper_motor_eval_board_v1.0"
 				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/eb8c68d2-160e-4cf6-94b1-8204133e14a6"
 					(reference "TP38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 154.94 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c7e91cd4-53e5-4d8a-9ddd-3c243af7def4")
-		(property "Reference" "TP29"
-			(at 162.306 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 157.48 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB:TestPoint_Keystone_5002_Miniature"
-			(at 160.02 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 154.94 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C238123"
-			(at 162.306 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 154.94 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 154.94 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b18a4cae-463b-4e1f-aa91-3fb419c1f30b")
-		)
-		(instances
-			(project "stepper_motor_eval_board_v1.0"
-				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/eb8c68d2-160e-4cf6-94b1-8204133e14a6"
-					(reference "TP29")
 					(unit 1)
 				)
 			)
@@ -19689,118 +18889,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 299.72 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d415cdbe-fdf9-41d7-942e-e0d2e60a9b36")
-		(property "Reference" "TP43"
-			(at 310.134 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 302.26 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB:TestPoint_Keystone_5002_Miniature"
-			(at 304.8 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 299.72 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C238123"
-			(at 310.134 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 299.72 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 299.72 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2d318e03-6c9e-44c2-bed9-ea5a5fb80e9a")
-		)
-		(instances
-			(project "stepper_motor_eval_board_v1.0"
-				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/eb8c68d2-160e-4cf6-94b1-8204133e14a6"
-					(reference "TP43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 99.06 144.78 90)
 		(unit 1)
@@ -20118,7 +19206,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 140.97 76.2 90)
+		(at 140.97 76.2 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20126,7 +19215,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d57b102e-13c5-49d6-89a7-d7e9204ecf0d")
 		(property "Reference" "C19"
 			(at 140.97 68.58 90)
@@ -20149,7 +19237,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 144.78 75.2348 0)
+			(at 137.16 75.2348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20224,118 +19312,6 @@
 			(project "stepper_motor_eval_board_v1.0"
 				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/eb8c68d2-160e-4cf6-94b1-8204133e14a6"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 295.91 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d7280469-3dfe-4774-bd54-68d08c03f145")
-		(property "Reference" "TP42"
-			(at 310.134 106.934 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 298.45 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB:TestPoint_Keystone_5002_Miniature"
-			(at 300.99 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 300.99 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 295.91 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C238123"
-			(at 310.134 106.934 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 295.91 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 295.91 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8abf51f3-77ec-477e-873c-1df88a1b0010")
-		)
-		(instances
-			(project "stepper_motor_eval_board_v1.0"
-				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/eb8c68d2-160e-4cf6-94b1-8204133e14a6"
-					(reference "TP42")
 					(unit 1)
 				)
 			)
