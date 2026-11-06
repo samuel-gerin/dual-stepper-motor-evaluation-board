@@ -3856,7 +3856,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 213.36) (xy 373.38 213.36)
+			(xy 358.14 236.22) (xy 372.11 236.22)
 		)
 		(stroke
 			(width 0)
@@ -4058,7 +4058,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 241.3) (xy 359.41 242.57)
+			(xy 358.14 219.71) (xy 358.14 220.98)
 		)
 		(stroke
 			(width 0)
@@ -4115,16 +4115,6 @@
 			(type default)
 		)
 		(uuid "5f5b1549-1366-479a-91a2-d4091ab101c3")
-	)
-	(wire
-		(pts
-			(xy 359.41 231.14) (xy 359.41 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "607a9601-35ed-4337-9554-634729890afc")
 	)
 	(wire
 		(pts
@@ -4198,7 +4188,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 193.04) (xy 359.41 194.31)
+			(xy 358.14 193.04) (xy 358.14 194.31)
 		)
 		(stroke
 			(width 0)
@@ -4288,7 +4278,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 226.06) (xy 359.41 227.33)
+			(xy 358.14 210.82) (xy 358.14 212.09)
 		)
 		(stroke
 			(width 0)
@@ -4328,7 +4318,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 227.33) (xy 373.38 227.33)
+			(xy 358.14 212.09) (xy 372.11 212.09)
 		)
 		(stroke
 			(width 0)
@@ -4399,7 +4389,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 194.31) (xy 373.38 194.31)
+			(xy 358.14 194.31) (xy 372.11 194.31)
 		)
 		(stroke
 			(width 0)
@@ -4419,7 +4409,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 209.55) (xy 359.41 210.82)
+			(xy 358.14 201.93) (xy 358.14 203.2)
 		)
 		(stroke
 			(width 0)
@@ -4429,7 +4419,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 198.12) (xy 359.41 196.85)
+			(xy 358.14 229.87) (xy 358.14 228.6)
 		)
 		(stroke
 			(width 0)
@@ -4549,16 +4539,6 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 229.87) (xy 373.38 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3a251cb-7a4e-4283-9051-fd5638b29320")
-	)
-	(wire
-		(pts
 			(xy 246.38 217.17) (xy 246.38 215.9)
 		)
 		(stroke
@@ -4609,7 +4589,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 196.85) (xy 373.38 196.85)
+			(xy 358.14 228.6) (xy 372.11 228.6)
 		)
 		(stroke
 			(width 0)
@@ -4619,7 +4599,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 214.63) (xy 359.41 213.36)
+			(xy 358.14 237.49) (xy 358.14 236.22)
 		)
 		(stroke
 			(width 0)
@@ -4779,7 +4759,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 210.82) (xy 373.38 210.82)
+			(xy 358.14 203.2) (xy 372.11 203.2)
 		)
 		(stroke
 			(width 0)
@@ -4969,7 +4949,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 242.57) (xy 373.38 242.57)
+			(xy 358.14 220.98) (xy 372.11 220.98)
 		)
 		(stroke
 			(width 0)
@@ -7663,7 +7643,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 359.41 193.04 0)
+		(at 358.14 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7674,7 +7654,7 @@
 		(fields_autoplaced yes)
 		(uuid "042974b4-5328-4092-8c27-1872a30da396")
 		(property "Reference" "#PWR0101"
-			(at 359.41 196.85 0)
+			(at 358.14 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7685,7 +7665,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 359.41 187.96 0)
+			(at 358.14 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7695,7 +7675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 193.04 0)
+			(at 358.14 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7706,7 +7686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 193.04 0)
+			(at 358.14 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7717,7 +7697,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 359.41 193.04 0)
+			(at 358.14 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7741,7 +7721,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 359.41 226.06 0)
+		(at 358.14 210.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7752,7 +7732,7 @@
 		(fields_autoplaced yes)
 		(uuid "042c8613-ed2a-4b01-959f-38dd40def9bd")
 		(property "Reference" "#PWR0105"
-			(at 359.41 229.87 0)
+			(at 358.14 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7763,7 +7743,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 359.41 220.98 0)
+			(at 358.14 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7773,7 +7753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 226.06 0)
+			(at 358.14 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7784,7 +7764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 226.06 0)
+			(at 358.14 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7795,7 +7775,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 359.41 226.06 0)
+			(at 358.14 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8822,7 +8802,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 359.41 241.3 0)
+		(at 358.14 219.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8833,7 +8813,7 @@
 		(fields_autoplaced yes)
 		(uuid "21d33e77-62d5-4c5e-944b-cccb5db210b4")
 		(property "Reference" "#PWR027"
-			(at 359.41 245.11 0)
+			(at 358.14 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8844,7 +8824,7 @@
 			)
 		)
 		(property "Value" "+3.3V_MCU"
-			(at 359.41 236.22 0)
+			(at 358.14 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8854,7 +8834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 241.3 0)
+			(at 358.14 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8865,7 +8845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 241.3 0)
+			(at 358.14 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8876,7 +8856,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 359.41 241.3 0)
+			(at 358.14 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9461,7 +9441,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 373.38 227.33 270)
+		(at 372.11 212.09 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9471,7 +9451,7 @@
 		(dnp no)
 		(uuid "2bb36e3c-3c59-4045-802b-9f8652850f0f")
 		(property "Reference" "TP52"
-			(at 378.714 227.33 90)
+			(at 377.444 212.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9482,7 +9462,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 375.4121 229.87 0)
+			(at 374.1421 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9494,7 +9474,7 @@
 			)
 		)
 		(property "Footprint" "JLCPCB:TestPoint_Keystone_5000_Miniature"
-			(at 373.38 232.41 0)
+			(at 372.11 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9505,7 +9485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 232.41 0)
+			(at 372.11 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9516,7 +9496,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 373.38 227.33 0)
+			(at 372.11 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9527,7 +9507,7 @@
 			)
 		)
 		(property "LCSC" "C5199900"
-			(at 378.714 227.33 90)
+			(at 377.444 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9538,7 +9518,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 373.38 227.33 90)
+			(at 372.11 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9549,7 +9529,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 373.38 227.33 90)
+			(at 372.11 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9880,7 +9860,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 359.41 214.63 0)
+		(at 358.14 237.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9891,7 +9871,7 @@
 		(fields_autoplaced yes)
 		(uuid "31cd59fa-53e5-4757-9191-2a7d3752307a")
 		(property "Reference" "#PWR0104"
-			(at 359.41 220.98 0)
+			(at 358.14 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9902,7 +9882,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 359.41 219.71 0)
+			(at 358.14 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9913,7 +9893,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 214.63 0)
+			(at 358.14 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9924,7 +9904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 214.63 0)
+			(at 358.14 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9935,7 +9915,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 359.41 214.63 0)
+			(at 358.14 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9959,7 +9939,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 359.41 209.55 0)
+		(at 358.14 201.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9970,7 +9950,7 @@
 		(fields_autoplaced yes)
 		(uuid "354ad3c0-b4b1-4d33-8ec2-abf6177fb5f6")
 		(property "Reference" "#PWR0103"
-			(at 359.41 213.36 0)
+			(at 358.14 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9981,7 +9961,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 359.41 204.47 0)
+			(at 358.14 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9991,7 +9971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 209.55 0)
+			(at 358.14 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10002,7 +9982,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 209.55 0)
+			(at 358.14 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10013,7 +9993,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 359.41 209.55 0)
+			(at 358.14 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10241,7 +10221,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 359.41 198.12 0)
+		(at 358.14 229.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10252,7 +10232,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b74018a-0bc9-4790-8a78-81c9d1ba1cdc")
 		(property "Reference" "#PWR0102"
-			(at 359.41 204.47 0)
+			(at 358.14 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10263,7 +10243,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 359.41 203.2 0)
+			(at 358.14 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10274,7 +10254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 198.12 0)
+			(at 358.14 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10285,7 +10265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 198.12 0)
+			(at 358.14 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10296,7 +10276,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 359.41 198.12 0)
+			(at 358.14 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10943,7 +10923,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 373.38 210.82 270)
+		(at 372.11 203.2 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10953,7 +10933,7 @@
 		(dnp no)
 		(uuid "43581321-0912-4148-bf49-007a965a1ee9")
 		(property "Reference" "TP50"
-			(at 378.714 210.82 90)
+			(at 377.444 203.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10964,7 +10944,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 375.4121 213.36 0)
+			(at 374.1421 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10976,7 +10956,7 @@
 			)
 		)
 		(property "Footprint" "JLCPCB:TestPoint_Keystone_5000_Miniature"
-			(at 373.38 215.9 0)
+			(at 372.11 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10987,7 +10967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 215.9 0)
+			(at 372.11 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10998,7 +10978,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 373.38 210.82 0)
+			(at 372.11 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11009,7 +10989,7 @@
 			)
 		)
 		(property "LCSC" "C5199900"
-			(at 378.714 210.82 90)
+			(at 377.444 203.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11020,7 +11000,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 373.38 210.82 90)
+			(at 372.11 203.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11031,7 +11011,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 373.38 210.82 90)
+			(at 372.11 203.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11283,7 +11263,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 373.38 194.31 270)
+		(at 372.11 194.31 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11293,7 +11273,7 @@
 		(dnp no)
 		(uuid "5324afe7-b664-4c0c-a590-20618a1280fc")
 		(property "Reference" "TP48"
-			(at 378.714 194.31 90)
+			(at 377.444 194.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11304,7 +11284,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 375.4121 196.85 0)
+			(at 374.1421 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11316,7 +11296,7 @@
 			)
 		)
 		(property "Footprint" "JLCPCB:TestPoint_Keystone_5000_Miniature"
-			(at 373.38 199.39 0)
+			(at 372.11 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11327,7 +11307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 199.39 0)
+			(at 372.11 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11338,7 +11318,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 373.38 194.31 0)
+			(at 372.11 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11349,7 +11329,7 @@
 			)
 		)
 		(property "LCSC" "C5199900"
-			(at 378.714 194.31 90)
+			(at 377.444 194.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11360,7 +11340,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 373.38 194.31 90)
+			(at 372.11 194.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11371,7 +11351,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 373.38 194.31 90)
+			(at 372.11 194.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12324,118 +12304,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 373.38 229.87 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "912d0d4c-50be-4867-9db2-dbddcee74185")
-		(property "Reference" "TP53"
-			(at 378.714 229.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 375.4121 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCB:TestPoint_Keystone_5001_Miniature"
-			(at 373.38 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 373.38 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C238122"
-			(at 378.714 229.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 373.38 229.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 373.38 229.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "50846f82-9457-47ce-8e92-6446353a3b28")
-		)
-		(instances
-			(project "stepper_motor_eval_board_v1.0"
-				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/20842745-18af-498f-8180-95a0a8b6794d"
-					(reference "TP53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 316.23 215.9 90)
 		(unit 1)
@@ -12863,85 +12731,6 @@
 			(project "stepper_motor_eval_board_v1.0"
 				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/20842745-18af-498f-8180-95a0a8b6794d"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 359.41 231.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2fa1108-aa21-4268-a619-dc65bf41bd0f")
-		(property "Reference" "#PWR0106"
-			(at 359.41 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 359.41 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 359.41 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 359.41 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 359.41 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b835fc0f-38a1-4c0e-982b-896bbe7a09f4")
-		)
-		(instances
-			(project "stepper_motor_eval_board_v1.0"
-				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/20842745-18af-498f-8180-95a0a8b6794d"
-					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -13848,7 +13637,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 373.38 213.36 270)
+		(at 372.11 236.22 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13858,7 +13647,7 @@
 		(dnp no)
 		(uuid "cf39bd9c-90aa-4231-8cf1-b046780757a7")
 		(property "Reference" "TP51"
-			(at 378.714 213.36 90)
+			(at 377.444 236.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13869,7 +13658,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 375.4121 215.9 0)
+			(at 374.1421 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13881,7 +13670,7 @@
 			)
 		)
 		(property "Footprint" "JLCPCB:TestPoint_Keystone_5001_Miniature"
-			(at 373.38 218.44 0)
+			(at 372.11 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13892,7 +13681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 218.44 0)
+			(at 372.11 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13903,7 +13692,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 373.38 213.36 0)
+			(at 372.11 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13914,7 +13703,7 @@
 			)
 		)
 		(property "LCSC" "C238122"
-			(at 378.714 213.36 90)
+			(at 377.444 236.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13925,7 +13714,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 373.38 213.36 90)
+			(at 372.11 236.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13936,7 +13725,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 373.38 213.36 90)
+			(at 372.11 236.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14637,7 +14426,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 373.38 242.57 270)
+		(at 372.11 220.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14647,7 +14436,7 @@
 		(dnp no)
 		(uuid "e8856426-3c4b-4e2c-b583-0c484dc455d0")
 		(property "Reference" "TP56"
-			(at 378.714 242.57 90)
+			(at 377.444 220.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14658,7 +14447,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 375.4121 245.11 0)
+			(at 374.1421 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14670,7 +14459,7 @@
 			)
 		)
 		(property "Footprint" "JLCPCB:TestPoint_Keystone_5000_Miniature"
-			(at 373.38 247.65 0)
+			(at 372.11 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14681,7 +14470,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 247.65 0)
+			(at 372.11 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14692,7 +14481,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 373.38 242.57 0)
+			(at 372.11 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14703,7 +14492,7 @@
 			)
 		)
 		(property "LCSC" "C5199900"
-			(at 378.714 242.57 90)
+			(at 377.444 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14714,7 +14503,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 373.38 242.57 90)
+			(at 372.11 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14725,7 +14514,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 373.38 242.57 90)
+			(at 372.11 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15056,7 +14845,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 373.38 196.85 270)
+		(at 372.11 228.6 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15066,7 +14855,7 @@
 		(dnp no)
 		(uuid "f47e8785-b2ab-49b1-b261-efdbdd151969")
 		(property "Reference" "TP49"
-			(at 378.714 196.85 90)
+			(at 377.444 228.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15077,7 +14866,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 375.4121 199.39 0)
+			(at 374.1421 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15089,7 +14878,7 @@
 			)
 		)
 		(property "Footprint" "JLCPCB:TestPoint_Keystone_5001_Miniature"
-			(at 373.38 201.93 0)
+			(at 372.11 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15100,7 +14889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 201.93 0)
+			(at 372.11 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15111,7 +14900,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 373.38 196.85 0)
+			(at 372.11 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15122,7 +14911,7 @@
 			)
 		)
 		(property "LCSC" "C238122"
-			(at 378.714 196.85 90)
+			(at 377.444 228.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15133,7 +14922,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 373.38 196.85 90)
+			(at 372.11 228.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15144,7 +14933,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 373.38 196.85 90)
+			(at 372.11 228.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
