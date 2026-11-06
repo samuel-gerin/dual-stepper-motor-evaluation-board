@@ -215,6 +215,7 @@
         0.2,
         0.3,
         0.5,
+        0.7,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -247,6 +248,18 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.65,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.9,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -931,7 +944,7 @@
         "uuid": "2d9ac515-e0a2-47ec-b0dd-574649acdf3f"
       }
     ],
-    "used_designators": "TP1-61,FID1-4,L1-3,DC1,R1-33,#FLG1-6,SW1-2,H1-4,F1,Q1-2,CN1,J1-11,C1-44,U1-13,D1-14,Y1-2,#PWR1-114",
+    "used_designators": "L1-3,FID1-4,R1-33,DC1,H1-4,SW1-2,#FLG1-6,C1-44,J1-11,CN1,Q1-2,D1-14,U1-13,F1,#PWR1-116,Y1-2,TP1-61",
     "variants": []
   },
   "sheets": [

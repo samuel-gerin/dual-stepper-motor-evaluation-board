@@ -13368,7 +13368,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C238123"
+		(property "LCSC" "C5199900"
 			(at 330.2 46.2279 0)
 			(hide yes)
 			(show_name no)
@@ -18390,7 +18390,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C238123"
+		(property "LCSC" "C5199900"
 			(at 302.26 71.6279 0)
 			(hide yes)
 			(show_name no)

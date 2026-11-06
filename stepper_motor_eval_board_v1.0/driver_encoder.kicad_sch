@@ -11609,7 +11609,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Motor2_Conn"
+		(property "Value" "Motor1_Conn"
 			(at 172.72 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
