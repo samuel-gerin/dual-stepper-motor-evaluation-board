@@ -951,7 +951,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -1175,7 +1175,7 @@
         "uuid": "2d9ac515-e0a2-47ec-b0dd-574649acdf3f"
       }
     ],
-    "used_designators": "L1-3,FID1-4,R1-33,DC1,H1-4,SW1-2,#FLG1-6,C1-44,J1-11,CN1,Q1-2,D1-14,U1-13,F1,#PWR1-116,Y1-2,TP1-61",
+    "used_designators": "#SYM1,L1-3,FID1-4,R1-33,DC1,H1-4,SW1-2,#FLG1-6,C1-44,J1-11,CN1,Q1-2,D1-14,U1-13,F1,#PWR1-116,Y1-2,TP1-61",
     "variants": []
   },
   "sheets": [
