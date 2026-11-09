@@ -6218,6 +6218,12 @@
 		(uuid "bf691def-7a5b-4240-8286-6b240d952833")
 	)
 	(junction
+		(at 76.2 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfede63a-275b-4866-ae60-d3b4cc6fedba")
+	)
+	(junction
 		(at 323.85 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17423,6 +17429,85 @@
 			(project "stepper_motor_eval_board_v1.0"
 				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/5566eb57-101d-464f-8854-b5b6b95c0649"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 76.2 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e29f165-2ab3-4731-a5d6-afddc4a22773")
+		(property "Reference" "#FLG05"
+			(at 74.295 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 72.39 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 76.2 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa49a85d-d727-4a3a-bf6a-902f6b815713")
+		)
+		(instances
+			(project "stepper_motor_eval_board_v1.0"
+				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/5566eb57-101d-464f-8854-b5b6b95c0649"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
