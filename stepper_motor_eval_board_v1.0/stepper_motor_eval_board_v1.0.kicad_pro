@@ -76,7 +76,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|141650000|78165000|881b005c-4f93-4dde-ab29-5439811a5000|c2f1e816-59b2-49dd-96b6-a1e4876cc97d",
+          ""
+        ],
+        [
+          "hole_clearance|141650000|78165000|fb64c6b7-2008-48df-94c5-426af539b0c0|c2f1e816-59b2-49dd-96b6-a1e4876cc97d",
+          ""
+        ],
+        [
+          "hole_clearance|147750000|78165000|4cbda231-a272-4097-aabe-0e3069c1b996|fe16369a-e125-4044-af60-9cc87ea55dcd",
+          ""
+        ],
+        [
+          "hole_clearance|147750000|78165000|df5f4ca3-a1b8-49ad-8543-863cb6b81d3a|fe16369a-e125-4044-af60-9cc87ea55dcd",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
