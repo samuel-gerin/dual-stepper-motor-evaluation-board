@@ -6086,10 +6086,22 @@
 		(uuid "39038add-142f-4c22-b2e2-4f60ec16d655")
 	)
 	(junction
+		(at 285.75 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bdca1c1-a71a-427e-b4a8-c2f7af07aec7")
+	)
+	(junction
 		(at 290.83 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42f8a859-a6ac-4847-9b85-8d0531a44102")
+	)
+	(junction
+		(at 260.35 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a0843d7-13fc-4202-b3c7-db28da3473d6")
 	)
 	(junction
 		(at 177.8 64.77)
@@ -6182,6 +6194,12 @@
 		(uuid "ab629d61-007d-4343-a1fd-cba8e98cec3b")
 	)
 	(junction
+		(at 260.35 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acce4b1c-ad55-40e9-8ee3-bb9482797b31")
+	)
+	(junction
 		(at 92.71 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6210,6 +6228,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dca21fc7-4027-4eb3-a8b3-75b211356960")
+	)
+	(junction
+		(at 285.75 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e04d6a63-2a0b-4390-a883-3be0a0002b22")
 	)
 	(junction
 		(at 177.8 57.15)
@@ -6804,6 +6828,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 213.36) (xy 260.35 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "295647e0-fe7f-4b3b-b0cf-42f8fd3411f8")
+	)
+	(wire
+		(pts
 			(xy 356.87 193.04) (xy 368.3 193.04)
 		)
 		(stroke
@@ -7271,6 +7305,16 @@
 			(type default)
 		)
 		(uuid "594dd777-2640-4a7d-bea8-4b7e9a5649ea")
+	)
+	(wire
+		(pts
+			(xy 285.75 213.36) (xy 285.75 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59638d42-e055-4374-9177-f9ab977741e7")
 	)
 	(wire
 		(pts
@@ -8266,6 +8310,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 203.2) (xy 260.35 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d446b419-7cc4-408d-9483-b15dd5d4f7d7")
+	)
+	(wire
+		(pts
 			(xy 80.01 128.27) (xy 92.71 128.27)
 		)
 		(stroke
@@ -8413,6 +8467,16 @@
 			(type default)
 		)
 		(uuid "e3e0d959-435d-4e1e-a530-3b59cc94f350")
+	)
+	(wire
+		(pts
+			(xy 285.75 203.2) (xy 285.75 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e464b944-5d17-4b3d-af47-62be47760460")
 	)
 	(wire
 		(pts
