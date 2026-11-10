@@ -14,7 +14,7 @@
       "dottedSecondary": true,
       "legend": {
         "x": 0,
-        "y": 0
+        "y": 25
       },
       "margins": {
         "bottom": 45,
@@ -44,10 +44,28 @@
           "color": "rgb(77, 175, 74)",
           "signal": "V(/Reverse_Polarity/VIN)",
           "trace_type": 2049
+        },
+        {
+          "color": "rgb(166, 86, 40)",
+          "signal": "V(/Reverse_Polarity/GATE) - V(/Reverse_Polarity/24V)",
+          "trace_type": 2048
+        },
+        {
+          "color": "rgb(166, 86, 40)",
+          "signal": "V(/Reverse_Polarity/GATE) - V(/Reverse_Polarity/24V)",
+          "trace_type": 2049
+        },
+        {
+          "color": "rgb(247, 129, 191)",
+          "signal": "V(/Reverse_Polarity/VIN) - V(/Reverse_Polarity/24V)",
+          "trace_type": 2049
         }
       ]
     }
   ],
-  "user_defined_signals": [],
+  "user_defined_signals": [
+    "V(/Reverse_Polarity/GATE) - V(/Reverse_Polarity/24V)",
+    "V(/Reverse_Polarity/VIN) - V(/Reverse_Polarity/24V)"
+  ],
   "version": 7
 }

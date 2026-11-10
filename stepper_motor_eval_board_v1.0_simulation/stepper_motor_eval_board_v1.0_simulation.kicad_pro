@@ -423,7 +423,7 @@
         "version": 0
       },
       "model_mode": 4,
-      "workbook_filename": ""
+      "workbook_filename": "stepper_motor_eval_board_v1.0_simulation.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -437,7 +437,7 @@
         "uuid": "7f2729c9-a709-49f9-886f-8fb5b6e0cc5d"
       }
     ],
-    "used_designators": "L1,V1,R1-2,R21,Q1,D1,D9,#PWR1,#PWR81",
+    "used_designators": "L1-2,V1-2,R1-4,R21-22,Q1-2,C17-18,C20-23,C25,C28-30,C33-34,D1-10,#PWR1-3,#PWR81",
     "variants": []
   },
   "sheets": [

@@ -940,7 +940,7 @@
 	(sheet
 		(at 53.34 64.77)
 		(size 16.51 7.62)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1032,7 +1032,7 @@
 	(sheet
 		(at 53.34 80.01)
 		(size 16.51 7.62)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
