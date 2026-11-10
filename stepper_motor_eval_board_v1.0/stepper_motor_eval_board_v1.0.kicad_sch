@@ -529,9 +529,9 @@
 		)
 		(uuid "490e31d0-0017-46eb-a9db-256deef9b129")
 	)
-	(text "During PCB design phase:\n- HSE oscilator\n- simulaties\n- check USB speed\n-> full speed no impedance control\n\nOrdering:\n- Check JLCPCB preview PCB\n\nFinal design:\n- should split IO in seperate sheet\n- IPC design rules\n- block diagram\n- firmware info? State diagram?"
+	(text "During PCB design phase:\n- simulations\n\nOrdering:\n- Check JLCPCB preview PCB\n\nFinal design:\n- Implement impedance control USB\n- should split IO in seperate sheet\n- IPC design rules\n- extensive pcb simulation in Altium\n- block diagram\n- firmware info? State diagram?"
 		(exclude_from_sim no)
-		(at 200.66 111.76 0)
+		(at 177.546 119.634 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -542,7 +542,7 @@
 	)
 	(text "To-Do:"
 		(exclude_from_sim no)
-		(at 210.058 78.232 0)
+		(at 191.77 87.884 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -837,7 +837,7 @@
 		(uuid "fa979d1b-131e-4824-a49b-cf63e2fde825")
 	)
 	(table
-		(column_count 5)
+		(column_count 6)
 		(border
 			(external yes)
 			(header yes)
@@ -856,16 +856,16 @@
 				(color 0 0 0 1)
 			)
 		)
-		(column_widths 6.35 19.05 39.37 31.75 11.43)
-		(row_heights 6.35 8.89 7.62 10.16 7.62 7.62 8.89 7.62 7.62 7.62 8.89 8.89
+		(column_widths 6.35 19.05 39.37 39.37 31.75 11.43)
+		(row_heights 7.62 8.89 7.62 10.16 7.62 7.62 8.89 7.62 7.62 7.62 8.89 8.89
 			8.89 7.62 7.62 7.62 7.62 7.62
 		)
 		(uuid "7f196d54-e85a-45c9-a206-209bcc82831a")
 		(cells
 			(table_cell "#"
 				(exclude_from_sim no)
-				(at 287.02 81.28 0)
-				(size 6.35 6.35)
+				(at 255.27 69.85 0)
+				(size 6.35 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -885,8 +885,8 @@
 			)
 			(table_cell "Test"
 				(exclude_from_sim no)
-				(at 293.37 81.28 0)
-				(size 19.05 6.35)
+				(at 261.62 69.85 0)
+				(size 19.05 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -904,10 +904,31 @@
 				)
 				(uuid "18639ab6-f912-4203-8e99-dc1867790825")
 			)
+			(table_cell "Tools\n(IRL, Dev-Board, SIM, CALC)"
+				(exclude_from_sim no)
+				(at 280.67 69.85 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "51fe7418-69fc-48c4-bdc1-b78076c8d2be")
+			)
 			(table_cell "Procedure\n"
 				(exclude_from_sim no)
-				(at 312.42 81.28 0)
-				(size 39.37 6.35)
+				(at 320.04 69.85 0)
+				(size 39.37 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -927,8 +948,8 @@
 			)
 			(table_cell "Pass criterion"
 				(exclude_from_sim no)
-				(at 351.79 81.28 0)
-				(size 31.75 6.35)
+				(at 359.41 69.85 0)
+				(size 31.75 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -948,8 +969,8 @@
 			)
 			(table_cell "Result"
 				(exclude_from_sim no)
-				(at 383.54 81.28 0)
-				(size 11.43 6.35)
+				(at 391.16 69.85 0)
+				(size 11.43 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -969,7 +990,7 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 287.02 87.63 0)
+				(at 255.27 77.47 0)
 				(size 6.35 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -990,7 +1011,7 @@
 			)
 			(table_cell "24V supply"
 				(exclude_from_sim no)
-				(at 293.37 87.63 0)
+				(at 261.62 77.47 0)
 				(size 19.05 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1009,9 +1030,30 @@
 				)
 				(uuid "30a49d5e-d426-4d05-8209-a31760e76a4a")
 			)
+			(table_cell "Calculation + IRL"
+				(exclude_from_sim no)
+				(at 280.67 77.47 0)
+				(size 39.37 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "48494ef3-e451-4517-ab47-51ed0fb40ff8")
+			)
 			(table_cell "24 V only, no motors"
 				(exclude_from_sim no)
-				(at 312.42 87.63 0)
+				(at 320.04 77.47 0)
 				(size 39.37 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1032,7 +1074,7 @@
 			)
 			(table_cell "+5 V within 4.85-5.15 V, +3.3 V within 3.20-3.40 V, ripple below 50 mVpp"
 				(exclude_from_sim no)
-				(at 351.79 87.63 0)
+				(at 359.41 77.47 0)
 				(size 31.75 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1053,7 +1095,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 383.54 87.63 0)
+				(at 391.16 77.47 0)
 				(size 11.43 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1074,7 +1116,7 @@
 			)
 			(table_cell "2"
 				(exclude_from_sim no)
-				(at 287.02 96.52 0)
+				(at 255.27 86.36 0)
 				(size 6.35 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1095,7 +1137,7 @@
 			)
 			(table_cell "USB supply"
 				(exclude_from_sim no)
-				(at 293.37 96.52 0)
+				(at 261.62 86.36 0)
 				(size 19.05 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1114,9 +1156,30 @@
 				)
 				(uuid "0326367d-b45e-4c2c-a5d1-502ff623b4c3")
 			)
+			(table_cell "IRL"
+				(exclude_from_sim no)
+				(at 280.67 86.36 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "f0f68097-7034-4ea6-9fc1-f81c4cbab1c0")
+			)
 			(table_cell "USB only, with a C-to-C cable and an A-to-C cable"
 				(exclude_from_sim no)
-				(at 312.42 96.52 0)
+				(at 320.04 86.36 0)
 				(size 39.37 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1137,7 +1200,7 @@
 			)
 			(table_cell "Board is recognised over USB with both; drivers unpowered"
 				(exclude_from_sim no)
-				(at 351.79 96.52 0)
+				(at 359.41 86.36 0)
 				(size 31.75 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1158,7 +1221,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 383.54 96.52 0)
+				(at 391.16 86.36 0)
 				(size 11.43 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1179,7 +1242,7 @@
 			)
 			(table_cell "3"
 				(exclude_from_sim no)
-				(at 287.02 104.14 0)
+				(at 255.27 93.98 0)
 				(size 6.35 10.16)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1200,7 +1263,7 @@
 			)
 			(table_cell "Supply switching"
 				(exclude_from_sim no)
-				(at 293.37 104.14 0)
+				(at 261.62 93.98 0)
 				(size 19.05 10.16)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1219,9 +1282,30 @@
 				)
 				(uuid "b2fd5c33-fe8b-48c3-8807-211e77776e24")
 			)
+			(table_cell "Simulation + IRL"
+				(exclude_from_sim no)
+				(at 280.67 93.98 0)
+				(size 39.37 10.16)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "d3009aaf-508a-4c67-994b-6d9510ee2748")
+			)
 			(table_cell "Unplug/replug 24 V while USB is connected, then unplug USB while 24 V is connected; scope +3.3V_MCU"
 				(exclude_from_sim no)
-				(at 312.42 104.14 0)
+				(at 320.04 93.98 0)
 				(size 39.37 10.16)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1242,7 +1326,7 @@
 			)
 			(table_cell "No MCU reset, no USB disconnect, +3.3V_MCU stays above 3.0 V"
 				(exclude_from_sim no)
-				(at 351.79 104.14 0)
+				(at 359.41 93.98 0)
 				(size 31.75 10.16)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1263,7 +1347,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 383.54 104.14 0)
+				(at 391.16 93.98 0)
 				(size 11.43 10.16)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1284,7 +1368,7 @@
 			)
 			(table_cell "4"
 				(exclude_from_sim no)
-				(at 287.02 114.3 0)
+				(at 255.27 104.14 0)
 				(size 6.35 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1305,7 +1389,7 @@
 			)
 			(table_cell "Reverse polarity"
 				(exclude_from_sim no)
-				(at 293.37 114.3 0)
+				(at 261.62 104.14 0)
 				(size 19.05 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1324,9 +1408,30 @@
 				)
 				(uuid "e28707bd-d183-47f2-b627-6b69df33369f")
 			)
+			(table_cell "Simulation + IRL"
+				(exclude_from_sim no)
+				(at 280.67 104.14 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "78fae816-7819-4cea-97db-faf2b8e201c8")
+			)
 			(table_cell "−24 V from a lab supply limited to 0.5 A, for 10 s"
 				(exclude_from_sim no)
-				(at 312.42 114.3 0)
+				(at 320.04 104.14 0)
 				(size 39.37 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1347,7 +1452,7 @@
 			)
 			(table_cell "Draws under 1 mA; board works afterwards"
 				(exclude_from_sim no)
-				(at 351.79 114.3 0)
+				(at 359.41 104.14 0)
 				(size 31.75 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1368,7 +1473,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 383.54 114.3 0)
+				(at 391.16 104.14 0)
 				(size 11.43 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1389,7 +1494,7 @@
 			)
 			(table_cell "5"
 				(exclude_from_sim no)
-				(at 287.02 121.92 0)
+				(at 255.27 111.76 0)
 				(size 6.35 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1410,7 +1515,7 @@
 			)
 			(table_cell "Hot-plug"
 				(exclude_from_sim no)
-				(at 293.37 121.92 0)
+				(at 261.62 111.76 0)
 				(size 19.05 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1429,9 +1534,30 @@
 				)
 				(uuid "0515e98d-5ba2-41ec-a4f2-8d77f2794053")
 			)
+			(table_cell "Simulation + IRL"
+				(exclude_from_sim no)
+				(at 280.67 111.76 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "5b5601d0-2114-4e15-b836-d0071559c268")
+			)
 			(table_cell "Plug in the adapter with the 4 m cable 10 times; scope TP48"
 				(exclude_from_sim no)
-				(at 312.42 121.92 0)
+				(at 320.04 111.76 0)
 				(size 39.37 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1452,7 +1578,7 @@
 			)
 			(table_cell "Peak below 29 V"
 				(exclude_from_sim no)
-				(at 351.79 121.92 0)
+				(at 359.41 111.76 0)
 				(size 31.75 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1473,7 +1599,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 383.54 121.92 0)
+				(at 391.16 111.76 0)
 				(size 11.43 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1494,7 +1620,7 @@
 			)
 			(table_cell "6"
 				(exclude_from_sim no)
-				(at 287.02 129.54 0)
+				(at 255.27 119.38 0)
 				(size 6.35 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1515,7 +1641,7 @@
 			)
 			(table_cell "Brown-out"
 				(exclude_from_sim no)
-				(at 293.37 129.54 0)
+				(at 261.62 119.38 0)
 				(size 19.05 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1534,9 +1660,30 @@
 				)
 				(uuid "1083590e-25e8-4cfa-b16f-8884ca1542e5")
 			)
+			(table_cell "(Simulation + )IRL"
+				(exclude_from_sim no)
+				(at 280.67 119.38 0)
+				(size 39.37 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "78c717f0-a9cf-4196-b4ab-c0a100d9edec")
+			)
 			(table_cell "Ramp a lab supply 0 → 24 → 0 V slowly, motors connected"
 				(exclude_from_sim no)
-				(at 312.42 129.54 0)
+				(at 320.04 119.38 0)
 				(size 39.37 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1557,7 +1704,7 @@
 			)
 			(table_cell "No motor movement; clean start and stop"
 				(exclude_from_sim no)
-				(at 351.79 129.54 0)
+				(at 359.41 119.38 0)
 				(size 31.75 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1578,7 +1725,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 383.54 129.54 0)
+				(at 391.16 119.38 0)
 				(size 11.43 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1599,7 +1746,7 @@
 			)
 			(table_cell "7"
 				(exclude_from_sim no)
-				(at 287.02 138.43 0)
+				(at 255.27 128.27 0)
 				(size 6.35 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1620,7 +1767,7 @@
 			)
 			(table_cell "Motor enable"
 				(exclude_from_sim no)
-				(at 293.37 138.43 0)
+				(at 261.62 128.27 0)
 				(size 19.05 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1639,9 +1786,30 @@
 				)
 				(uuid "2706564a-b32a-4b7d-b385-f803315f91bd")
 			)
+			(table_cell "Dev Board + IRL"
+				(exclude_from_sim no)
+				(at 280.67 128.27 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "af1f004a-c90a-4e18-8a93-41e3a11d64df")
+			)
 			(table_cell "Power up, hold reset, flash firmware, all with 24 V present"
 				(exclude_from_sim no)
-				(at 312.42 138.43 0)
+				(at 320.04 128.27 0)
 				(size 39.37 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1662,7 +1830,7 @@
 			)
 			(table_cell "No holding torque until the firmware enables the motors"
 				(exclude_from_sim no)
-				(at 351.79 138.43 0)
+				(at 359.41 128.27 0)
 				(size 31.75 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1683,7 +1851,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 383.54 138.43 0)
+				(at 391.16 128.27 0)
 				(size 11.43 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1704,7 +1872,7 @@
 			)
 			(table_cell "8"
 				(exclude_from_sim no)
-				(at 287.02 146.05 0)
+				(at 255.27 135.89 0)
 				(size 6.35 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1725,7 +1893,7 @@
 			)
 			(table_cell "Driver UART"
 				(exclude_from_sim no)
-				(at 293.37 146.05 0)
+				(at 261.62 135.89 0)
 				(size 19.05 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1744,9 +1912,30 @@
 				)
 				(uuid "6f399e0a-b9cd-4290-b3d1-9bc7e6fb9117")
 			)
+			(table_cell "Dev Board + IRL"
+				(exclude_from_sim no)
+				(at 280.67 135.89 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "05356928-91fd-4634-87e8-ed3dda38b83c")
+			)
 			(table_cell "Write and read back GCONF and IHOLD_IRUN on both drivers"
 				(exclude_from_sim no)
-				(at 312.42 146.05 0)
+				(at 320.04 135.89 0)
 				(size 39.37 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1767,7 +1956,7 @@
 			)
 			(table_cell "Both answer, values match, no error flags"
 				(exclude_from_sim no)
-				(at 351.79 146.05 0)
+				(at 359.41 135.89 0)
 				(size 31.75 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1788,7 +1977,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 383.54 146.05 0)
+				(at 391.16 135.89 0)
 				(size 11.43 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1809,7 +1998,7 @@
 			)
 			(table_cell "9"
 				(exclude_from_sim no)
-				(at 287.02 153.67 0)
+				(at 255.27 143.51 0)
 				(size 6.35 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1830,7 +2019,7 @@
 			)
 			(table_cell "Motor current"
 				(exclude_from_sim no)
-				(at 293.37 153.67 0)
+				(at 261.62 143.51 0)
 				(size 19.05 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1849,9 +2038,30 @@
 				)
 				(uuid "9e8ddea2-dcab-43e4-82f5-eed40c2590c6")
 			)
+			(table_cell "Calculation + IRL"
+				(exclude_from_sim no)
+				(at 280.67 143.51 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "4e7abfb2-f933-490b-bc40-ce48e20f5e65")
+			)
 			(table_cell "Maximum set current; measure across the sense resistor (I = V / 0.22 Ω)"
 				(exclude_from_sim no)
-				(at 312.42 153.67 0)
+				(at 320.04 143.51 0)
 				(size 39.37 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1872,7 +2082,7 @@
 			)
 			(table_cell "Within ±10 % of the setting and at most 1.0 A RMS"
 				(exclude_from_sim no)
-				(at 351.79 153.67 0)
+				(at 359.41 143.51 0)
 				(size 31.75 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1893,7 +2103,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 383.54 153.67 0)
+				(at 391.16 143.51 0)
 				(size 11.43 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1914,7 +2124,7 @@
 			)
 			(table_cell "10"
 				(exclude_from_sim no)
-				(at 287.02 161.29 0)
+				(at 255.27 151.13 0)
 				(size 6.35 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1935,7 +2145,7 @@
 			)
 			(table_cell "Temperature"
 				(exclude_from_sim no)
-				(at 293.37 161.29 0)
+				(at 261.62 151.13 0)
 				(size 19.05 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1954,9 +2164,30 @@
 				)
 				(uuid "1f5c2c54-88e7-4d2f-9ddb-001ab79cce8c")
 			)
+			(table_cell "Calculation + IRL"
+				(exclude_from_sim no)
+				(at 280.67 151.13 0)
+				(size 39.37 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "7270b60b-8f4d-46d1-8d0f-65e883f82612")
+			)
 			(table_cell "Both motors at maximum load for 30 min, board in its enclosure"
 				(exclude_from_sim no)
-				(at 312.42 161.29 0)
+				(at 320.04 151.13 0)
 				(size 39.37 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1977,7 +2208,7 @@
 			)
 			(table_cell "No overtemperature warning, TMC2209 below 90 °C, other parts below 70 °C"
 				(exclude_from_sim no)
-				(at 351.79 161.29 0)
+				(at 359.41 151.13 0)
 				(size 31.75 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1998,7 +2229,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 383.54 161.29 0)
+				(at 391.16 151.13 0)
 				(size 11.43 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2019,7 +2250,7 @@
 			)
 			(table_cell "11"
 				(exclude_from_sim no)
-				(at 287.02 170.18 0)
+				(at 255.27 160.02 0)
 				(size 6.35 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2040,7 +2271,7 @@
 			)
 			(table_cell "Braking energy"
 				(exclude_from_sim no)
-				(at 293.37 170.18 0)
+				(at 261.62 160.02 0)
 				(size 19.05 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2059,9 +2290,30 @@
 				)
 				(uuid "86d430b5-11bf-4cca-a993-36da5bcf5d01")
 			)
+			(table_cell "Calculation + Simulation + IRL"
+				(exclude_from_sim no)
+				(at 280.67 160.02 0)
+				(size 39.37 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "ab06e98a-6dd1-445c-a443-a065dae30438")
+			)
 			(table_cell "Hardest deceleration at maximum load, and cut 24 V while running"
 				(exclude_from_sim no)
-				(at 312.42 170.18 0)
+				(at 320.04 160.02 0)
 				(size 39.37 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2082,7 +2334,7 @@
 			)
 			(table_cell "+24 V stays below 29 V"
 				(exclude_from_sim no)
-				(at 351.79 170.18 0)
+				(at 359.41 160.02 0)
 				(size 31.75 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2103,7 +2355,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 383.54 170.18 0)
+				(at 391.16 160.02 0)
 				(size 11.43 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2124,7 +2376,7 @@
 			)
 			(table_cell "12"
 				(exclude_from_sim no)
-				(at 287.02 179.07 0)
+				(at 255.27 168.91 0)
 				(size 6.35 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2145,7 +2397,7 @@
 			)
 			(table_cell "Encoder count"
 				(exclude_from_sim no)
-				(at 293.37 179.07 0)
+				(at 261.62 168.91 0)
 				(size 19.05 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2164,9 +2416,30 @@
 				)
 				(uuid "cfc72a35-ce36-4c5f-ba96-5a59ee796c21")
 			)
+			(table_cell "Dev Board + IRL"
+				(exclude_from_sim no)
+				(at 280.67 168.91 0)
+				(size 39.37 8.89)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "b9fd7153-c2ec-408a-86bf-e702831cdf47")
+			)
 			(table_cell "100 revolutions forward and back at maximum speed"
 				(exclude_from_sim no)
-				(at 312.42 179.07 0)
+				(at 320.04 168.91 0)
 				(size 39.37 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2187,7 +2460,7 @@
 			)
 			(table_cell "Back to exactly 0 counts; one index pulse per revolution; direction correct"
 				(exclude_from_sim no)
-				(at 351.79 179.07 0)
+				(at 359.41 168.91 0)
 				(size 31.75 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2208,7 +2481,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 383.54 179.07 0)
+				(at 391.16 168.91 0)
 				(size 11.43 8.89)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2229,7 +2502,7 @@
 			)
 			(table_cell "13"
 				(exclude_from_sim no)
-				(at 287.02 187.96 0)
+				(at 255.27 177.8 0)
 				(size 6.35 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2250,7 +2523,7 @@
 			)
 			(table_cell "Lockstep"
 				(exclude_from_sim no)
-				(at 293.37 187.96 0)
+				(at 261.62 177.8 0)
 				(size 19.05 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2269,9 +2542,30 @@
 				)
 				(uuid "7df71dd8-9be5-4fc5-969c-5998ce432665")
 			)
+			(table_cell "Dev Board + IRL"
+				(exclude_from_sim no)
+				(at 280.67 177.8 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "aaf10488-d1ec-4c6e-a547-7a7aabdac91d")
+			)
 			(table_cell "Both motors driving the ring gear"
 				(exclude_from_sim no)
-				(at 312.42 187.96 0)
+				(at 320.04 177.8 0)
 				(size 39.37 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2292,7 +2586,7 @@
 			)
 			(table_cell "Difference between the two encoders below 20 counts"
 				(exclude_from_sim no)
-				(at 351.79 187.96 0)
+				(at 359.41 177.8 0)
 				(size 31.75 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2313,7 +2607,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 383.54 187.96 0)
+				(at 391.16 177.8 0)
 				(size 11.43 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2334,7 +2628,7 @@
 			)
 			(table_cell "14"
 				(exclude_from_sim no)
-				(at 287.02 195.58 0)
+				(at 255.27 185.42 0)
 				(size 6.35 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2355,7 +2649,7 @@
 			)
 			(table_cell "Encoder fault"
 				(exclude_from_sim no)
-				(at 293.37 195.58 0)
+				(at 261.62 185.42 0)
 				(size 19.05 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2374,9 +2668,30 @@
 				)
 				(uuid "cb376f07-f0d3-42ca-bacb-8767ebe9fcf6")
 			)
+			(table_cell "Simulation + IRL"
+				(exclude_from_sim no)
+				(at 280.67 185.42 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "6a74d270-841d-43e9-889f-47cfaa43b1a8")
+			)
 			(table_cell "Unplug an encoder while running"
 				(exclude_from_sim no)
-				(at 312.42 195.58 0)
+				(at 320.04 185.42 0)
 				(size 39.37 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2397,7 +2712,7 @@
 			)
 			(table_cell "No false counts; firmware flags the fault"
 				(exclude_from_sim no)
-				(at 351.79 195.58 0)
+				(at 359.41 185.42 0)
 				(size 31.75 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2418,7 +2733,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 383.54 195.58 0)
+				(at 391.16 185.42 0)
 				(size 11.43 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2439,7 +2754,7 @@
 			)
 			(table_cell "15"
 				(exclude_from_sim no)
-				(at 287.02 203.2 0)
+				(at 255.27 193.04 0)
 				(size 6.35 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2460,7 +2775,7 @@
 			)
 			(table_cell "USB under load"
 				(exclude_from_sim no)
-				(at 293.37 203.2 0)
+				(at 261.62 193.04 0)
 				(size 19.05 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2479,9 +2794,30 @@
 				)
 				(uuid "13e83169-e48c-448b-a141-10c3e8591bb0")
 			)
+			(table_cell "IRL"
+				(exclude_from_sim no)
+				(at 280.67 193.04 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "7d199942-2c64-41f2-9822-ab0ce651f611")
+			)
 			(table_cell "Stream data for 30 min during maximum acceleration"
 				(exclude_from_sim no)
-				(at 312.42 203.2 0)
+				(at 320.04 193.04 0)
 				(size 39.37 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2502,7 +2838,7 @@
 			)
 			(table_cell "0 errors, 0 disconnects"
 				(exclude_from_sim no)
-				(at 351.79 203.2 0)
+				(at 359.41 193.04 0)
 				(size 31.75 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2523,7 +2859,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 383.54 203.2 0)
+				(at 391.16 193.04 0)
 				(size 11.43 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2544,7 +2880,7 @@
 			)
 			(table_cell "16"
 				(exclude_from_sim no)
-				(at 287.02 210.82 0)
+				(at 255.27 200.66 0)
 				(size 6.35 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2565,7 +2901,7 @@
 			)
 			(table_cell "Programming"
 				(exclude_from_sim no)
-				(at 293.37 210.82 0)
+				(at 261.62 200.66 0)
 				(size 19.05 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2584,9 +2920,30 @@
 				)
 				(uuid "a5df9ffd-b21d-4ef9-acdb-673d2f911407")
 			)
+			(table_cell "IRL"
+				(exclude_from_sim no)
+				(at 280.67 200.66 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "7201bd52-27c0-41d1-9bc5-79fffe757c76")
+			)
 			(table_cell "Flash over SWD with the ST-LINK; enter DFU with BOOT0"
 				(exclude_from_sim no)
-				(at 312.42 210.82 0)
+				(at 320.04 200.66 0)
 				(size 39.37 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2607,7 +2964,7 @@
 			)
 			(table_cell "Both work"
 				(exclude_from_sim no)
-				(at 351.79 210.82 0)
+				(at 359.41 200.66 0)
 				(size 31.75 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2628,7 +2985,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 383.54 210.82 0)
+				(at 391.16 200.66 0)
 				(size 11.43 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2649,7 +3006,7 @@
 			)
 			(table_cell "17"
 				(exclude_from_sim no)
-				(at 287.02 218.44 0)
+				(at 255.27 208.28 0)
 				(size 6.35 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2670,7 +3027,7 @@
 			)
 			(table_cell "ESD"
 				(exclude_from_sim no)
-				(at 293.37 218.44 0)
+				(at 261.62 208.28 0)
 				(size 19.05 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2689,9 +3046,30 @@
 				)
 				(uuid "3dd51398-fe8d-4c3b-83e9-86c3363327f9")
 			)
+			(table_cell "IRL"
+				(exclude_from_sim no)
+				(at 280.67 208.28 0)
+				(size 39.37 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+					(justify top)
+				)
+				(uuid "18c11020-d1e6-4873-839c-0d40b4078ff4")
+			)
 			(table_cell "±4 kV contact discharge on the USB shell and the terminals"
 				(exclude_from_sim no)
-				(at 312.42 218.44 0)
+				(at 320.04 208.28 0)
 				(size 39.37 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2712,7 +3090,7 @@
 			)
 			(table_cell "Keeps working or recovers by itself"
 				(exclude_from_sim no)
-				(at 351.79 218.44 0)
+				(at 359.41 208.28 0)
 				(size 31.75 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2733,7 +3111,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 383.54 218.44 0)
+				(at 391.16 208.28 0)
 				(size 11.43 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
