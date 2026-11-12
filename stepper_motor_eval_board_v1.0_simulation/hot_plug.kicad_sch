@@ -3431,7 +3431,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "3u"
 			(at 64.77 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5057,7 +5057,7 @@
 				)
 			)
 		)
-		(property "Value" "0.05"
+		(property "Value" "0.01"
 			(at 54.61 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
