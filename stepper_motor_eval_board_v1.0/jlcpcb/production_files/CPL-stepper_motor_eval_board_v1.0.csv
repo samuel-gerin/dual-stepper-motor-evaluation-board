@@ -65,12 +65,7 @@ H1,MountingHole_Pad,MountingHole_3.2mm_M3_Pad_Via,85.000000,-77.000000,0.0,top
 H2,MountingHole_Pad,MountingHole_3.2mm_M3_Pad_Via,218.845000,-134.240000,0.0,top
 H3,MountingHole_Pad,MountingHole_3.2mm_M3_Pad_Via,187.845000,-77.240000,0.0,top
 H4,MountingHole_Pad,MountingHole_3.2mm_M3_Pad_Via,85.000000,-121.000000,0.0,top
-J1,Power Supply,"TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",175.255000,-77.090000,180.0,top
 J2,USB_C_Receptacle_USB2.0_16P,USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,144.700000,-76.050000,180.0,top
-J3,Encoder1_Conn,"TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal",101.625000,-133.240000,0.0,top
-J4,Motor1_Conn,"TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal",218.245000,-83.760000,90.0,top
-J5,Encoder2_Conn,"TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal",143.625000,-133.240000,0.0,top
-J6,Motor2_Conn,"TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal",218.245000,-108.110000,90.0,top
 L1,10µ,IND_ASPI-0630HI-3R3M-T15,170.757500,-130.990000,180.0,top
 L2,6µ8,IND_ASPI-0630HI-3R3M-T15,170.707500,-116.540000,180.0,top
 Q1,SQD50P04-13L_T4GE3-HXY,TO-252-2,175.175000,-86.737500,0.0,top
