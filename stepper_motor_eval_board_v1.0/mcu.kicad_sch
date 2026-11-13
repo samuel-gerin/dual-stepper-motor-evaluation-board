@@ -5808,7 +5808,7 @@
 		)
 		(uuid "35f52a99-8990-42b8-8786-68ef676091d3")
 	)
-	(text "DESIGN NOTE:\nCapacitors values should still be calculated\ndepending on PCB traces etc.\n\nUse 0402 footprint for easy replacement of caps when testing"
+	(text "DESIGN NOTE:\nCapacitors values should still be calculated\ndepending on PCB traces etc.\n\nUse 0603 footprint for easy replacement of caps when testing"
 		(exclude_from_sim no)
 		(at 30.48 241.808 0)
 		(effects
@@ -5962,7 +5962,7 @@
 		)
 		(uuid "c8a9fbac-d9b6-474a-bed6-cc6c968d4b7b")
 	)
-	(text "Formula: C1 = C2 = 2 x (CL - Cstray)\n\nwith Cstray estimated = 10pF p.100 datasheet MCU\nC1 and C2 should be between 5pF-20pf\n\nX50328MQB2GI:\nCL = 16pF -> so that C1, C2 are in middle of allowed range\nESR = 80ohm\nTolerance = +-10ppm\nDrive level = 100µW or higher\n\nC1 = C2 = 12pF (estimate) -> good in middle of range"
+	(text "Formula: C1 = C2 = 2 x (CL - Cstray)\nFormula: C1 = C2 = 2 x (CL - Cpin/2)\n\nwith Cstray estimated = 10pF / pin , p.100 datasheet MCU\nC1 and C2 typically be between 5pF-20pf\n\nX50328MQB2GI:\nCL = 16pF -> so that C1, C2 are in middle of allowed range\nESR = 80ohm\nTolerance = +-10ppm\nDrive level = 100µW or higher\n\nC1 = C2 = 22pF (estimate) -> okay"
 		(exclude_from_sim no)
 		(at 101.854 243.332 0)
 		(effects
@@ -16028,7 +16028,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12p C0G 50V"
+		(property "Value" "22p C0G 50V"
 			(at 81.28 214.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16072,7 +16072,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C38523"
+		(property "LCSC" "C1653"
 			(at 81.28 212.0899 0)
 			(hide yes)
 			(show_name no)
@@ -16699,7 +16699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12p C0G 50V"
+		(property "Value" "22p C0G 50V"
 			(at 115.57 214.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16743,7 +16743,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C38523"
+		(property "LCSC" "C1653"
 			(at 115.57 212.0899 0)
 			(hide yes)
 			(show_name no)
@@ -17180,7 +17180,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µ 25V"
+		(property "Value" "2µ2 25V"
 			(at 289.56 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17224,7 +17224,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5673"
+		(property "LCSC" "C57895"
 			(at 289.56 55.8799 0)
 			(hide yes)
 			(show_name no)
@@ -20524,7 +20524,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µ 25V"
+		(property "Value" "2µ2 25V"
 			(at 360.68 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20568,7 +20568,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5673"
+		(property "LCSC" "C57895"
 			(at 360.68 55.8799 0)
 			(hide yes)
 			(show_name no)
