@@ -6252,6 +6252,12 @@
 		(uuid "bfede63a-275b-4866-ae60-d3b4cc6fedba")
 	)
 	(junction
+		(at 332.74 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf59d2ea-ca66-4e61-8cb9-4f7679d44100")
+	)
+	(junction
 		(at 323.85 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6996,6 +7002,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 50.8) (xy 356.87 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc7bde7-a6ab-49e5-84ae-f1fc3fbf52b0")
+	)
+	(wire
+		(pts
 			(xy 323.85 93.98) (xy 304.8 93.98)
 		)
 		(stroke
@@ -7526,7 +7542,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 50.8) (xy 356.87 50.8)
+			(xy 330.2 50.8) (xy 332.74 50.8)
 		)
 		(stroke
 			(width 0)
@@ -20690,6 +20706,85 @@
 			(project "stepper_motor_eval_board_v1.0"
 				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/5566eb57-101d-464f-8854-b5b6b95c0649"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 332.74 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb30197d-f3cc-4fb9-a259-82d01e52dfc9")
+		(property "Reference" "#FLG06"
+			(at 332.74 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 332.74 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.74 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 332.74 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed9ffbb1-3cac-4403-a300-61e3c989d776")
+		)
+		(instances
+			(project "stepper_motor_eval_board_v1.0"
+				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/5566eb57-101d-464f-8854-b5b6b95c0649"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
