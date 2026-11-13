@@ -529,7 +529,7 @@
 		)
 		(uuid "490e31d0-0017-46eb-a9db-256deef9b129")
 	)
-	(text "During PCB design phase:\n- change U4 correctly\n\nFinal design:\n- Implement impedance control USB\n- should split IO in seperate sheet\n- IPC design rules\n- extensive pcb simulation in Altium\n- block diagram\n- firmware info? State diagram?"
+	(text "During PCB design phase:\n- change U4 correctly\n- change USB\n- order\n\nFinal design:\n- Implement impedance control USB\n- should split IO in seperate sheet\n- IPC design rules\n- extensive pcb simulation in Altium\n- block diagram\n- firmware info? State diagram?"
 		(exclude_from_sim no)
 		(at 178.308 116.332 0)
 		(effects

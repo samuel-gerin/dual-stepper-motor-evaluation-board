@@ -1526,6 +1526,225 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCPCB:AP2112K-3.3TRG1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AP2112K-3.3TRG1"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda:SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_DIODES_AP2112K-3-3TRG1_AP2112K-3-3TRG1_C51118.html"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "DIODES(美台)"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "AP2112K-3.3TRG1"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C51118"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Linear Voltage Regulators (LDO)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AP2112K-3.3TRG1_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -8.89 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "JLCPCB:FTSH-107-01-L-DV-K"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4428,197 +4647,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:MIC5365-3.3YD5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -7.62 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MIC5365-3.3YD5"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
-				(at 0 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC5365-6-High-Performance-Single-150mA-LDO-DS20006605A.pdf"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "150mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, TSOT-23-5"
-				(at 0 13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Micrel LDO voltage regulator"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TSOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MIC5365-3.3YD5_0_1"
-				(rectangle
-					(start -7.62 -5.08)
-					(end 7.62 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MIC5365-3.3YD5_1_1"
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -6032,7 +6060,7 @@
 		(uuid "0bb728cb-8144-4a37-a369-7e750eda6d61")
 	)
 	(junction
-		(at 346.71 50.8)
+		(at 356.87 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e6ff7ec-3be5-4b94-afb6-6d0c115f64ef")
@@ -6092,7 +6120,7 @@
 		(uuid "3bdca1c1-a71a-427e-b4a8-c2f7af07aec7")
 	)
 	(junction
-		(at 290.83 50.8)
+		(at 299.72 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42f8a859-a6ac-4847-9b85-8d0531a44102")
@@ -6128,7 +6156,7 @@
 		(uuid "66f8d1c1-2975-44f7-b927-ee63fa8bb26c")
 	)
 	(junction
-		(at 327.66 50.8)
+		(at 337.82 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74ffac5b-5bc6-42f5-90a9-eee5c9655987")
@@ -6304,6 +6332,10 @@
 	(no_connect
 		(at 323.85 106.68)
 		(uuid "a4f7dc47-73e4-49ea-9689-df3bcd88f519")
+	)
+	(no_connect
+		(at 330.2 55.88)
+		(uuid "d2f023ef-dd3d-42fe-b1aa-e48c1901bdcb")
 	)
 	(no_connect
 		(at 115.57 118.11)
@@ -7194,6 +7226,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 53.34) (xy 302.26 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7c01c3-e7e5-4952-a769-e214701920b6")
+	)
+	(wire
+		(pts
 			(xy 217.17 144.78) (xy 217.17 149.86)
 		)
 		(stroke
@@ -7231,16 +7273,6 @@
 			(type default)
 		)
 		(uuid "50878630-e183-4747-9026-4ebc2291f33a")
-	)
-	(wire
-		(pts
-			(xy 303.53 63.5) (xy 303.53 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "510e4310-29a5-4d44-ae52-86d2ac1213e3")
 	)
 	(wire
 		(pts
@@ -7284,7 +7316,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 48.26) (xy 346.71 50.8)
+			(xy 356.87 48.26) (xy 356.87 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7492,6 +7524,16 @@
 		)
 		(uuid "70a9fb32-3cea-4a8a-b07c-8d1dd468bfd5")
 	)
+	(wire
+		(pts
+			(xy 330.2 50.8) (xy 356.87 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b833c4-827a-4cec-97d3-1bae99b4dc4b")
+	)
 	(bus
 		(pts
 			(xy 374.65 228.6) (xy 381 228.6)
@@ -7624,7 +7666,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 50.8) (xy 293.37 50.8)
+			(xy 299.72 50.8) (xy 304.8 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7845,7 +7887,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 50.8) (xy 290.83 50.8)
+			(xy 285.75 50.8) (xy 299.72 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7872,16 +7914,6 @@
 			(type default)
 		)
 		(uuid "999122eb-cd6c-48a9-90d4-f224da903c21")
-	)
-	(wire
-		(pts
-			(xy 313.69 50.8) (xy 346.71 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e0af779-6228-4c5f-a1a7-ef1b0fa37fae")
 	)
 	(bus
 		(pts
@@ -7936,7 +7968,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 63.5) (xy 346.71 60.96)
+			(xy 356.87 63.5) (xy 356.87 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8036,7 +8068,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 55.88) (xy 290.83 50.8)
+			(xy 299.72 55.88) (xy 299.72 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8296,6 +8328,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 53.34) (xy 302.26 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce93b8f3-4817-402e-a712-1d2372235a28")
+	)
+	(wire
+		(pts
 			(xy 252.73 213.36) (xy 260.35 213.36)
 		)
 		(stroke
@@ -8346,7 +8388,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 55.88) (xy 290.83 55.88)
+			(xy 299.72 55.88) (xy 304.8 55.88)
 		)
 		(stroke
 			(width 0)
@@ -8506,7 +8548,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 50.8) (xy 346.71 53.34)
+			(xy 356.87 50.8) (xy 356.87 53.34)
 		)
 		(stroke
 			(width 0)
@@ -12638,6 +12680,128 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCPCB:AP2112K-3.3TRG1")
+		(at 317.5 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1414f70f-9866-45e4-b57d-6c3988259004")
+		(property "Reference" "U14"
+			(at 317.5 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2112K-3.3TRG1"
+			(at 317.5 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCPCB:SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL"
+			(at 317.5 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_DIODES_AP2112K-3-3TRG1_AP2112K-3-3TRG1_C51118.html"
+			(at 317.5 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "DIODES(美台)"
+			(at 317.5 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AP2112K-3.3TRG1"
+			(at 317.5 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C51118"
+			(at 317.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "6f36540e-f4be-487f-81bd-a6b4ba252953")
+		)
+		(pin "4"
+			(uuid "b54bbf20-1b80-4a86-a495-ce31e592cd9a")
+		)
+		(pin "3"
+			(uuid "a5cfb478-ac12-4e8b-9cbd-99e4cb2e0dde")
+		)
+		(pin "1"
+			(uuid "fcdb60c0-1216-4ee5-bbf5-cbe081a98977")
+		)
+		(pin "2"
+			(uuid "74e6b918-43b3-4c54-ae50-9de80f021e6b")
+		)
+		(instances
+			(project "stepper_motor_eval_board_v1.0"
+				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/5566eb57-101d-464f-8854-b5b6b95c0649"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 217.17 120.65 0)
 		(unit 1)
@@ -13604,7 +13768,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 327.66 50.8 0)
+		(at 337.82 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13615,7 +13779,7 @@
 		(fields_autoplaced yes)
 		(uuid "337d9d8d-917f-4438-a165-04a1c6268486")
 		(property "Reference" "TP17"
-			(at 330.2 46.2279 0)
+			(at 340.36 46.2279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13626,7 +13790,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 330.2 48.7679 0)
+			(at 340.36 48.7679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13637,7 +13801,7 @@
 			)
 		)
 		(property "Footprint" "JLCPCB:TestPoint_Keystone_5000_Miniature"
-			(at 332.74 50.8 0)
+			(at 342.9 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13648,7 +13812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 332.74 50.8 0)
+			(at 342.9 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13659,7 +13823,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 327.66 50.8 0)
+			(at 337.82 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13670,7 +13834,7 @@
 			)
 		)
 		(property "LCSC" "C5199900"
-			(at 330.2 46.2279 0)
+			(at 340.36 46.2279 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13681,7 +13845,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 327.66 50.8 0)
+			(at 337.82 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13692,7 +13856,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 327.66 50.8 0)
+			(at 337.82 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13709,128 +13873,6 @@
 			(project "stepper_motor_eval_board_v1.0"
 				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/5566eb57-101d-464f-8854-b5b6b95c0649"
 					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:MIC5365-3.3YD5")
-		(at 303.53 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3410c807-6ec1-4b46-8746-267e98bf0385")
-		(property "Reference" "U4"
-			(at 303.53 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MIC5365-3.3YD5"
-			(at 303.53 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
-			(at 303.53 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC5365-6-High-Performance-Single-150mA-LDO-DS20006605A.pdf"
-			(at 303.53 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "150mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, TSOT-23-5"
-			(at 303.53 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C626098"
-			(at 303.53 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 303.53 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 303.53 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "3ed71104-6021-4210-b5f5-8ce1d4e84d63")
-		)
-		(pin "4"
-			(uuid "b1c0904d-4c73-47b9-a704-0f4986efc9c9")
-		)
-		(pin "5"
-			(uuid "25b7ea93-36a7-4066-9392-9ca4139e4de6")
-		)
-		(pin "2"
-			(uuid "231d27bf-43fc-48ed-8795-ed566d39b3b7")
-		)
-		(pin "1"
-			(uuid "460992e3-517a-49ca-9797-125029faaa20")
-		)
-		(instances
-			(project "stepper_motor_eval_board_v1.0"
-				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/5566eb57-101d-464f-8854-b5b6b95c0649"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -16158,120 +16200,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 285.75 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7298a90a-169c-454c-b60a-4fecb0ea4bad")
-		(property "Reference" "C12"
-			(at 280.162 60.706 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4u7 25V 0805"
-			(at 286.766 60.706 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 286.7152 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 285.75 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 285.75 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C98195"
-			(at 280.162 60.706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 285.75 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 285.75 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2563011a-2757-4f9a-8e7e-61eb83408f8a")
-		)
-		(pin "2"
-			(uuid "c1b775b3-f945-4b4e-960b-d87fac14bdb0")
-		)
-		(instances
-			(project "stepper_motor_eval_board_v1.0"
-				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/5566eb57-101d-464f-8854-b5b6b95c0649"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 50.8 125.73 0)
 		(unit 1)
@@ -16995,7 +16923,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 346.71 48.26 0)
+		(at 356.87 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17005,7 +16933,7 @@
 		(dnp no)
 		(uuid "87f423d5-f7a3-4f7e-8495-3883017847b7")
 		(property "Reference" "#PWR030"
-			(at 346.71 52.07 0)
+			(at 356.87 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17016,7 +16944,7 @@
 			)
 		)
 		(property "Value" "+3.3V_USB"
-			(at 341.376 43.688 0)
+			(at 351.536 43.688 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17027,7 +16955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 346.71 48.26 0)
+			(at 356.87 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17038,7 +16966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 346.71 48.26 0)
+			(at 356.87 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17049,7 +16977,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 346.71 48.26 0)
+			(at 356.87 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17152,7 +17080,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 303.53 63.5 0)
+		(at 302.26 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17163,7 +17091,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f02f11f-fbd1-4d9a-9eb7-63352d597b57")
 		(property "Reference" "#PWR025"
-			(at 303.53 69.85 0)
+			(at 302.26 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17174,7 +17102,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 303.53 68.58 0)
+			(at 302.26 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17185,7 +17113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 303.53 63.5 0)
+			(at 302.26 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17196,7 +17124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 63.5 0)
+			(at 302.26 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17207,7 +17135,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 303.53 63.5 0)
+			(at 302.26 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17224,6 +17152,121 @@
 			(project "stepper_motor_eval_board_v1.0"
 				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/5566eb57-101d-464f-8854-b5b6b95c0649"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 285.75 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9018f184-9d47-41c5-a923-ddb57127ecda")
+		(property "Reference" "C12"
+			(at 289.56 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1µ 25V"
+			(at 289.56 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 286.7152 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 285.75 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5673"
+			(at 289.56 55.8799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 285.75 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 285.75 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f8e0117-7fa0-4bf1-a815-84ef91bf3d7e")
+		)
+		(pin "2"
+			(uuid "bedb9858-55e0-45e6-860e-9d18b35c8f6e")
+		)
+		(instances
+			(project "stepper_motor_eval_board_v1.0"
+				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/5566eb57-101d-464f-8854-b5b6b95c0649"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -18422,121 +18465,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 346.71 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbf927c1-ae98-400b-870b-4716a795abb1")
-		(property "Reference" "C13"
-			(at 350.52 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4u7 25V 0805"
-			(at 350.52 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 347.6752 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 346.71 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 346.71 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C98195"
-			(at 350.52 55.8799 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 346.71 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 346.71 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a53c7287-6eca-4b1f-8590-7e86ee9d55a8")
-		)
-		(pin "2"
-			(uuid "70ba53bd-fb2c-4a50-b6a6-3abd8e114adb")
-		)
-		(instances
-			(project "stepper_motor_eval_board_v1.0"
-				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/5566eb57-101d-464f-8854-b5b6b95c0649"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 168.91 85.09 90)
 		(unit 1)
@@ -19459,7 +19387,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 346.71 63.5 0)
+		(at 356.87 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19470,7 +19398,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3c6f33b-58c0-4f76-9a90-31c75369532e")
 		(property "Reference" "#PWR031"
-			(at 346.71 69.85 0)
+			(at 356.87 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19481,7 +19409,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 346.71 68.58 0)
+			(at 356.87 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19492,7 +19420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 346.71 63.5 0)
+			(at 356.87 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19503,7 +19431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 346.71 63.5 0)
+			(at 356.87 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19514,7 +19442,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 346.71 63.5 0)
+			(at 356.87 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20568,6 +20496,121 @@
 			(project "stepper_motor_eval_board_v1.0"
 				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/5566eb57-101d-464f-8854-b5b6b95c0649"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 356.87 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f108da49-78ea-4647-bb51-957d09bae9a2")
+		(property "Reference" "C13"
+			(at 360.68 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1µ 25V"
+			(at 360.68 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 357.8352 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 356.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5673"
+			(at 360.68 55.8799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 356.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 356.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1b6ae74-85d5-4d7c-afe0-c5b0f9c222ff")
+		)
+		(pin "2"
+			(uuid "da8c1bed-6cc1-47cd-ab91-ca40cf3f443c")
+		)
+		(instances
+			(project "stepper_motor_eval_board_v1.0"
+				(path "/2d9ac515-e0a2-47ec-b0dd-574649acdf3f/5566eb57-101d-464f-8854-b5b6b95c0649"
+					(reference "C13")
 					(unit 1)
 				)
 			)
